@@ -16,6 +16,24 @@
       "revId": "d225b06428c35ba90cf8a644b2925a66cb567767",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Og\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-31T19:46:12Z",
+      "side": 1,
+      "message": "Mir fällt nichts besseres ein, aber ich finde es jetzt auch nicht so schlecht ;)",
+      "parentUuid": "AAAAbn//+O4\u003d",
+      "revId": "d225b06428c35ba90cf8a644b2925a66cb567767",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
