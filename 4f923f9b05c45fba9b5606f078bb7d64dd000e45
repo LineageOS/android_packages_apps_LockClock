@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbn//+Jc\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-12-31T22:15:01Z",
+      "side": 1,
+      "message": "Le kell cserélni \u0027Chronus\u0027 -ra.",
+      "revId": "4f923f9b05c45fba9b5606f078bb7d64dd000e45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Jk\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-12-31T22:15:01Z",
+      "side": 1,
+      "message": "Nagy \u0027W\u0027, nem \u0027e\u0027:\n\u003cstring name\u003d\"weather_W\"\u003eNy\u003c/string\u003e",
+      "revId": "4f923f9b05c45fba9b5606f078bb7d64dd000e45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+J0\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-12-31T22:15:01Z",
+      "side": 1,
+      "message": "Innen még ez a sor hiányzik:\n\u003cstring name\u003d\"weather_last_sync_just_now\"\u003eÉpp most\u003c/string\u003e",
+      "revId": "4f923f9b05c45fba9b5606f078bb7d64dd000e45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
