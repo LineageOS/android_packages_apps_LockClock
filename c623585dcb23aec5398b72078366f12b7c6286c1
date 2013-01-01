@@ -16,6 +16,23 @@
       "revId": "c623585dcb23aec5398b72078366f12b7c6286c1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//96o\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-01-01T22:52:43Z",
+      "side": 1,
+      "message": "If you set this to translatable \u003d false, can you please remove it from values-de?",
+      "revId": "c623585dcb23aec5398b72078366f12b7c6286c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
