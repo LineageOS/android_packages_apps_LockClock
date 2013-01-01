@@ -51,6 +51,24 @@
       "revId": "f14518ca2bc0765fe839ac93b18f06c6f56e0f17",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//974\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-01-01T21:37:18Z",
+      "side": 1,
+      "message": "The app name is Chronus. It should not be translated.  I am adding the translatable \u003dfalse to the original string.",
+      "parentUuid": "AAAAbn//99s\u003d",
+      "revId": "f14518ca2bc0765fe839ac93b18f06c6f56e0f17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
