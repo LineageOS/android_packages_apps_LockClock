@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAbn//99o\u003d",
+        "filename": "res/values-es/donottranslate.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-01-01T18:55:03Z",
+      "side": 1,
+      "message": "Xliff namespace is not needed here.",
+      "revId": "f14518ca2bc0765fe839ac93b18f06c6f56e0f17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbn//+TE\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 2
@@ -13,6 +30,24 @@
       "writtenOn": "2012-12-31T16:10:49Z",
       "side": 1,
       "message": "Other options: Reloj del clima, Reloj de bloqueo... I think that \"climático\" is better",
+      "revId": "f14518ca2bc0765fe839ac93b18f06c6f56e0f17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//99s\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-01-01T18:55:03Z",
+      "side": 1,
+      "message": "If you want to translate it, yes \"climático\" is fine. But i\u0027m not sure of translate the name of the app. I\u0027m think this name is intentionally used. Maybe we should translate it with the spanish translation of the greek god (chronos or khronos).\n\nUp to you",
+      "parentUuid": "AAAAbn//+TE\u003d",
       "revId": "f14518ca2bc0765fe839ac93b18f06c6f56e0f17",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
