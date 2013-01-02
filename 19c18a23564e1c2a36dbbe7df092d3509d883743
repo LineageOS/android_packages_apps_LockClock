@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAb3///9E\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-01-02T14:08:24Z",
+      "side": 1,
+      "message": "This string will be set to \u0027translatable \u003d false \u0027 with this commit:\r\nhttp://review.cyanogenmod.org/#/c/29486/\r\nSo please don\u0027t include it here.",
+      "revId": "19c18a23564e1c2a36dbbe7df092d3509d883743",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
