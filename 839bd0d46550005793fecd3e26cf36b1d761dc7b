@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH////g\u003d",
+        "filename": "res/values-el/donottranslate.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-01-03T01:58:58Z",
+      "side": 1,
+      "message": "This line is also missing:\n\n    \u003cstring name\u003d\"abbrev_wday_month_day_no_year\"\u003eEEE, d MMMM\u003c/string\u003e",
+      "revId": "839bd0d46550005793fecd3e26cf36b1d761dc7b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
