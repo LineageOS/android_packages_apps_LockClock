@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH///K8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2013-01-04T17:46:19Z",
+      "side": 1,
+      "message": "Moet dat niet hele dag-afspraken zijn?",
+      "revId": "4aec9d1c1bb9f84bbb3416136827ee928e981754",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
