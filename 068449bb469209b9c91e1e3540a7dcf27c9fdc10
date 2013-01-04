@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH///Bw\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T21:46:14Z",
+      "side": 1,
+      "message": "Sélectionner  avec un accent non  ?",
+      "revId": "068449bb469209b9c91e1e3540a7dcf27c9fdc10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
