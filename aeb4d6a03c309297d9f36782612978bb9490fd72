@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH///Ec\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T20:45:21Z",
+      "side": 1,
+      "message": "Sélectionner\nblanc ou blanche ? on dit une icône",
+      "revId": "aeb4d6a03c309297d9f36782612978bb9490fd72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
