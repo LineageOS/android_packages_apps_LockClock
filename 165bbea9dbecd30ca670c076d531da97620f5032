@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH//+qA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-01-06T01:09:14Z",
+      "side": 1,
+      "message": "Oops da sollte eigentlich \"Anzeige\" stehen.\nWerde ich mit dem nächsten Patch Set ändern",
+      "revId": "165bbea9dbecd30ca670c076d531da97620f5032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
