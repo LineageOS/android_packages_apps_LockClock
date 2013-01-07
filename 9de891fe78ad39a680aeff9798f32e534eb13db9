@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcX///jc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-01-07T05:03:32Z",
+      "side": 1,
+      "message": "Deaktivieren, um...",
+      "revId": "9de891fe78ad39a680aeff9798f32e534eb13db9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
