@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcX///pc\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:13:01Z",
+      "side": 1,
+      "message": "- Although I love \u0026#\u003ccode\u003e; characters (gedit gives them a nice colo(u)r), \\u2026 is more often used\n- No space before \u0027...\u0027?",
+      "revId": "6604dfd1911772772c873b8014de9a372c3072b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
