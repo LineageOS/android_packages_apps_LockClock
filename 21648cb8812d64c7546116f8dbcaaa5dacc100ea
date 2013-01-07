@@ -19,6 +19,41 @@
     },
     {
       "key": {
+        "uuid": "AAAAcX///Qs\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-01-07T22:42:02Z",
+      "side": 1,
+      "message": "Stimmt, das ist kürzer und schöner.",
+      "parentUuid": "AAAAcX///Zs\u003d",
+      "revId": "21648cb8812d64c7546116f8dbcaaa5dacc100ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///Q0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-01-07T22:42:02Z",
+      "side": 1,
+      "message": "Kann das jemand auf einem Gerät mit geringerer Auflösung testen? Oder ist das zu lang?\r\n\r\nAnsonsten können wir auch \"Datum/Alarm in Fettschrift\" schreiben.",
+      "revId": "21648cb8812d64c7546116f8dbcaaa5dacc100ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcX///Zk\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
