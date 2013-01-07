@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcX///kY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-07T04:42:09Z",
+      "side": 1,
+      "message": "Is het mogelijk om dit om te draaien?\n\n- Datum en alarm vetgedrukt\n\nOp deze manier is het beter zichtbaar waar het om gaat, omdat het nu op mijn telefoon wegvalt, ik zie alleen \"Vetgedrukt(e) datu...\"\n\nOok ben je dan van die lelijke (e) af.\n\nDit zou dan ook gelden voor de bovenstaande opties voor Uren en Minuten.",
+      "revId": "7c4054a3039cb8897bb5800547282fd4641d7f7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
