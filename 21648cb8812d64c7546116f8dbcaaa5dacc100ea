@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcX///Zs\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-01-07T17:49:28Z",
+      "side": 1,
+      "message": "\u0027Digitaluhr an Stelle der Analoguhr verwenden\u0027?",
+      "revId": "21648cb8812d64c7546116f8dbcaaa5dacc100ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///Zk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-01-07T17:49:28Z",
+      "side": 1,
+      "message": "Der Dativ ist dem Genitiv sein Tod :-P\n\n\u0027..., um statt der weißen...\u0027",
+      "revId": "21648cb8812d64c7546116f8dbcaaa5dacc100ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
