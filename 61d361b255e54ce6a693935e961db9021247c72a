@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//90Q\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 5470
+      },
+      "writtenOn": "2013-01-13T18:58:18Z",
+      "side": 1,
+      "message": "Pluie et neige fondue",
+      "revId": "61d361b255e54ce6a693935e961db9021247c72a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//90M\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 5470
+      },
+      "writtenOn": "2013-01-13T18:58:18Z",
+      "side": 1,
+      "message": "neige et neige fondue\n\nà mon avis",
+      "revId": "61d361b255e54ce6a693935e961db9021247c72a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
