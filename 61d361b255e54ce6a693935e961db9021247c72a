@@ -33,6 +33,24 @@
       "revId": "61d361b255e54ce6a693935e961db9021247c72a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9z8\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-01-13T19:02:09Z",
+      "side": 1,
+      "message": "bien sur on accorde. Je corrige",
+      "parentUuid": "AAAAcn//90M\u003d",
+      "revId": "61d361b255e54ce6a693935e961db9021247c72a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
