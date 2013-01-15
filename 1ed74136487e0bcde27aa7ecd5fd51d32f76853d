@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//9Mc\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T01:05:39Z",
+      "side": 1,
+      "message": "HLEDAT je tam hrubka (Heldat)",
+      "revId": "1ed74136487e0bcde27aa7ecd5fd51d32f76853d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
