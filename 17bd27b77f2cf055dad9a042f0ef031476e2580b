@@ -1,0 +1,480 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//9Qs\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Silné",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Qg\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Destove prehanky se snehem",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Qc\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Snehove prehanky s destem",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9QY\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Silny dest",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9QU\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Smog",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9QE\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Dest s kroupami",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9P4\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Misty bourky",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Pw\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Obcasne bourky",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Ps\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Obcasne bourky",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Po\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Ojedinele prehanky",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Pk\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Silne",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9O8\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Ojedinele snehove prehanky",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9O4\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Silne snezeni",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Og\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Obecné",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Oc\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Vybrat pro prepnuti mezi digitalnimi a analogovymi hodinami",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9OY\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Zvyraznit hodiny",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9OU\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Zvyraznit minuty",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9OQ\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Zvyraznit datum a budík",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9OM\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Zobrazit pristi budík",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9OI\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Pouzit",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9OA\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Yahoo! Pocasi",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9N8\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Zadat polohu",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9N4\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Zobrazit casovy udaj",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9N0\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Pouzit metricke jednotky",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9M8\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Udalost kalendaru",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9NU\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Hledat",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9NM\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Misto konani udalosti",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9NI\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2013-01-15T00:18:19Z",
+      "side": 1,
+      "message": "Popis udalosti",
+      "revId": "17bd27b77f2cf055dad9a042f0ef031476e2580b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
