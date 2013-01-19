@@ -52,6 +52,23 @@
       "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//75Q\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-01-19T03:31:46Z",
+      "side": 1,
+      "message": "This is traditional Chinese. There doesn\u0027t seem to be a Simplified Chinese name, and so, we should leave it as it was before.",
+      "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
