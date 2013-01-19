@@ -123,6 +123,24 @@
       "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//73g\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-19T03:53:18Z",
+      "side": 1,
+      "message": "Ah, I see. I didn\u0027t know \u0027Yahoo!\u0027 was translated, sorry. I\u0027ll revert this change.",
+      "parentUuid": "AAAAcn//74A\u003d",
+      "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
