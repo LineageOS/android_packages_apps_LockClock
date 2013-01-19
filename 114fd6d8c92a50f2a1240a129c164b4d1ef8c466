@@ -69,6 +69,24 @@
       "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//740\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-19T03:44:25Z",
+      "side": 1,
+      "message": "Only this string tells the user which weather provider is being used. What about:\n- Yahoo!????\n\nOtherwise, I\u0027d prefer to use the default English value:\n- Yahoo! Weather",
+      "parentUuid": "AAAAcn//75Q\u003d",
+      "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
