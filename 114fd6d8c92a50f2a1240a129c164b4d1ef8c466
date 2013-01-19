@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//768\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2013-01-19T02:43:49Z",
+      "side": 1,
+      "message": "This is not spelled correctly in Greek. \"To \" should be removed.",
+      "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
