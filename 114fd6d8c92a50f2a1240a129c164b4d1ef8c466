@@ -34,6 +34,24 @@
       "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//76M\u003d",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-19T03:02:32Z",
+      "side": 1,
+      "message": "If I use my knowledge about Ancient Greek, \u0027to\u0027 is an article (for neuter nouns), and -os is male, right?\n\nThough the app name shouldn\u0027t contain an article.",
+      "parentUuid": "AAAAcn//760\u003d",
+      "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
