@@ -87,6 +87,24 @@
       "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//74c\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-19T03:46:58Z",
+      "side": 1,
+      "message": "I meant:\n- Yahoo!\u003coriginal translation\u003e",
+      "parentUuid": "AAAAcn//740\u003d",
+      "revId": "114fd6d8c92a50f2a1240a129c164b4d1ef8c466",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
