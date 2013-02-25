@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//7Cs\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-02-25T07:06:55Z",
+      "side": 1,
+      "message": "Wouldn\u0027t it make more sense to call it 1 month instead?",
+      "revId": "0a5d3d6c843302a3bf2d72615b62a0263686368c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
