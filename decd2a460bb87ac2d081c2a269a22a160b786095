@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX///yg\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-05T18:50:32Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "decd2a460bb87ac2d081c2a269a22a160b786095",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
