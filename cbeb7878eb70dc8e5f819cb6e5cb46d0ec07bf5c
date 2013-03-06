@@ -16,6 +16,24 @@
       "revId": "cbeb7878eb70dc8e5f819cb6e5cb46d0ec07bf5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///hw\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-06T15:54:18Z",
+      "side": 1,
+      "message": "That wasn\u0027t exactly correct. It should be determined as\n\nshowShortPeriod \u003d (start - startOfToday) \u003c Constants.WEEK_TIME_IN_MS\n\nwhere startOfToday is 0:00 of the current day.",
+      "parentUuid": "AAAAeX///iE\u003d",
+      "revId": "cbeb7878eb70dc8e5f819cb6e5cb46d0ec07bf5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
