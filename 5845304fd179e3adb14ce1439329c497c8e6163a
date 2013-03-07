@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX///MA\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-07T10:16:27Z",
+      "side": 1,
+      "message": "I cannot read this but in english this string was also changed.",
+      "revId": "5845304fd179e3adb14ce1439329c497c8e6163a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
