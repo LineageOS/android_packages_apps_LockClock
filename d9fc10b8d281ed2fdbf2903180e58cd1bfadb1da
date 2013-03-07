@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX///HQ\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-03-07T16:13:21Z",
+      "side": 1,
+      "message": "\"a color\" to \"en color\" based on: http://buscon.rae.es/dpd/?key\u003dcolor",
+      "revId": "d9fc10b8d281ed2fdbf2903180e58cd1bfadb1da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///HM\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-03-07T16:13:21Z",
+      "side": 1,
+      "message": "Better than default string.",
+      "revId": "d9fc10b8d281ed2fdbf2903180e58cd1bfadb1da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
