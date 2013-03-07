@@ -16,6 +16,24 @@
       "revId": "5845304fd179e3adb14ce1439329c497c8e6163a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///Lw\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-03-07T10:20:56Z",
+      "side": 1,
+      "message": "It always said \"Use colour icons\" as it sounded more natural than \"Use alternate icons\" in Chinese.",
+      "parentUuid": "AAAAeX///MA\u003d",
+      "revId": "5845304fd179e3adb14ce1439329c497c8e6163a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
