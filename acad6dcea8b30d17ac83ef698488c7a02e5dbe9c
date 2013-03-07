@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX///CA\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-03-07T22:39:26Z",
+      "side": 1,
+      "message": "Better translation could be \"Mostrar cuando esté minimizado\" but it\u0027s too large.\n\"Mostrar en minimizado\" is other option, but I don\u0027t see nice.\n\"Mostrar minimizado\" can be confused.\n\n@Jorge, what do you think about this?",
+      "revId": "acad6dcea8b30d17ac83ef698488c7a02e5dbe9c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
