@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//+z0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-08T03:33:49Z",
+      "side": 1,
+      "message": "Kim, this will have to change as well - the checkbox is ON by default now so the string should say something about \"farbigen icons\"",
+      "revId": "a7e1c90a7a9ba02b64729108dd2fce9fa26870c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
