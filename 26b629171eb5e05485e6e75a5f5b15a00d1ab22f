@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//+eE\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Constants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-08T18:55:57Z",
+      "side": 1,
+      "message": "Do we still need this?",
+      "revId": "26b629171eb5e05485e6e75a5f5b15a00d1ab22f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
