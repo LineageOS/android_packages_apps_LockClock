@@ -69,6 +69,24 @@
       "revId": "647af25a4428922cd876d6b494d48c2b7bc0a033",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//+7Q\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-08T01:14:50Z",
+      "side": 1,
+      "message": "@Delphin, I actually meant the \u0027K\u0027 should also be upper case :)\n\nWhen it comes to translating the English \u0027Done\u0027, I always look at the translation of the IME action \u0027Done\u0027 (LatinIME). The French translations is:\n\n    \u003cstring name\u003d\"label_done_key\" msgid\u003d\"2441578748772529288\"\u003e\"OK\"\u003c/string\u003e\n\nso I think OK would be OK ;)",
+      "parentUuid": "AAAAeX//+7w\u003d",
+      "revId": "647af25a4428922cd876d6b494d48c2b7bc0a033",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
