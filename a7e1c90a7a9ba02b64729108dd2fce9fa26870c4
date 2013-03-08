@@ -16,6 +16,24 @@
       "revId": "a7e1c90a7a9ba02b64729108dd2fce9fa26870c4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//+zs\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-03-08T03:42:34Z",
+      "side": 1,
+      "message": "Stimmt, man müsste es in \u0027Farbige Icons\u0027 ändern.",
+      "parentUuid": "AAAAeX//+z0\u003d",
+      "revId": "a7e1c90a7a9ba02b64729108dd2fce9fa26870c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
