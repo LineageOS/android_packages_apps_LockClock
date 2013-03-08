@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAeX//+7o\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-08T01:10:38Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "AAAAeX//+9E\u003d",
+      "revId": "647af25a4428922cd876d6b494d48c2b7bc0a033",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAeX//+88\u003d",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2013-03-08T01:00:03Z",
       "side": 1,
       "message": "OK?",
+      "revId": "647af25a4428922cd876d6b494d48c2b7bc0a033",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//+7w\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-08T01:10:38Z",
+      "side": 1,
+      "message": "\"Ok\", \"Validé\", \"Terminé\". I don\u0027t know what to choose, maybe \"Validé\" is better.",
+      "parentUuid": "AAAAeX//+88\u003d",
       "revId": "647af25a4428922cd876d6b494d48c2b7bc0a033",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
