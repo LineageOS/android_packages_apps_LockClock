@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//+yM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2013-03-08T04:00:44Z",
+      "side": 1,
+      "message": "Standaard is toch nog altijd wit?",
+      "revId": "bacfb7164434a840eab24826ce25b6a8c12dcc4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
