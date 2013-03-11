@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAeX//9Wo\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2013-03-11T14:02:22Z",
+      "side": 1,
+      "message": "\"Megjelenítés kis méret esetén\"",
+      "parentUuid": "AAAAeX//9kg\u003d",
+      "revId": "8859546595cc9504016e69a0872bb25d2b52bcbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAeX//9kc\u003d",
         "filename": "res/values-hu/strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-03-10T22:07:40Z",
       "side": 1,
       "message": "minimális helyett használjuk a legkisebb szót, ha kérhetem (vagy egyszerüen a kis-t - megjelenitése kis modulméretnél)\nIlletve a modulméret mehet egybe nyugodt szivvel",
+      "revId": "8859546595cc9504016e69a0872bb25d2b52bcbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//9Wk\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2013-03-11T14:02:22Z",
+      "side": 1,
+      "message": "\"Idöjárási adatok megjelenítése kis modulméret esetén\"",
+      "parentUuid": "AAAAeX//9kc\u003d",
       "revId": "8859546595cc9504016e69a0872bb25d2b52bcbf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
