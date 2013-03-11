@@ -16,6 +16,24 @@
       "revId": "b39c9e0e9157e63825656b10dedc8e377dbdcd3f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//9NI\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2013-03-11T23:58:20Z",
+      "side": 1,
+      "message": "Lásd: http://review.cyanogenmod.org/#/c/33355/2/res/values/strings.xml",
+      "parentUuid": "AAAAeX//9RE\u003d",
+      "revId": "b39c9e0e9157e63825656b10dedc8e377dbdcd3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
