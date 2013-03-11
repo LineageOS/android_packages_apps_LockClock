@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//9RE\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-03-11T20:45:17Z",
+      "side": 1,
+      "message": "Az angol eredeti ez:\n\nSelect to toggle between the default (White) and the alternate (Color) icons\n\nTehát a Default a fehér, ahogy eredetileg volt.\n???",
+      "revId": "b39c9e0e9157e63825656b10dedc8e377dbdcd3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
