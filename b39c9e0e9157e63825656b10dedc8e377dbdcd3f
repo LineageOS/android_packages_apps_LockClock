@@ -34,6 +34,24 @@
       "revId": "b39c9e0e9157e63825656b10dedc8e377dbdcd3f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//9I8\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-03-12T01:38:20Z",
+      "side": 1,
+      "message": "Done\n:-)",
+      "parentUuid": "AAAAeX//9NI\u003d",
+      "revId": "b39c9e0e9157e63825656b10dedc8e377dbdcd3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
