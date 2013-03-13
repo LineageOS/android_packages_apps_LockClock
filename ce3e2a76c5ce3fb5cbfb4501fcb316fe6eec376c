@@ -85,6 +85,24 @@
       "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//8Uw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-03-13T04:16:30Z",
+      "side": 1,
+      "message": "Aus dem Grund würde ich es dann auch so lassen, wie es ist. Früher oder später wird mal die Farben wohl sowiso via ColorPicker auswählen können ;)",
+      "parentUuid": "AAAAeX//8Vo\u003d",
+      "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
