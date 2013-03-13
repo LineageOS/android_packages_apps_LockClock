@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//8WE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-03-13T03:42:10Z",
+      "side": 1,
+      "message": "Sollte man nicht vielleicht Hellblau, hellgrün usw. verwenden, oder wolltest du es einheitlich machen, da man es bei Rot nicht so umsetzen kann?",
+      "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
