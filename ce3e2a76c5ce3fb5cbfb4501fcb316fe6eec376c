@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAeX//8U4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-03-13T04:11:00Z",
+      "side": 1,
+      "message": "Farbe des Alarms",
+      "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//8U8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-03-13T04:11:00Z",
+      "side": 1,
+      "message": "Farbe der Aktualisierungszeit",
+      "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//8VA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-03-13T04:11:00Z",
+      "side": 1,
+      "message": "Farbe der Details",
+      "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAeX//8WE\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -13,6 +64,24 @@
       "writtenOn": "2013-03-13T03:42:10Z",
       "side": 1,
       "message": "Sollte man nicht vielleicht Hellblau, hellgrün usw. verwenden, oder wolltest du es einheitlich machen, da man es bei Rot nicht so umsetzen kann?",
+      "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//8Vo\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-03-13T04:11:00Z",
+      "side": 1,
+      "message": "Genau! Ich wollte es einheitlich machen, und finde es so auch besser lesbar. Meiner Meinung nach klingt \"Hellorange\" nicht so toll.",
+      "parentUuid": "AAAAeX//8WE\u003d",
       "revId": "ce3e2a76c5ce3fb5cbfb4501fcb316fe6eec376c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
