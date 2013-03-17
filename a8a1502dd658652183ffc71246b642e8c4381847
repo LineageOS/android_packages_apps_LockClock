@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//7Ic\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/preference/Preferences.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-03-17T02:44:59Z",
+      "side": 0,
+      "message": "This appears to do nothing. Are there any side effects I do not see?",
+      "revId": "a8a1502dd658652183ffc71246b642e8c4381847",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7IY\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/weather/HttpRetriever.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-03-17T02:44:59Z",
+      "side": 0,
+      "message": "This also does nothing in the end. String concatenations are in fact an antipattern in Java, so this impacts performance (if the compiler does not throw it away anyways).",
+      "revId": "a8a1502dd658652183ffc71246b642e8c4381847",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7Io\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherInfo.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-03-17T02:44:59Z",
+      "side": 0,
+      "message": "Is this necessary? The class is not serializable anyways?",
+      "revId": "a8a1502dd658652183ffc71246b642e8c4381847",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7Ik\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-03-17T02:44:59Z",
+      "side": 0,
+      "message": "I assume they were used some time in the past...",
+      "revId": "a8a1502dd658652183ffc71246b642e8c4381847",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

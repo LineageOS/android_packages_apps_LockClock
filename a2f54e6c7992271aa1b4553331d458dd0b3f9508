@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//7Ig\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-03-17T02:44:59Z",
+      "side": 1,
+      "message": "android lint suggests always to explicitly use the default locale when that is the desired behaviour.",
+      "revId": "a2f54e6c7992271aa1b4553331d458dd0b3f9508",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
