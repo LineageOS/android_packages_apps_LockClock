@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//6og\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-03-18T06:21:27Z",
+      "side": 1,
+      "message": "IHMO, \"Color del texto\" is shorten and fit better. The same for next strings. Up to you.",
+      "revId": "6baaf96c65e2bedba170ef5bf42c08f37940f00d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//6oc\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-03-18T06:21:27Z",
+      "side": 1,
+      "message": "I know exact translation is \"Púrpura\", but \"Morado\" is also valid (http://www.wordreference.com/es/translation.asp?tranword\u003dpurple), and i think is a more \"common\" color in spanish. Up to you",
+      "revId": "6baaf96c65e2bedba170ef5bf42c08f37940f00d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
