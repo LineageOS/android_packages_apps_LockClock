@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//6AI\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "IMHO this should all be part of a preference category called \"Upcoming events\" with \"Highlight events\", \"Use bold font\" and \"Font color\" and \"details \"font color\" as the 4 items underneath.  The last 3 should have dependency on the 1st\n\nAlso:\n1) we use _title and _summary to distinguish between the strings.   _entries is used for arrays and _hint is used for text box hint text\n2) The feature is called upcoming_events.  Keep the string resource names consistent with the feature title so we know what belongs to what. Proper names should be:\ncalendar_highlight_upcoming_events_title and calendar_highlight_upcoming_events_summary",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//6AE\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "Highlight today\\\u0027s, and after 8pm, also the next day\\\u0027s events\n\nalso, we use \"_title\" and \"_summary\" to identify the strings",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//6AA\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "See comment above",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//5/8\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "See comment above",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//5/4\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "see above",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//5/0\u003d",
+        "filename": "res/xml/preferences_calendar.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "These should be in  a preference category as described in the strings commit",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//5/w\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "I thought I updated this line in my last commit to reference cLock and have the date format include both date and time for the 2nd entry.  What happened to my code?  Did it get lost when I merged your commit (patch set 11) rather than mine #12?)",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//5/s\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Constants.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "its called upcoming_events not next_entries.  Please keep it consistent with the feature name so we know what code belongs to what.   Same comment applies to below 3 lines and the strings etc.",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//5/k\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-19T18:30:11Z",
+      "side": 1,
+      "message": "feature is called upcoming_events not next_entries.  Keep naming consistent so we know what code belongs to what feature.\n\nApplies to all of these methods",
+      "revId": "7ae3c1736c7add78c4e5cc80df99eea54f2a8521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
