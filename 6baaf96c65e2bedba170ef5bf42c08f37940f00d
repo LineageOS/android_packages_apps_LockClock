@@ -33,6 +33,24 @@
       "revId": "6baaf96c65e2bedba170ef5bf42c08f37940f00d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//6RQ\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-03-19T01:23:18Z",
+      "side": 1,
+      "message": "I\u0027ll be \"Morado\" with a lot of corrections ;)",
+      "parentUuid": "AAAAeX//6oc\u003d",
+      "revId": "6baaf96c65e2bedba170ef5bf42c08f37940f00d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
