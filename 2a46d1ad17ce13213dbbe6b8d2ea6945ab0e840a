@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//5V4\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-03-21T18:16:43Z",
+      "side": 1,
+      "message": "Tire posle \"20:00\" nuzhno postavit.",
+      "revId": "2a46d1ad17ce13213dbbe6b8d2ea6945ab0e840a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
