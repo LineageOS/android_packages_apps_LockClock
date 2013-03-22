@@ -16,6 +16,24 @@
       "revId": "300f0a571bea7a1ce44103f9570a88e07411bf4d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//46I\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-03-22T22:26:26Z",
+      "side": 1,
+      "message": "A dazhe esli i net -- tire dolzhno byt\u0027 dlinnim (alt+0151) i otdelyatsya probelami.",
+      "parentUuid": "AAAAeX//4+s\u003d",
+      "revId": "300f0a571bea7a1ce44103f9570a88e07411bf4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
