@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//4+s\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-03-22T15:30:12Z",
+      "side": 1,
+      "message": "Mozhet luchshe \"a posle 20:00 takzhe sobytija sledujushhego dnja\" - tochnee smysl peredajot.",
+      "revId": "300f0a571bea7a1ce44103f9570a88e07411bf4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
