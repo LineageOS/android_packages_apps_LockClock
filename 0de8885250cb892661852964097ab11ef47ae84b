@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//4ds\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-03-24T18:38:12Z",
+      "side": 1,
+      "message": "V takom vide poluchaetsja, chto posle 20:00 - budut vydeljat\u0027sja tol\u0027ko sobytija sledujushhego dnja, hotja smysl v tom, chto budut vydeljat\u0027sja i sobytija tekushhego (ostavshegosja) dnja, i sobytija sledujushhego.",
+      "revId": "0de8885250cb892661852964097ab11ef47ae84b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
