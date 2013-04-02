@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen///iU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2013-04-02T22:28:52Z",
+      "side": 1,
+      "message": "Weersinformatie?",
+      "revId": "5a02ab571062553b820d84c82cc32f0e82d2ede7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen///iQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2013-04-02T22:28:52Z",
+      "side": 1,
+      "message": "Letterkleur?",
+      "revId": "5a02ab571062553b820d84c82cc32f0e82d2ede7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen///iM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2013-04-02T22:28:52Z",
+      "side": 1,
+      "message": "Waarom deze strings niet onder de bovenstaande lookahead strings?",
+      "revId": "5a02ab571062553b820d84c82cc32f0e82d2ede7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
