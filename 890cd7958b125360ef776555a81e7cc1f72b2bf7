@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen///M0\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooPlaceFinder.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2013-04-04T02:12:32Z",
+      "side": 1,
+      "message": "Uri.encode doesnt seem to do well with the whole url. For eg :\n\nhttp%3A%2F%2Fquery.yahooapis.com%2Fv1%2Fpublic%2Fyql%3Fq%3Dselect%20woeid%20from%20geo.placefinder%20where%20text%20%3D\n\nIs what i get if i encode it from\n\n Uri.encode(\"http://query.yahooapis.com/v1/public/yql?q\u003dselect woeid from geo.placefinder where text \u003d\");",
+      "parentUuid": "AAAAen///Nc\u003d",
+      "revId": "890cd7958b125360ef776555a81e7cc1f72b2bf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen///Nw\u003d",
         "filename": "src/com/cyanogenmod/lockclock/weather/YahooPlaceFinder.java",
         "patchSetId": 3
