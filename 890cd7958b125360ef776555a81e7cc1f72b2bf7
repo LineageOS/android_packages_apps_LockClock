@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen///Nc\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooPlaceFinder.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2013-04-04T01:56:21Z",
+      "side": 1,
+      "message": "Good point, will do.",
+      "parentUuid": "AAAAen///N0\u003d",
+      "revId": "890cd7958b125360ef776555a81e7cc1f72b2bf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen///Nw\u003d",
         "filename": "src/com/cyanogenmod/lockclock/weather/YahooPlaceFinder.java",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2013-04-04T01:39:12Z",
       "side": 1,
       "message": "And then do BASE_URI.append(...) here.\n(Also tiny nit: the lines should be split earlier)",
+      "revId": "890cd7958b125360ef776555a81e7cc1f72b2bf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen///Ng\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooPlaceFinder.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2013-04-04T01:56:21Z",
+      "side": 1,
+      "message": "I assume you mean withAppendedPath ?\n\nUri.encode still returns a string, not a uri. Is the conversion to uri and back to string prior to handing it off to retrieve() necessary ?",
+      "parentUuid": "AAAAen///Nw\u003d",
       "revId": "890cd7958b125360ef776555a81e7cc1f72b2bf7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
