@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//4mY\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-04-20T02:08:30Z",
+      "side": 1,
+      "message": "o pocasi, kdyz \u003c nemela by tam byt ta carka? :)",
+      "revId": "3df0b7ac7897997b7f7fb9260e4a91d2c9271c12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
