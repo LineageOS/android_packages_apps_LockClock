@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//3Qk\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-04-22T18:24:10Z",
+      "side": 1,
+      "message": "Merge showCalendar and canFitCalendar into one variable, so furthr processing can depend this, and refreshCalendar() has no longer to be called if it does not fit anyways.",
+      "revId": "8d46b61c0e9116ffb33bc7d81bd3055ca22ea3fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3Qc\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-04-22T18:24:10Z",
+      "side": 1,
+      "message": "don\u0027t bother with getting weather data and setting up weather view if it does not fit anyways",
+      "revId": "8d46b61c0e9116ffb33bc7d81bd3055ca22ea3fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3QQ\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-04-22T18:24:10Z",
+      "side": 1,
+      "message": "hide the weather panel also when showWeather is false - why was this not the case in the first place?",
+      "revId": "8d46b61c0e9116ffb33bc7d81bd3055ca22ea3fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
