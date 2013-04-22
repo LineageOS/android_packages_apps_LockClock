@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//3Rg\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-04-22T17:50:39Z",
+      "side": 1,
+      "message": "I think the missing of updatePanelVisibility() here might lead to some users having the calendar icon displayed even if no events are to be shown (as calendar is visible by default).",
+      "revId": "b6fc1256b9ade1ad4834b38c0eb784f86834c7a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
