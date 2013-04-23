@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAe3///50\u003d",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-23T15:53:19Z",
+      "side": 1,
+      "message": "Does this also correctly parse entries in yyyy-MM-dd (Google), -MM-dd (Google without year) or yyyy-MM-dd\u0027T\u0027HH:mm:ss.SSS\u0027Z (Exchange) format?",
+      "revId": "9553a34569e8fb60e6b5d7c19e731d6af15dfcc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
