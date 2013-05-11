@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2O5Quk",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-11T17:24:09Z",
+      "side": 1,
+      "message": "I think we don\u0027t even need to try fetching woeid if we check location for null anyway.\n\nWhat I mean is:\n\nLocation location \u003d getCurrentLocation();\nif (location !\u003d null) {\n    woeid \u003d getWoeidForCurrentLocation(location);\n} else {\n    woeid \u003d null;\n    // do the location listener stuff\n}",
+      "revId": "fbad4a802dc51ba8d1658ab142fc80d9c6178c1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f4PNXok",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-11T17:24:09Z",
+      "side": 1,
+      "message": "Space before mContext",
+      "revId": "fbad4a802dc51ba8d1658ab142fc80d9c6178c1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6PKWmw",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-11T17:24:09Z",
+      "side": 1,
+      "message": "Space after if",
+      "revId": "fbad4a802dc51ba8d1658ab142fc80d9c6178c1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f8PHVmM",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-11T17:24:09Z",
+      "side": 1,
+      "message": "Can\u0027t we just\n\n- fire the update request\n- remember that we did by remembering the listener\n\nand be done with it? If the request fails because network is unavailable or the provider is disabled, we\u0027ll hopefully get an update as soon as it gets back up.\n\nThinking about it, we should definitely remember the listener to not queue up multiple requests.",
+      "revId": "fbad4a802dc51ba8d1658ab142fc80d9c6178c1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
