@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iLqCMcc",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-05-22T01:14:59Z",
+      "side": 1,
+      "message": "This should be done also, for smallWidget (LockScreen widget)\n\n        // Date and Alarm font\n        if (!showDate) {\n            // Hide the date entirely, if preferred\n            if (!smallWidget) {\n               clockViews.setViewVisibility(R.id.date_bold, View.GONE);\n               clockViews.setViewVisibility(R.id.date_regular, View.GONE);\n            } else {\n                clockViews.setViewVisibility(R.id.date, View.GONE);\n            }\n        } else {\n            if (!smallWidget) {\n                if (Preferences.useBoldFontForDateAndAlarms(this)) {\n                    clockViews.setViewVisibility(R.id.date_bold, View.VISIBLE);\n                    clockViews.setViewVisibility(R.id.date_regular, View.GONE);\n                    clockViews.setTextColor(R.id.date_bold, color);\n                } else {\n                    clockViews.setViewVisibility(R.id.date_regular, View.VISIBLE);\n                    clockViews.setViewVisibility(R.id.date_bold, View.GONE);\n                    clockViews.setTextColor(R.id.date_regular, color);\n                }\n            } else {\n                clockViews.setViewVisibility(R.id.date, View.VISIBLE);\n                clockViews.setTextColor(R.id.date, color);\n            }\n        }",
+      "revId": "3fb0b58eee8131c328f5880d78747c828b723006",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
