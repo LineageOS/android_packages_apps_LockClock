@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_155fb40f",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4280
+      },
+      "writtenOn": "2013-07-22T22:45:04Z",
+      "side": 1,
+      "message": "\"widget\" in AOSP is translated to \"http://translate.google.com.tw/translate_t?q\u003dhighlight\u0026um\u003d1\u0026ie\u003dUTF-8\u0026sl\u003den\u0026tl\u003dzh-TW\u0026sa\u003dX\u0026ei\u003dgAvtUdGMCcOhkQXfhYGQBQ\u0026ved\u003d0CDMQrgYwAA#zh-CN/en/%E5%B0%8F%E5%B7%A5%E5%85%B7\"",
+      "revId": "2cf6217b0c4f483bdaa23bd65634fc0dc84355ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_f59af8c4",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 4280
+      },
+      "writtenOn": "2013-07-22T22:45:04Z",
+      "side": 1,
+      "message": "\"General\" in AOPS is translated to \"http://translate.google.com.tw/translate_t?q\u003dhighlight\u0026um\u003d1\u0026ie\u003dUTF-8\u0026sl\u003den\u0026tl\u003dzh-TW\u0026sa\u003dX\u0026ei\u003dgAvtUdGMCcOhkQXfhYGQBQ\u0026ved\u003d0CDMQrgYwAA#zh-CN/en/%E4%B8%80%E8%88%AC\"",
+      "revId": "2cf6217b0c4f483bdaa23bd65634fc0dc84355ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
