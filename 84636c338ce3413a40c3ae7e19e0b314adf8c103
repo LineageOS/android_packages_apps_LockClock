@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1aca2d91_a509e033",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-08-04T22:36:16Z",
+      "side": 1,
+      "message": "No need for fetching the string from prefs twice. Just fetch it once and then do the comparison and parsing with the fetched value.",
+      "revId": "84636c338ce3413a40c3ae7e19e0b314adf8c103",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aca2d91_28048513",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-08-04T22:36:16Z",
+      "side": 1,
+      "message": "Maybe easier is this:\nCalendar calendar \u003d Calendar.getInstance();\ncalendar.add(Calendar.DAY, 1);\nlookAheadTime \u003d calendar.getTimeInMillis() - 1 - System.currentTimeMillis();",
+      "revId": "84636c338ce3413a40c3ae7e19e0b314adf8c103",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
