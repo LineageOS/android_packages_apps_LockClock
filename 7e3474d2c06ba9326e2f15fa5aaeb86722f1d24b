@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae975fb_31be5000",
+        "filename": "res/xml/preferences_calendar.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-08-09T10:14:49Z",
+      "side": 1,
+      "message": "This should be part of the display category, not the general category.",
+      "revId": "7e3474d2c06ba9326e2f15fa5aaeb86722f1d24b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
