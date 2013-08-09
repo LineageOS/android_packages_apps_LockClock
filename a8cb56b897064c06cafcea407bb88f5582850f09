@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae975fb_d18ca437",
+        "filename": "res/xml/preferences_calendar.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-08-09T12:09:38Z",
+      "side": 1,
+      "message": "To avoid confusion, change to calendar_icon",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_b18120fe",
+        "filename": "res/xml/preferences_calendar.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-08-09T12:09:38Z",
+      "side": 1,
+      "message": "Calendar_icon_title",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_91861c12",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Constants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-08-09T12:09:38Z",
+      "side": 1,
+      "message": "To avoid confusion remove the hide from the constant and the text string",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_f187a810",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-08-09T12:09:38Z",
+      "side": 1,
+      "message": "Default should be true also suggest making the constant name just CALENDAR_ICON to avoid confusion",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
