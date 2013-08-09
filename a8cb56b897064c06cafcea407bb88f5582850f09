@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "dae975fb_d193844e",
+        "filename": "res/xml/preferences_calendar.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 6612
+      },
+      "writtenOn": "2013-08-09T12:23:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dae975fb_d18ca437",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dae975fb_b18120fe",
         "filename": "res/xml/preferences_calendar.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2013-08-09T12:09:38Z",
       "side": 1,
       "message": "Calendar_icon_title",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_b198006c",
+        "filename": "res/xml/preferences_calendar.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 6612
+      },
+      "writtenOn": "2013-08-09T12:23:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dae975fb_b18120fe",
       "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "dae975fb_f18e8826",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Constants.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 6612
+      },
+      "writtenOn": "2013-08-09T12:23:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dae975fb_91861c12",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dae975fb_f187a810",
         "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2013-08-09T12:09:38Z",
       "side": 1,
       "message": "Default should be true also suggest making the constant name just CALENDAR_ICON to avoid confusion",
+      "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_11734c4f",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 6612
+      },
+      "writtenOn": "2013-08-09T12:23:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dae975fb_f187a810",
       "revId": "a8cb56b897064c06cafcea407bb88f5582850f09",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
