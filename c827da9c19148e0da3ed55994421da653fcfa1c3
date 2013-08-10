@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae975fb_f4ed568f",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-08-10T05:50:21Z",
+      "side": 1,
+      "message": "Vot tut, kstati, pravil\u0027nim budet perevod \"Skrit\u0027 sobitiya na ves\u0027 den\u0027\" (All-day events)",
+      "revId": "c827da9c19148e0da3ed55994421da653fcfa1c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_d4f2526f",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-08-10T05:50:21Z",
+      "side": 1,
+      "message": "A mi (i google zaodno) perevodim \"icon\" kak \"ikonka\" ili vse zhe kak \"znachok\"?",
+      "revId": "c827da9c19148e0da3ed55994421da653fcfa1c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
