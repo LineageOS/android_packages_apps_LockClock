@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae975fb_2937f8b1",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-08-15T14:26:44Z",
+      "side": 1,
+      "message": "Mne kazhetsya \"sobytiya na ves\u0027 den\u0027 \" nuzhno v kavychki vzyat\u0027.",
+      "revId": "e0e383672bc9d700d8264679f6c948a62deebbb9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
