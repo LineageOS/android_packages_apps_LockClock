@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baee8101_91a04492",
+        "filename": "res/xml/preferences_clock.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2013-08-25T19:41:36Z",
+      "side": 1,
+      "message": "It will default to false later.",
+      "revId": "d04b86997c381141e67359a9e2def4d425c61084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_5173fc4d",
+        "filename": "res/xml/preferences_clock.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2013-08-25T19:41:36Z",
+      "side": 1,
+      "message": "I think this is correct.  There SHOULD be trailing newlines at the end of each line.",
+      "revId": "d04b86997c381141e67359a9e2def4d425c61084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_318f5825",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2013-08-25T19:41:36Z",
+      "side": 1,
+      "message": "will remove this after dimens cleanup",
+      "revId": "d04b86997c381141e67359a9e2def4d425c61084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_f198b06c",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2013-08-25T19:41:36Z",
+      "side": 1,
+      "message": "It will default to false later.",
+      "revId": "d04b86997c381141e67359a9e2def4d425c61084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
