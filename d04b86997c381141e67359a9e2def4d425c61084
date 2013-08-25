@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "baee8101_1c790b94",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-08-25T23:01:48Z",
+      "side": 1,
+      "message": "home screen (2 words)",
+      "revId": "d04b86997c381141e67359a9e2def4d425c61084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baee8101_91a04492",
         "filename": "res/xml/preferences_clock.xml",
         "patchSetId": 1
