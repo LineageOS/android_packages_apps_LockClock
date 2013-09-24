@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3afb71cf_843f06d6",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetProvider.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "This doesn\u0027t work. AppWidgetProvider is a (short-lived) broadcast receiver, so the value of mTickReceiver is short-lived as well. I would suggest to put the receiver instance into the application object.",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_44222ebb",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "What about locales like PT which use a \u00279h30\u0027 format?",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_242f32a3",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "if (",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_64252ac1",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "What about locales with leading zero (thus format \u0027hh\u0027)?",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_e417da52",
+        "filename": "src/com/cyanogenmod/lockclock/TickReceiver.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "This can probably be moved somewhere else (e.g. application object), it doesn\u0027t need to be standalone (anymore).",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_c41cde79",
+        "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_a411e25f",
+        "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "() {",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_8416e653",
+        "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "Nuke this and replace its usage with http://developer.android.com/reference/android/text/format/DateFormat.html#is24HourFormat%28android.content.Context%29",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3afb71cf_640c0a43",
+        "filename": "src/com/cyanogenmod/lockclock/preference/ClockPreferences.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-24T19:25:24Z",
+      "side": 1,
+      "message": "if (",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
