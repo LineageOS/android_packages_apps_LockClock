@@ -140,6 +140,24 @@
     },
     {
       "key": {
+        "uuid": "3afb71cf_a77b247b",
+        "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-09-24T23:34:29Z",
+      "side": 1,
+      "message": "Damn, I thought I caught them all (and the missing spaces below.  Arggg!",
+      "parentUuid": "3afb71cf_c41cde79",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3afb71cf_a411e25f",
         "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
         "patchSetId": 6
