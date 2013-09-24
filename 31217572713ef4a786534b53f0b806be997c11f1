@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3afb71cf_075f980f",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetProvider.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-09-24T22:59:37Z",
+      "side": 1,
+      "message": "Using getApplicationContext() registers the receiver in the application, no?\n\nI am referencing http://stackoverflow.com/questions/5112529/register-broadcastreceiver-to-widget-difference-of-context-object",
+      "parentUuid": "3afb71cf_843f06d6",
+      "revId": "31217572713ef4a786534b53f0b806be997c11f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3afb71cf_44222ebb",
         "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
         "patchSetId": 6
