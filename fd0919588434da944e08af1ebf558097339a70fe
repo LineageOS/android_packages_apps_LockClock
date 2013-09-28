@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da37b569_411d52bc",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-09-28T00:13:51Z",
+      "side": 1,
+      "message": "maybe call it \"Display contact events\" - its shorter and then the summary can expand on it rather than repeating the words",
+      "revId": "fd0919588434da944e08af1ebf558097339a70fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_017e6ae4",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-09-28T00:13:51Z",
+      "side": 1,
+      "message": "What exception are we expecting to make us use a try block?   We did not have it before - is it the contacts stuff?",
+      "revId": "fd0919588434da944e08af1ebf558097339a70fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_e17826fb",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-09-28T00:13:51Z",
+      "side": 1,
+      "message": "Not sure this is necessary.  We just got the cursor, it should be at starting position",
+      "revId": "fd0919588434da944e08af1ebf558097339a70fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_c18722d6",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 423,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-09-28T00:13:51Z",
+      "side": 1,
+      "message": "Do anniversaries etc. show below the calendar entries or in order?   It seems from just looking at the code that we are adding them at the bottom after we had processed through Constants.MAX_CALENDAR_ITEMS.",
+      "revId": "fd0919588434da944e08af1ebf558097339a70fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_a1821ec7",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 428,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-09-28T00:13:51Z",
+      "side": 1,
+      "message": "we should use the same variable naming convention as we are using in lines 320 to 326, here and below.",
+      "revId": "fd0919588434da944e08af1ebf558097339a70fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
