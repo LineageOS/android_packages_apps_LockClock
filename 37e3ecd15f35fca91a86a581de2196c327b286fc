@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da37b569_351ac818",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-29T23:07:53Z",
+      "side": 1,
+      "message": "This code can be moved into WeatherUpdateService.getCachedLocation, can\u0027t it?",
+      "revId": "37e3ecd15f35fca91a86a581de2196c327b286fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
