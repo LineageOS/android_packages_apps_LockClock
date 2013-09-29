@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da37b569_d586fc12",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetProvider.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-29T23:42:12Z",
+      "side": 1,
+      "message": "This must be moved to the application object (mContactsObserver likely will be null at onDisabled() time because the ClockWidgetProvider object is short-lived).",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_75a3709f",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 424,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-29T23:42:12Z",
+      "side": 1,
+      "message": "cursor can be null in case of provider fault.",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_5573cc4d",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-29T23:42:12Z",
+      "side": 1,
+      "message": "This will not work for all events. See https://github.com/CyanogenMod/android_packages_apps_ContactsCommon/blob/cm-10.2/src/com/android/contacts/common/util/CommonDateUtils.java for the needed formats (the NO_YEAR thing is for Google contacts, which can be saved without year, the variants with time are for Exchange).",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_d59d9c5a",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-29T23:42:12Z",
+      "side": 1,
+      "message": "It\u0027s probably better to make this format a string resource (one with, one without year), so you can do things like \u0027Foo Bar\u0027s birthday\u0027 vs. \u0027Geburtstag von Foo Bar\u0027.",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_f5b540d0",
+        "filename": "src/com/cyanogenmod/lockclock/misc/CalendarInfo.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-09-29T23:42:12Z",
+      "side": 1,
+      "message": "Alternative approach:\n\nif (maxCalendarItems \u003c mEventsList.size()) {\n    mEventsList \u003d mEventsList.subList(0, maxCalendarItems);\n}",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
