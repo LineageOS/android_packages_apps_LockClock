@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da37b569_3b587756",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetProvider.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-09-30T23:22:31Z",
+      "side": 1,
+      "message": "Good that we have a custom application object now :-). I move the implementation; it appears to work for me (as it did before, but contact updates are not so frequent). I\u0027d be very pleased if you had a look at the new implementation.",
+      "parentUuid": "da37b569_d586fc12",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da37b569_75a3709f",
         "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2013-09-29T23:42:12Z",
       "side": 1,
       "message": "cursor can be null in case of provider fault.",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_fb78cffa",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 424,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-09-30T23:22:31Z",
+      "side": 1,
+      "message": "Ok, I checked for null cursor. NB on this: if cursors are null (here or when getting normal calendar entries), there will be no messages in the log. shouldn\u0027t we add an \"else if (D) { Log(...); }\" to all \"if (cursor !\u003d null)\" conditionals?",
+      "parentUuid": "da37b569_75a3709f",
       "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da37b569_9b8663b8",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-09-30T23:22:31Z",
+      "side": 1,
+      "message": "I adopted this from https://github.com/CyanogenMod/android_packages_apps_Contacts/blob/cm-10.2/src/com/android/contacts/util/DateUtils.java.",
+      "parentUuid": "da37b569_5573cc4d",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da37b569_d59d9c5a",
         "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
         "patchSetId": 4
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "da37b569_5b90dbec",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-09-30T23:22:31Z",
+      "side": 1,
+      "message": "I thought about this before, but I\u0027m not really sure how to do it. Currently, I simply put the type of the event before the name of the contact. This will give \"Birthday Foo Bar\", \"Geburtstag Foo Bar\", etc. I\u0027d agree if it was only about birthdays, but for custom events, the user can put in any strings. This could also yield unexpected results, which is why I resorted to the simplest solution. But David has to have a word on this.",
+      "parentUuid": "da37b569_d59d9c5a",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da37b569_f5b540d0",
         "filename": "src/com/cyanogenmod/lockclock/misc/CalendarInfo.java",
         "patchSetId": 4
@@ -81,6 +153,24 @@
       "writtenOn": "2013-09-29T23:42:12Z",
       "side": 1,
       "message": "Alternative approach:\n\nif (maxCalendarItems \u003c mEventsList.size()) {\n    mEventsList \u003d mEventsList.subList(0, maxCalendarItems);\n}",
+      "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da37b569_3b2077f7",
+        "filename": "src/com/cyanogenmod/lockclock/misc/CalendarInfo.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-09-30T23:22:31Z",
+      "side": 1,
+      "message": "I\u0027m not sure about this. It appears perhaps a bit more readable, but it is it better from a performance point of view? I think subList() will always initialize a new list object; while remove() operates in place - but I don\u0027t know enough of this to say which is better.",
+      "parentUuid": "da37b569_f5b540d0",
       "revId": "f0742c0034e313e56e9b9e0cd7a444f34915685e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
