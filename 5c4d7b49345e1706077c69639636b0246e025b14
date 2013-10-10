@@ -34,6 +34,24 @@
       "revId": "5c4d7b49345e1706077c69639636b0246e025b14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_5c0c5d42",
+        "filename": "src/com/cyanogenmod/lockclock/weather/HttpRetriever.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 5694
+      },
+      "writtenOn": "2013-10-10T21:55:43Z",
+      "side": 0,
+      "message": "Uhm. No, you\u0027re right, sorry.",
+      "parentUuid": "3a50d1a3_3c55d11c",
+      "revId": "5c4d7b49345e1706077c69639636b0246e025b14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
