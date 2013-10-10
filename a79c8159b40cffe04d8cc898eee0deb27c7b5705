@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a50d1a3_1c2fb5a2",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooWeatherProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-10-10T21:55:46Z",
+      "side": 1,
+      "message": "This should be wrapped to 100 characters.",
+      "revId": "a79c8159b40cffe04d8cc898eee0deb27c7b5705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_bc16c153",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooWeatherProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-10-10T21:55:46Z",
+      "side": 1,
+      "message": "This should be wrapped to 100 characters.\n\nif (info !\u003d null) {\n    // Cache the result for potential reuse\n    // The placefinder service API is rate limited\n    Preferences.setCachedLocationId(mContext, result.id);\n    return info;\n}",
+      "revId": "a79c8159b40cffe04d8cc898eee0deb27c7b5705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_dc170d53",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooWeatherProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-10-10T21:55:46Z",
+      "side": 1,
+      "message": "Please add a comment like \"// Do nothing here\".",
+      "revId": "a79c8159b40cffe04d8cc898eee0deb27c7b5705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_fc1c4979",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooWeatherProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-10-10T21:55:46Z",
+      "side": 1,
+      "message": "See above",
+      "revId": "a79c8159b40cffe04d8cc898eee0deb27c7b5705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_9c118560",
+        "filename": "src/com/cyanogenmod/lockclock/weather/YahooWeatherProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-10-10T21:55:46Z",
+      "side": 1,
+      "message": "See above",
+      "revId": "a79c8159b40cffe04d8cc898eee0deb27c7b5705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
