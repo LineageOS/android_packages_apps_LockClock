@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a50d1a3_221daa66",
+        "filename": "src/com/cyanogenmod/lockclock/calendar/CalendarWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-10-11T21:31:03Z",
+      "side": 0,
+      "message": "If position \u003d\u003d event array size, a ArrayIndexOutOfBoundsException will be thrown at line 131.",
+      "revId": "3b064097540f71b28ccf7b397f8c6911cd30264c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
