@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a50d1a3_8b37f9e2",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7437
+      },
+      "writtenOn": "2013-10-14T00:52:22Z",
+      "side": 1,
+      "message": "??????????? Yahoo ?? app ??? (zh-rTW)\n\n(https://play.google.com/store/apps/details?id\u003dcom.yahoo.mobile.client.android.weather)\n\n???? app ? zh-rHK ????????????? weather_26 ?????? 48 ?",
+      "revId": "f8360b7ede80431c5cee1d135fe447d460519e92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_4b31f1eb",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 7437
+      },
+      "writtenOn": "2013-10-14T00:52:22Z",
+      "side": 1,
+      "message": "zh-rTW ?????? zh-rHK ????????? weather_31, 33, 34 ??????????????????????????????",
+      "revId": "f8360b7ede80431c5cee1d135fe447d460519e92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
