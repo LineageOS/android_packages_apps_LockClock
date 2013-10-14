@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "3a50d1a3_eb78fdfa",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7437
+      },
+      "writtenOn": "2013-10-14T12:14:53Z",
+      "side": 1,
+      "message": ":)",
+      "parentUuid": "3a50d1a3_2b6ca59b",
+      "revId": "f8360b7ede80431c5cee1d135fe447d460519e92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a50d1a3_4b31f1eb",
         "filename": "res/values-zh-rTW/strings.xml",
         "patchSetId": 1
