@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_404b02b1",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-11-05T10:22:58Z",
+      "side": 1,
+      "message": "An this be shortened?",
+      "revId": "ecfccaeb863b6258e8b79288fc3b52f62d73e463",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
