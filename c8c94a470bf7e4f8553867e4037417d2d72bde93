@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_a9d0c9ca",
+        "filename": "res/values-sv/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2013-11-07T08:44:12Z",
+      "side": 1,
+      "message": "Is that a proper weather term?",
+      "revId": "c8c94a470bf7e4f8553867e4037417d2d72bde93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
