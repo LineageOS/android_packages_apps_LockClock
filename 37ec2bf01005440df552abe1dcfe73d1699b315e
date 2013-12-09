@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "da85f559_54af62e3",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2013-12-09T10:54:05Z",
+      "side": 1,
+      "message": "don\u0027t show the no data message, whenever there is no data connection. that\u0027s not useful, as that is obvious to the user already.",
+      "revId": "37ec2bf01005440df552abe1dcfe73d1699b315e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da85f559_f49f76b2",
         "filename": "src/com/cyanogenmod/lockclock/misc/Constants.java",
         "patchSetId": 1
