@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_51e207a1",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2014-01-08T14:42:34Z",
+      "side": 1,
+      "message": "http://es.wikipedia.org/wiki/Kil%C3%B3metro_por_hora",
+      "revId": "75751b0c41902c5053ad54e225a5a4c589494c91",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
