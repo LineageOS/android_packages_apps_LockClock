@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_0e1d4a73",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-08T08:02:21Z",
+      "side": 1,
+      "message": "Ikoon?",
+      "revId": "c7f3b8b4c11b8d54c19d71ece647dc4a10f98a80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ae11965f",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-08T08:02:21Z",
+      "side": 1,
+      "message": "VClouds",
+      "revId": "c7f3b8b4c11b8d54c19d71ece647dc4a10f98a80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ce165255",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-08T08:02:21Z",
+      "side": 1,
+      "message": "Voeg afsprake by ikoon",
+      "revId": "c7f3b8b4c11b8d54c19d71ece647dc4a10f98a80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_6e0cfe42",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-08T08:02:21Z",
+      "side": 1,
+      "message": "Geen afsprake in vooruitkyk tydperk nie",
+      "revId": "c7f3b8b4c11b8d54c19d71ece647dc4a10f98a80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_8e093a34",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-08T08:02:21Z",
+      "side": 1,
+      "message": "Raak + om by te voeg",
+      "revId": "c7f3b8b4c11b8d54c19d71ece647dc4a10f98a80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
