@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_072bed83",
+        "filename": "src/com/cyanogenmod/lockclock/preference/Preferences.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-01-09T10:10:50Z",
+      "side": 1,
+      "message": "you can move this up and remove duplicated code:\n\n case R.id.menu_done:\n case android.R.id.home:\n myResult(RESULT_OK);\n ...",
+      "revId": "778fc7f0a98f26bc7672c8e1d156bb2c0f9a4cbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
