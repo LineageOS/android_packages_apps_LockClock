@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "5a5ae5dd_04176ba4",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-09T04:09:41Z",
+      "side": 1,
+      "message": "This should be empty:\n\u003cstring name\u003d\"weather_3200\"\u003e\u003c/string\u003e \u003c!-- No disponible --\u003e",
+      "revId": "75751b0c41902c5053ad54e225a5a4c589494c91",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_51e207a1",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 3
@@ -13,6 +30,23 @@
       "writtenOn": "2014-01-08T14:42:34Z",
       "side": 1,
       "message": "http://es.wikipedia.org/wiki/Kil%C3%B3metro_por_hora",
+      "revId": "75751b0c41902c5053ad54e225a5a4c589494c91",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_a40bf77c",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-09T04:09:41Z",
+      "side": 1,
+      "message": "can this be shortened?  This is a checkbox string and may wrap/get truncated",
       "revId": "75751b0c41902c5053ad54e225a5a4c589494c91",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
