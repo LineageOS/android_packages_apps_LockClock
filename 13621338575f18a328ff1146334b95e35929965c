@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_38908895",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-11T14:55:51Z",
+      "side": 1,
+      "message": "-1 Ik niet, miles per hour of in Nederlands kilometer per uur.",
+      "parentUuid": "5a5ae5dd_02319b0b",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_22361704",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2014-01-11T04:23:46Z",
       "side": 1,
       "message": "Weeraanbieder?",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_588d447a",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-11T14:55:51Z",
+      "side": 1,
+      "message": "-1 Lijkt me niet, misschien wordt het weer aangeboden door de lieve Heer daarboven, ik weet het niet. Zou dan eerder kiezen voor weergegevensaanbieder.",
+      "parentUuid": "5a5ae5dd_22361704",
       "revId": "13621338575f18a328ff1146334b95e35929965c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_f8e8b018",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-11T14:55:51Z",
+      "side": 1,
+      "message": "+1 zal vast een soort productnaam zijn.",
+      "parentUuid": "5a5ae5dd_c23aa3e7",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_e23f9fd4",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2014-01-11T04:23:46Z",
       "side": 1,
       "message": "translatable\u003d\"false\"",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_18eeec22",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-11T14:55:51Z",
+      "side": 1,
+      "message": "+1 idem",
+      "parentUuid": "5a5ae5dd_e23f9fd4",
       "revId": "13621338575f18a328ff1146334b95e35929965c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
