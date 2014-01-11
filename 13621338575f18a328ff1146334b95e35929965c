@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_02319b0b",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T04:23:46Z",
+      "side": 1,
+      "message": "Ik ben toch meer een voorstander van km/h.",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_22361704",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T04:23:46Z",
+      "side": 1,
+      "message": "Weeraanbieder?",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_c23aa3e7",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T04:23:46Z",
+      "side": 1,
+      "message": "Liever translatable\u003d\"false\"",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_e23f9fd4",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T04:23:46Z",
+      "side": 1,
+      "message": "translatable\u003d\"false\"",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
