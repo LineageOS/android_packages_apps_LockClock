@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5331a7eb",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 3848
+      },
+      "writtenOn": "2014-01-12T06:48:54Z",
+      "side": 1,
+      "message": "should have been:\n\u003cstring name\u003d\"weather_kph\"\u003ekm/t\u003c/string\u003e",
+      "revId": "2999bcb05fc6871aa867098b22c727011dde200d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
