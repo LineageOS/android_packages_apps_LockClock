@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_f878b0fa",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-12T03:33:47Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_588d447a",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_c23aa3e7",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "+1 zal vast een soort productnaam zijn.",
       "parentUuid": "5a5ae5dd_c23aa3e7",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_187eece4",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-12T03:33:47Z",
+      "side": 1,
+      "message": "Klopt (ook voor beneden)",
+      "parentUuid": "5a5ae5dd_f8e8b018",
       "revId": "13621338575f18a328ff1146334b95e35929965c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
