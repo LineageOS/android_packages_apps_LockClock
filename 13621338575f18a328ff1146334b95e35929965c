@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "5a5ae5dd_b6e4880d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-13T14:38:43Z",
+      "side": 1,
+      "message": "2014?",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_334e6bc2",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -13,6 +30,24 @@
       "writtenOn": "2014-01-12T12:01:01Z",
       "side": 1,
       "message": "\"Ok\" past beter om 5-daagse voorspelling te sluiten",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_56f194cc",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-13T14:38:43Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_334e6bc2",
       "revId": "13621338575f18a328ff1146334b95e35929965c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -84,6 +119,24 @@
       "side": 1,
       "message": "http://nl.wikipedia.org/wiki/Kilometer_per_uur\n\nkm/h is internationaal, niet Nederlands",
       "parentUuid": "5a5ae5dd_d35ef775",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_96e70c12",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-13T14:38:43Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_b648082f",
       "revId": "13621338575f18a328ff1146334b95e35929965c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
