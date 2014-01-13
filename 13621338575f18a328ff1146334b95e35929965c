@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_b648082f",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-13T12:54:56Z",
+      "side": 1,
+      "message": "http://nl.wikipedia.org/wiki/Kilometer_per_uur\n\nkm/h is internationaal, niet Nederlands",
+      "parentUuid": "5a5ae5dd_d35ef775",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_22361704",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -178,6 +196,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_565514c4",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-13T12:54:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_187eece4",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_e23f9fd4",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -207,6 +243,24 @@
       "side": 1,
       "message": "+1 idem",
       "parentUuid": "5a5ae5dd_e23f9fd4",
+      "revId": "13621338575f18a328ff1146334b95e35929965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_765290df",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-13T12:54:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_18eeec22",
       "revId": "13621338575f18a328ff1146334b95e35929965c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
