@@ -34,6 +34,24 @@
       "revId": "5b1a6152e6e9c611088b81c0ba6a395609d162c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_7374e2fc",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-13T03:53:19Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_98797c32",
+      "revId": "5b1a6152e6e9c611088b81c0ba6a395609d162c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
