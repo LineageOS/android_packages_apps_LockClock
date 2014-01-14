@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_79f9214d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 3848
+      },
+      "writtenOn": "2014-01-14T11:29:16Z",
+      "side": 1,
+      "message": "should be mil/t , as far as I know is there no official abbreviation of mile in Danish.",
+      "revId": "06c5bd4236c0605d32fd1b99c705f108b8e82921",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
