@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5958e556",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 3848
+      },
+      "writtenOn": "2014-01-14T13:10:09Z",
+      "side": 1,
+      "message": "Did you not want to remove the translation?",
+      "revId": "1440db293067c1dc21fdbd0b9e4e9da184d78322",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
