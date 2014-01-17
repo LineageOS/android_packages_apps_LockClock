@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_28bb4dc6",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-17T03:34:30Z",
+      "side": 1,
+      "message": "This is now translatable\u003dfalse - please remove",
+      "revId": "48ac35c54c78be5df4da1913121d0dad9d6cf643",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_c8af197c",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2014-01-17T03:34:30Z",
+      "side": 1,
+      "message": "This is now translatable\u003dfalse - please remove",
+      "revId": "48ac35c54c78be5df4da1913121d0dad9d6cf643",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
