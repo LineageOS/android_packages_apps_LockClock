@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_e6203dfa",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-02-17T09:16:34Z",
+      "side": 1,
+      "message": "Needs to be removed from other languages, if they exist there.",
+      "revId": "2a27cd3fa597da2aaa05a6dee78708cd42f47b74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
