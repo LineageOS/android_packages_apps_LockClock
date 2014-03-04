@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_d2db421a",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 525
+      },
+      "writtenOn": "2014-03-04T21:59:02Z",
+      "side": 1,
+      "message": "boolean defValue \u003d !(locale.equals(Locale.US)\n                || locale.equals(\"ms_MY\") // Malaysia\n                || locale.equals(\"si_LK\")) // Sri Lanka\n                ;\nreturn getPrefs(context).getBoolean(Constants.WEATHER_USE_METRIC, defValue);",
+      "revId": "b876a4422f5bebdbd79f1d0b075833b699b7ceb4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
