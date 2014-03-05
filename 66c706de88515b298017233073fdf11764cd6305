@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_d22fc29f",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 525
+      },
+      "writtenOn": "2014-03-05T08:41:33Z",
+      "side": 1,
+      "message": "Sorry, didn\u0027t checked this before. Equals always returns false when comparing with non-Locale object, see java.util.Locale#equals. So it works only for US.",
+      "revId": "66c706de88515b298017233073fdf11764cd6305",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
