@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_b2031e0f",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 525
+      },
+      "writtenOn": "2014-03-05T09:31:52Z",
+      "side": 1,
+      "message": "And last one :)\nNow your condition will be always true. (ex: \"false || true || true\" for US).",
+      "revId": "826401867a14574149fa77bb2ba3d70cd13baab0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
