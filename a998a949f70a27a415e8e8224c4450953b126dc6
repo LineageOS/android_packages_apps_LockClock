@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_ae76113c",
+        "filename": "src/com/cyanogenmod/lockclock/preference/WeatherPreferences.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-02-10T16:07:05Z",
+      "side": 1,
+      "message": "This should be moved lower",
+      "revId": "a998a949f70a27a415e8e8224c4450953b126dc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
