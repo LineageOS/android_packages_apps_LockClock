@@ -406,6 +406,7 @@ public class ClockWidgetService extends IntentService {
 
         // Weather Image
         int resId = w.getConditionResource(iconsSet);
+        weatherViews.setViewVisibility(R.id.weather_image, View.VISIBLE);
         if (resId != 0) {
             weatherViews.setImageViewResource(R.id.weather_image, w.getConditionResource(iconsSet));
         } else {
