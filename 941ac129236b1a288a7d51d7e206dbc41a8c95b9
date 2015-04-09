@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac371cc_59692f8b",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-09T04:51:23Z",
+      "side": 1,
+      "message": "Isn\u0027t this to be supposed to be a weather widget????",
+      "revId": "941ac129236b1a288a7d51d7e206dbc41a8c95b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_796ceb9c",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-09T04:51:23Z",
+      "side": 1,
+      "message": "wrap to 100 chars, here and below",
+      "revId": "941ac129236b1a288a7d51d7e206dbc41a8c95b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_d95cffef",
+        "filename": "src/com/cyanogenmod/lockclock/WidgetApplication.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-09T04:51:23Z",
+      "side": 1,
+      "message": "This can\u0027t even compile. refreshIntent is previously declared",
+      "revId": "941ac129236b1a288a7d51d7e206dbc41a8c95b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_3972737d",
+        "filename": "src/com/cyanogenmod/lockclock/WidgetApplication.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-09T04:51:23Z",
+      "side": 1,
+      "message": "This is unaceptable. We cannot weather fetch data every minute",
+      "revId": "941ac129236b1a288a7d51d7e206dbc41a8c95b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_196fb793",
+        "filename": "src/com/cyanogenmod/lockclock/WidgetApplication.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-09T04:51:23Z",
+      "side": 1,
+      "message": "wrap to 100 chars",
+      "revId": "941ac129236b1a288a7d51d7e206dbc41a8c95b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
