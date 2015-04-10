@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac371cc_81904d97",
+        "filename": "res/layout/appwidgetweather.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "since there is only one item in this layout - this does not need to be a relativelayout",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_41965595",
+        "filename": "res/layout/appwidgetweather.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "there is no clock panel in this layout",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_618d517b",
+        "filename": "res/layout/appwidgetweather.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "Why is this needed?  there is nothing above this panel",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_c1e88519",
+        "filename": "res/layout/appwidgetweather_small.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "Why is this needed for a weather only widget?",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_a1ed8927",
+        "filename": "res/xml/lock_weather.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "Lock screen widgets are not supported in Lollipop - this will only work on CM11 and earlier",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_017c5d71",
+        "filename": "src/com/cyanogenmod/lockclock/WidgetApplication.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "what happened to the clock widget refresh?",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_e1802149",
+        "filename": "src/com/cyanogenmod/lockclock/WidgetApplication.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "this only applies to a clock widget - if you have a weather only widget you wont need this - you will need to add logic to detect the type of widgets that are running and only call the methods required for the type of widget or you will be killing the battery running unnecessary code",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_a1862963",
+        "filename": "src/com/cyanogenmod/lockclock/WidgetApplication.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-10T04:10:53Z",
+      "side": 1,
+      "message": "You definitely dont want to update the weather every minute ...  there is a user setting that determines the weather refresh time - it should be used",
+      "revId": "848ea4a06a50874bd77c695f537f9d21494cf677",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
