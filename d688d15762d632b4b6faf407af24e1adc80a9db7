@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa7ab95a_0b172552",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-18T01:01:13Z",
+      "side": 1,
+      "message": "space",
+      "revId": "d688d15762d632b4b6faf407af24e1adc80a9db7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa7ab95a_4b092d31",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-18T01:01:13Z",
+      "side": 1,
+      "message": "wrap 100 chars here and below this class",
+      "revId": "d688d15762d632b4b6faf407af24e1adc80a9db7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa7ab95a_6b06f121",
+        "filename": "src/com/cyanogenmod/lockclock/WidgetApplication.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-04-18T01:01:13Z",
+      "side": 1,
+      "message": "remove this imports",
+      "revId": "d688d15762d632b4b6faf407af24e1adc80a9db7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
