@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7fb54a_7676d63f",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "Unnecessary intent action",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_b68e9e25",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "Unnecessary intent action",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_5679d22e",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "BUG!",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_f698266d",
+        "filename": "res/xml/lock_weather.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "Should there not be a weather widget specific preferences so only the weather settings show?",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_96c51a5d",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetProvider.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "Clock is not part of this widget",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_b6a05ea7",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetProvider.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "calendar is not part of this widget",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_d6a5e2b5",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetProvider.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "This is redundant",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_769fb65f",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetService.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "showsammwidget will need to be changed to allow for the new size of the weather only widget or this will not work properly",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_969c3a6b",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetService.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "Does the weather widget include the calendar panel?  It should not and therefore this line is redundant",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_b6877e11",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetService.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "The weather panel should be set to visible in the layout xml if this is a weather only widget making this line redundant",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7fb54a_367c4e20",
+        "filename": "src/com/cyanogenmod/lockclock/WeatherWidgetService.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2015-04-25T05:47:44Z",
+      "side": 1,
+      "message": "This code already exists and should not be duplicated - best to break this out into a utils class and call it as needed to reduce the duplication",
+      "revId": "3961ed56d165ed11fe9ea2a2247a3b9ace4b48a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
