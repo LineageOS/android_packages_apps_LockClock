@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_df25fb5c",
+        "filename": "src/com/cyanogenmod/lockclock/weather/ForecastActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 8961
+      },
+      "writtenOn": "2015-05-04T21:52:45Z",
+      "side": 1,
+      "message": "Whitespace. Please remove",
+      "revId": "9c8cf4de28b21a03b9ee15dfe82d808ed7577d3b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
