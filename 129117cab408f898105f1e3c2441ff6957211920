@@ -16,6 +16,24 @@
       "revId": "129117cab408f898105f1e3c2441ff6957211920",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_91e8ec16",
+        "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-07-09T02:02:53Z",
+      "side": 1,
+      "message": "ha copied verbatim from canFitCalendar() didnt even notice :P",
+      "parentUuid": "5ff73747_51a4a408",
+      "revId": "129117cab408f898105f1e3c2441ff6957211920",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
