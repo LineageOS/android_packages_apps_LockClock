@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_e6ad3432",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-07-09T00:41:18Z",
+      "side": 1,
+      "message": "100 char",
+      "revId": "0fce6f564884e1ce8f15d343be057de84e71b7ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_c6aa3818",
+        "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-07-09T00:41:18Z",
+      "side": 1,
+      "message": "100 char",
+      "revId": "0fce6f564884e1ce8f15d343be057de84e71b7ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_a6a72c50",
+        "filename": "src/com/cyanogenmod/lockclock/misc/WidgetUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-07-09T00:41:18Z",
+      "side": 1,
+      "message": "100 char",
+      "revId": "0fce6f564884e1ce8f15d343be057de84e71b7ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
