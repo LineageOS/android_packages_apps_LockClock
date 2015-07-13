@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_20266eb9",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2015-07-13T07:43:32Z",
+      "side": 1,
+      "message": "Do we care if we can showWeather \u0026\u0026 canFitWeather for this?",
+      "range": {
+        "startLine": 176,
+        "startChar": 21,
+        "endLine": 176,
+        "endChar": 68
+      },
+      "revId": "aeb39e91dcc41e4507ea857b980b1adb9c5ba20e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
