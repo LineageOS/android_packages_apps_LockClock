@@ -22,6 +22,30 @@
       "revId": "aeb39e91dcc41e4507ea857b980b1adb9c5ba20e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_e03756e3",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-07-13T07:51:52Z",
+      "side": 1,
+      "message": "timestamp should only be considered if weather is enabled and can fit into the widget frame, as well as if the timestamp can fit?",
+      "parentUuid": "ff0f0b1f_20266eb9",
+      "range": {
+        "startLine": 176,
+        "startChar": 21,
+        "endLine": 176,
+        "endChar": 68
+      },
+      "revId": "aeb39e91dcc41e4507ea857b980b1adb9c5ba20e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
