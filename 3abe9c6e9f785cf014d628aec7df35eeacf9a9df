@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f231b9d_3dd0d050",
+        "filename": "res/layout/weather_panel.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "This is unrelated to your commit message.",
+      "range": {
+        "startLine": 58,
+        "startChar": 16,
+        "endLine": 58,
+        "endChar": 29
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_1dc5148f",
+        "filename": "res/layout/weather_panel.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "This is unrelated to your commit message.",
+      "range": {
+        "startLine": 70,
+        "startChar": 16,
+        "endLine": 70,
+        "endChar": 29
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_bdbbc00c",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "You don\u0027t need to translate this strings. Use the values as entries",
+      "range": {
+        "startLine": 109,
+        "startChar": 24,
+        "endLine": 109,
+        "endChar": 55
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_ddbe7cfe",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "You don\u0027t need this strings",
+      "range": {
+        "startLine": 227,
+        "startChar": 22,
+        "endLine": 227,
+        "endChar": 33
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_9d36c4b4",
+        "filename": "res/xml/preferences_clock.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "More than a list, this should be an slider",
+      "range": {
+        "startLine": 84,
+        "startChar": 9,
+        "endLine": 84,
+        "endChar": 23
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_7dd64852",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "not used",
+      "range": {
+        "startLine": 37,
+        "startChar": 24,
+        "endLine": 37,
+        "endChar": 29
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_9dd1245b",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 191,
+        "startChar": 82,
+        "endLine": 191,
+        "endChar": 83
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_5dcb8ca4",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Constants.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 4
+      },
+      "revId": "3abe9c6e9f785cf014d628aec7df35eeacf9a9df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

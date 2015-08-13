@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f231b9d_fdc13882",
+        "filename": "res/layout/appwidget.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-08-13T16:27:38Z",
+      "side": 0,
+      "message": "This is unrelated to your commit message.",
+      "range": {
+        "startLine": 37,
+        "startChar": 16,
+        "endLine": 37,
+        "endChar": 32
+      },
+      "revId": "4619501ac40f473170a0cff9023283c548df2b14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
