@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_8dc0e252",
+        "filename": "src/com/cyanogenmod/lockclock/weather/OpenWeatherMapProvider.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-03-18T21:49:54Z",
+      "side": 1,
+      "message": "I\u0027d suggest that once this goes live, we invalidate our existing token. Otherwise, it\u0027d be easy just to revert this patch to reuse our token.",
+      "range": {
+        "startLine": 23,
+        "startChar": 4,
+        "endLine": 23,
+        "endChar": 48
+      },
+      "revId": "a67b9017b99b568eb2afcf6fa1f9ad9f53f5a2b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
