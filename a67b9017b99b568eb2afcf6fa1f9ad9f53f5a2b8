@@ -22,6 +22,30 @@
       "revId": "a67b9017b99b568eb2afcf6fa1f9ad9f53f5a2b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_b04e55bf",
+        "filename": "src/com/cyanogenmod/lockclock/weather/OpenWeatherMapProvider.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2016-03-19T03:46:16Z",
+      "side": 1,
+      "message": "Will look into once this is live.",
+      "parentUuid": "7faddb67_8dc0e252",
+      "range": {
+        "startLine": 23,
+        "startChar": 4,
+        "endLine": 23,
+        "endChar": 48
+      },
+      "revId": "a67b9017b99b568eb2afcf6fa1f9ad9f53f5a2b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
