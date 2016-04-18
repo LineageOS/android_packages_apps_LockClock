@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_9151df11",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:16:17Z",
+      "side": 1,
+      "message": "Additionally, this method is trying to encapsulate how the data is actually stored. All the caller cares is that the data gets stored. If one day we decide to stop using JSON and move to XML, or any other format, we\u0027d need to change the method signature which would require more changes on the caller side.",
+      "parentUuid": "5faad753_eeb06e8e",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_4e60a233",
         "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
         "patchSetId": 4
