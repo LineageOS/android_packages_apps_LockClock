@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_eeb06e8e",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:03:26Z",
+      "side": 1,
+      "message": "This method is the one handling the exception from weatherLocationToJSON. Maybe a more appropriate solution could be to fallback to the previous value (i.e read the value before updating and re use it if the exception is thrown) and this method could return a boolean so the caller knows that the operation was successful.",
+      "parentUuid": "5faad753_8e669a51",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_4e60a233",
         "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2016-04-18T19:54:29Z",
       "side": 1,
       "message": "nit: could be on the same line as much as possible",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4e7182e0",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:03:26Z",
+      "side": 1,
+      "message": "Is this more a style practice than an actual code guideline? IMHO, it\u0027s easier to read when each variable is in a separate line, but if we have a code guideline that enforces us to do so, I\u0027ll be happy to comply with it\n\n\nI\u0027m trying to follow this guide https://source.android.com/source/code-style.html and didn\u0027t find anything about variable declaration on the same line.",
+      "parentUuid": "5faad753_4e60a233",
       "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -59,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_ae7fd6a9",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:03:26Z",
+      "side": 1,
+      "message": "Agree, will create constants to prevent undesirable hard to find bugs due to typos",
+      "parentUuid": "5faad753_2e5be687",
+      "range": {
+        "startLine": 255,
+        "startChar": 38,
+        "endLine": 255,
+        "endChar": 41
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ee54ee56",
         "filename": "src/com/cyanogenmod/lockclock/preference/CustomLocationPreference.java",
         "patchSetId": 4
@@ -76,6 +136,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_ae583656",
+        "filename": "src/com/cyanogenmod/lockclock/preference/CustomLocationPreference.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:03:26Z",
+      "side": 1,
+      "message": "Nope, it does not crash nor shows any sings of leakage",
+      "parentUuid": "5faad753_ee54ee56",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_0e52aa68",
         "filename": "src/com/cyanogenmod/lockclock/weather/ForecastActivity.java",
         "patchSetId": 4
@@ -87,6 +165,24 @@
       "writtenOn": "2016-04-18T19:54:29Z",
       "side": 1,
       "message": "Are these changes necessary?",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_8ec21ae9",
+        "filename": "src/com/cyanogenmod/lockclock/weather/ForecastActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:03:26Z",
+      "side": 1,
+      "message": "Yes, see line 88 for example. WeatherInfo was removed from cLock. That class was refactored and moved to cmsdk",
+      "parentUuid": "5faad753_0e52aa68",
       "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -127,6 +223,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_ee238ebd",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:03:26Z",
+      "side": 1,
+      "message": "Agree that this code might need some polishing, but just want to mention that what I tried to do in this patch was to change only the minimum necessary in cLock and preserve as much code as possible. I copied/pasted this function \"as-is\" from WeatherInfo.java (which was removed in this patch). Will add the braces to comply with code guidelines.",
+      "parentUuid": "5faad753_ee6b8e1c",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ce725212",
         "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
         "patchSetId": 4
@@ -138,6 +252,30 @@
       "writtenOn": "2016-04-18T19:54:29Z",
       "side": 1,
       "message": "meaningful constants?",
+      "range": {
+        "startLine": 13,
+        "startChar": 33,
+        "endLine": 13,
+        "endChar": 35
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0e214ab5",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-18T21:03:26Z",
+      "side": 1,
+      "message": "Same as above, but will add the constant just to make this code easier to read.",
+      "parentUuid": "5faad753_ce725212",
       "range": {
         "startLine": 13,
         "startChar": 33,
