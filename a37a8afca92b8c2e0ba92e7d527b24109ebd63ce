@@ -2,6 +2,154 @@
   "comments": [
     {
       "key": {
+        "uuid": "5faad753_8e669a51",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "Maybe we could declare throws on the method signature forcing the implementor to handle the use case flow of an exception?",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_4e60a233",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "nit: could be on the same line as much as possible",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_2e5be687",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "constants help prevent typo issues in the future.",
+      "range": {
+        "startLine": 255,
+        "startChar": 38,
+        "endLine": 255,
+        "endChar": 41
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ee54ee56",
+        "filename": "src/com/cyanogenmod/lockclock/preference/CustomLocationPreference.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "Just wondering if we crash on rotation something like\n\n\"ERROR/WindowManager: Activity XXX has leaked window \"",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0e52aa68",
+        "filename": "src/com/cyanogenmod/lockclock/weather/ForecastActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "Are these changes necessary?",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ae7596fc",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "some javadoc for public methods?",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ee6b8e1c",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "always use braces",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ce725212",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-18T19:54:29Z",
+      "side": 1,
+      "message": "meaningful constants?",
+      "range": {
+        "startLine": 13,
+        "startChar": 33,
+        "endLine": 13,
+        "endChar": 35
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ce4492ba",
         "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
         "patchSetId": 4
