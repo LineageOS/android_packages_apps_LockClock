@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_c4feb3ad",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-19T15:25:41Z",
+      "side": 1,
+      "message": "Thanks for the info.  I mainly point it out because of the empty catch clause. Usually we try to avoid those for 99% of patches. If you can make a default like you said, that might be better imo.",
+      "parentUuid": "5faad753_9151df11",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_4e60a233",
         "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
         "patchSetId": 4
@@ -84,6 +102,24 @@
       "side": 1,
       "message": "Is this more a style practice than an actual code guideline? IMHO, it\u0027s easier to read when each variable is in a separate line, but if we have a code guideline that enforces us to do so, I\u0027ll be happy to comply with it\n\n\nI\u0027m trying to follow this guide https://source.android.com/source/code-style.html and didn\u0027t find anything about variable declaration on the same line.",
       "parentUuid": "5faad753_4e60a233",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_a40137b2",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-19T15:25:41Z",
+      "side": 1,
+      "message": "yeah, I\u0027m fine with either way really",
+      "parentUuid": "5faad753_4e7182e0",
       "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -207,6 +243,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_642d7f45",
+        "filename": "src/com/cyanogenmod/lockclock/weather/ForecastActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-19T15:25:41Z",
+      "side": 1,
+      "message": "My bad, I thought it was a randomly changed file.",
+      "parentUuid": "5faad753_8ec21ae9",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ae7596fc",
         "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
         "patchSetId": 4
@@ -259,6 +313,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_8432fba6",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-19T15:25:41Z",
+      "side": 1,
+      "message": "Makes sense, maybe we can leave this if its a wholesale copy, but fixing things as we go is sometimes nice.  I\u0027ll leave that up to you",
+      "parentUuid": "5faad753_ee238ebd",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ce725212",
         "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
         "patchSetId": 4
@@ -294,6 +366,30 @@
       "side": 1,
       "message": "Same as above, but will add the constant just to make this code easier to read.",
       "parentUuid": "5faad753_ce725212",
+      "range": {
+        "startLine": 13,
+        "startChar": 33,
+        "endLine": 13,
+        "endChar": 35
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_442c0347",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2016-04-19T15:25:41Z",
+      "side": 1,
+      "message": "If you don\u0027t have anything meaningful to map to (read, constant names) then I wouldn\u0027t worry too much about these.",
+      "parentUuid": "5faad753_0e214ab5",
       "range": {
         "startLine": 13,
         "startChar": 33,
