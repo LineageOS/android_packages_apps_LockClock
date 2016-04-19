@@ -261,6 +261,29 @@
     },
     {
       "key": {
+        "uuid": "5faad753_04f60b91",
+        "filename": "src/com/cyanogenmod/lockclock/weather/ForecastBuilder.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-04-19T17:55:06Z",
+      "side": 1,
+      "message": "like noted, this should be \"d\" or dayforecast.",
+      "range": {
+        "startLine": 166,
+        "startChar": 18,
+        "endLine": 166,
+        "endChar": 19
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ae7596fc",
         "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
         "patchSetId": 4
