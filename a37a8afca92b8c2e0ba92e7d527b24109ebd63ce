@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_c7c1d530",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-19T23:38:31Z",
+      "side": 1,
+      "message": "I changed the signature of the API to return a boolean. Will return true only if the update was successful.",
+      "parentUuid": "5faad753_c4feb3ad",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_4e60a233",
         "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
         "patchSetId": 4
@@ -161,6 +179,30 @@
       "side": 1,
       "message": "Agree, will create constants to prevent undesirable hard to find bugs due to typos",
       "parentUuid": "5faad753_2e5be687",
+      "range": {
+        "startLine": 255,
+        "startChar": 38,
+        "endLine": 255,
+        "endChar": 41
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_47eba5af",
+        "filename": "src/com/cyanogenmod/lockclock/misc/Preferences.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-19T23:38:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_ae7fd6a9",
       "range": {
         "startLine": 255,
         "startChar": 38,
@@ -284,6 +326,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_077a8d23",
+        "filename": "src/com/cyanogenmod/lockclock/weather/ForecastBuilder.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-19T23:38:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_04f60b91",
+      "range": {
+        "startLine": 166,
+        "startChar": 18,
+        "endLine": 166,
+        "endChar": 19
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ae7596fc",
         "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
         "patchSetId": 4
@@ -295,6 +361,24 @@
       "writtenOn": "2016-04-18T19:54:29Z",
       "side": 1,
       "message": "some javadoc for public methods?",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_e7cf3155",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-19T23:38:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_ae7596fc",
       "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -348,6 +432,24 @@
       "side": 1,
       "message": "Makes sense, maybe we can leave this if its a wholesale copy, but fixing things as we go is sometimes nice.  I\u0027ll leave that up to you",
       "parentUuid": "5faad753_ee238ebd",
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_07cdad5c",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-19T23:38:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_8432fba6",
       "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -425,6 +527,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_a7d93923",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-19T23:38:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_442c0347",
+      "range": {
+        "startLine": 13,
+        "startChar": 33,
+        "endLine": 13,
+        "endChar": 35
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_ce4492ba",
         "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
         "patchSetId": 4
@@ -436,6 +562,30 @@
       "writtenOn": "2016-04-18T19:42:08Z",
       "side": 1,
       "message": "this should be Constants.DEBUG",
+      "range": {
+        "startLine": 57,
+        "startChar": 34,
+        "endLine": 57,
+        "endChar": 42
+      },
+      "revId": "a37a8afca92b8c2e0ba92e7d527b24109ebd63ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_c7d6b5f2",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-19T23:38:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_ce4492ba",
       "range": {
         "startLine": 57,
         "startChar": 34,
