@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_d88d347c",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 581,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-20T17:21:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_e7f8917d",
+      "range": {
+        "startLine": 581,
+        "startChar": 0,
+        "endLine": 581,
+        "endChar": 4
+      },
+      "revId": "5f458a8ed36fd459f6cca2e008d43a25b680fe74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_e73df12c",
         "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
         "patchSetId": 7
@@ -36,6 +60,30 @@
       "writtenOn": "2016-04-19T23:42:21Z",
       "side": 1,
       "message": "remove tab",
+      "range": {
+        "startLine": 419,
+        "startChar": 0,
+        "endLine": 419,
+        "endChar": 4
+      },
+      "revId": "5f458a8ed36fd459f6cca2e008d43a25b680fe74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_78e8c015",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 419,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-20T17:21:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_e73df12c",
       "range": {
         "startLine": 419,
         "startChar": 0,
