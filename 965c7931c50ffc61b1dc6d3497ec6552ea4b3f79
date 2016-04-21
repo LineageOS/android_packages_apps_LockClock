@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_16215c4e",
+        "filename": "Android.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-21T21:31:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5faad753_b62c089a",
+      "revId": "965c7931c50ffc61b1dc6d3497ec6552ea4b3f79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_5621149f",
         "filename": "AndroidManifest.xml",
         "patchSetId": 10
@@ -30,6 +48,30 @@
       "writtenOn": "2016-04-21T18:47:46Z",
       "side": 1,
       "message": "should we bump the versioncode? (doesn\u0027t really matter since we tend to upgrade packages as part of the os upgrade, but if we ever wanted to externalize this)",
+      "range": {
+        "startLine": 19,
+        "startChar": 25,
+        "endLine": 19,
+        "endChar": 27
+      },
+      "revId": "965c7931c50ffc61b1dc6d3497ec6552ea4b3f79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_f617e0ec",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-21T21:31:53Z",
+      "side": 1,
+      "message": "Agree, set to 22 and bumped versionName to 3.5\nLet me know if I should change it to something diferent",
+      "parentUuid": "5faad753_5621149f",
       "range": {
         "startLine": 19,
         "startChar": 25,
@@ -65,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_96d22c34",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-21T21:31:53Z",
+      "side": 1,
+      "message": "Nope, there isn\u0027t :/ \nThis is just declared in the Settings app manifest",
+      "parentUuid": "5faad753_363818d2",
+      "range": {
+        "startLine": 576,
+        "startChar": 27,
+        "endLine": 576,
+        "endChar": 87
+      },
+      "revId": "965c7931c50ffc61b1dc6d3497ec6552ea4b3f79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_765bf02d",
         "filename": "src/com/cyanogenmod/lockclock/weather/ForecastBuilder.java",
         "patchSetId": 10
@@ -76,6 +142,30 @@
       "writtenOn": "2016-04-21T18:47:46Z",
       "side": 1,
       "message": "should impl this in next PS or future?",
+      "range": {
+        "startLine": 154,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 65
+      },
+      "revId": "965c7931c50ffc61b1dc6d3497ec6552ea4b3f79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b6d72824",
+        "filename": "src/com/cyanogenmod/lockclock/weather/ForecastBuilder.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-21T21:31:53Z",
+      "side": 1,
+      "message": "Future, this is IMO something that was never properly handled and I added the TODO so we don\u0027t forget we\u0027ve got an un-handled scenario there. UX is pretty bad when this happens",
+      "parentUuid": "5faad753_765bf02d",
       "range": {
         "startLine": 154,
         "startChar": 0,
@@ -111,6 +201,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_56dcb445",
+        "filename": "src/com/cyanogenmod/lockclock/weather/Utils.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-21T21:31:53Z",
+      "side": 1,
+      "message": "O_o",
+      "parentUuid": "5faad753_16407c35",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 41
+      },
+      "revId": "965c7931c50ffc61b1dc6d3497ec6552ea4b3f79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_96754c9b",
         "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
         "patchSetId": 10
@@ -122,6 +236,30 @@
       "writtenOn": "2016-04-21T18:47:46Z",
       "side": 1,
       "message": "do we not want to do a wake up for update?",
+      "range": {
+        "startLine": 549,
+        "startChar": 28,
+        "endLine": 549,
+        "endChar": 51
+      },
+      "revId": "965c7931c50ffc61b1dc6d3497ec6552ea4b3f79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_76e1b0fe",
+        "filename": "src/com/cyanogenmod/lockclock/weather/WeatherUpdateService.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 549,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-04-21T21:31:53Z",
+      "side": 1,
+      "message": "This will wake up for update",
+      "parentUuid": "5faad753_96754c9b",
       "range": {
         "startLine": 549,
         "startChar": 28,
