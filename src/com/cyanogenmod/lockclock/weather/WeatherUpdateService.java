@@ -21,6 +21,7 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -44,8 +45,6 @@ import com.cyanogenmod.lockclock.misc.Constants;
 import com.cyanogenmod.lockclock.misc.Preferences;
 import com.cyanogenmod.lockclock.misc.WidgetUtils;
 import com.cyanogenmod.lockclock.preference.WeatherPreferences;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
 import cyanogenmod.weather.CMWeatherManager;
 import cyanogenmod.weather.WeatherInfo;
 import cyanogenmod.weather.WeatherLocation;
@@ -357,9 +356,12 @@ public class WeatherUpdateService extends Service {
         }
 
         private boolean isGooglePlayServicesAvailable() {
-            int result = GooglePlayServicesUtil.isGooglePlayServicesAvailable(mContext);
-            return result == ConnectionResult.SUCCESS
-                    || result == ConnectionResult.SERVICE_VERSION_UPDATE_REQUIRED;
+            try {
+                mContext.getPackageManager().getPackageInfo("com.google.android.gms", 0);
+                return true;
+            } catch (PackageManager.NameNotFoundException ex) {
+                return false;
+            }
         }
 
         private void onWeatherRequestCompleted(WeatherInfo result) {
