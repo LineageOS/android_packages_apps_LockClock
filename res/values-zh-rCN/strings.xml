@@ -138,7 +138,7 @@
   <string name="weather_show_timestamp_title">显示更新时间</string>
   <string name="weather_refresh_interval">更新间隔</string>
   <string name="weather_use_metric">使用公制</string>
-  <string name="weather_retrieve_location_dialog_title">无法查询位置!</string>
+  <string name="weather_retrieve_location_dialog_title">无法取得位置！</string>
   <string name="weather_retrieve_location_dialog_message">网络定位已被禁用。\n\n请设置一个自定义的位置或启用网络定位服务</string>
   <string name="weather_retrieve_location_dialog_enable_button">启用</string>
   <string name="weather_invert_lowhigh">交换高低温度显示的位置</string>

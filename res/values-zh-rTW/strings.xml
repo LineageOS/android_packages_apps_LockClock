@@ -19,7 +19,7 @@
   <!-- General strings -->
   <string name="unknown">未知</string>
   <string name="cancel">取消</string>
-  <string name="loading_indicator">正在讀取小工具\u2026</string>
+  <string name="loading_indicator">正在載入小工具\u2026</string>
   <string name="menu_done">完成</string>
   <!-- Formating strings for widget clock -->
   <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
@@ -100,7 +100,7 @@
   <string name="weather_refreshing">重新整理中</string>
   <string name="weather_last_sync_just_now">剛剛</string>
   <string name="weather_cannot_reach_provider">目前無法連線至 %s</string>
-  <string name="weather_source_not_selected">找不到天氣提供者</string>
+  <string name="weather_source_not_selected">找不到天氣來源</string>
   <string name="weather_tap_to_select_source">輕觸即可選擇</string>
   <!-- Weather - Update frequency -->
   <string name="weather_refresh_manual">手動</string>
@@ -124,7 +124,7 @@
   <string name="clock_font_minutes_title">分鐘使用粗體</string>
   <string name="clock_font_date_title">日期與鬧鐘使用粗體</string>
   <string name="show_alarm_title">顯示下一個鬧鐘</string>
-  <string name="clock_am_pm_title">顯示 AM/PM 指示器</string>
+  <string name="clock_am_pm_title">顯示上午/下午指示器</string>
   <!-- Preferences - Weather -->
   <string name="weather_enabled">已啟用</string>
   <string name="weather_enable">顯示天氣</string>
@@ -147,17 +147,17 @@
   <string name="weather_alternate_icons_summary">選取即可在預設 (彩色) 與替代 (白色) 的圖示之間切換</string>
   <string name="weather_show_when_minimized_title">最小化時顯示</string>
   <string name="weather_show_when_minimized_summary">小工具最小化時顯示天氣資訊摘要</string>
-  <string name="weather_select_location">選取位置</string>
+  <string name="weather_select_location">選擇位置</string>
   <!-- Preferences - Calendar -->
-  <string name="calendar_title">顯示下一個活動</string>
-  <string name="calendars_title">活動日曆</string>
-  <string name="calendars_summary">從這些日曆中尋找活動</string>
+  <string name="calendar_title">顯示下一個事件</string>
+  <string name="calendars_title">事件日曆</string>
+  <string name="calendars_summary">從這些日曆中尋找事件</string>
   <string name="calendars_none_found_summary">找不到日曆</string>
   <string name="calendar_reminders_only_title">僅顯示提醒</string>
   <string name="calendar_reminders_only_summary">僅顯示有提醒的事件</string>
-  <string name="calendar_hide_allday_title">隱藏全天活動</string>
+  <string name="calendar_hide_allday_title">隱藏全天事件</string>
   <string name="calendar_icon_title">日曆圖示</string>
-  <string name="calendar_lookahead_title">活動尋找範圍</string>
+  <string name="calendar_lookahead_title">事件尋找範圍</string>
   <string name="calendar_show_location_title">事件位置</string>
   <string name="calendar_show_description_title">事件說明</string>
   <string name="calendar_upcoming_events_category">即將開始的事件</string>
