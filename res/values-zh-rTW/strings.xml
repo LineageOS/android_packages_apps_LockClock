@@ -42,7 +42,7 @@
   <string name="weather_13">陣雪</string>
   <string name="weather_14">小陣雪</string>
   <string name="weather_15">大風雪</string>
-  <string name="weather_16">雪</string>
+  <string name="weather_16">降雪</string>
   <string name="weather_17">冰雹</string>
   <string name="weather_18">霰</string>
   <string name="weather_19">塵霾</string>
@@ -65,9 +65,9 @@
   <string name="weather_31">晴</string>
   <string name="weather_32">晴朗</string>
   <!-- Night -->
-  <string name="weather_33">晴</string>
+  <string name="weather_33">晴天</string>
   <!-- Day -->
-  <string name="weather_34">晴</string>
+  <string name="weather_34">晴天</string>
   <string name="weather_35">雨加冰雹</string>
   <string name="weather_36">炎熱</string>
   <string name="weather_37">局地雷雨</string>
