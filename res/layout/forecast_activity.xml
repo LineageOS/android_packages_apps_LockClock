@@ -46,7 +46,8 @@
                 android:ellipsize="end"
                 android:layout_weight="0.8"
                 android:paddingLeft="3dp"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textSize="18sp"
+                android:textColor="?android:attr/textColorPrimaryInverse" />
 
             <ImageView
                 android:id="@+id/weather_refresh"
@@ -98,7 +99,7 @@
                     android:ellipsize="marquee"
                     android:gravity="center_horizontal"
                     android:maxLines="2"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="?android:attr/textColorPrimaryInverse"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -109,7 +110,7 @@
                     android:layout_below="@id/weather_city"
                     android:layout_centerHorizontal="true"
                     android:gravity="center_horizontal"
-                    android:textColor="?android:attr/textColorSecondary"
+                    android:textColor="?android:attr/textColorSecondaryInverse"
                     android:textSize="10sp" />
             </RelativeLayout>
 
@@ -126,7 +127,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textSize="22sp"
+                    android:textColor="?android:attr/textColorPrimaryInverse" />
 
                 <TextView
                     android:id="@+id/weather_low_high"
@@ -136,7 +138,7 @@
                     android:layout_centerHorizontal="true"
                     android:paddingBottom="2dip"
                     android:textSize="12sp"
-                    android:textColor="?android:attr/textColorPrimary" />
+                    android:textColor="?android:attr/textColorPrimaryInverse" />
 
                 <ImageView
                     android:id="@+id/weather_divider"
@@ -154,7 +156,7 @@
                     android:layout_centerHorizontal="true"
                     android:paddingTop="2dip"
                     android:textSize="12sp"
-                    android:textColor="?android:attr/textColorPrimary" />
+                    android:textColor="?android:attr/textColorPrimaryInverse" />
             </RelativeLayout>
 
             <TextView
@@ -165,8 +167,9 @@
                 android:layout_centerHorizontal="true"
                 android:ellipsize="marquee"
                 android:singleLine="true"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:paddingBottom="8dp" />
+                android:paddingBottom="8dp"
+                android:textSize="18sp"
+                android:textColor="?android:attr/textColorSecondaryInverse" />
         </RelativeLayout>
 
         <LinearLayout
