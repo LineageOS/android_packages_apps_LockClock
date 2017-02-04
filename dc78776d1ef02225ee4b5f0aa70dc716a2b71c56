@@ -16,6 +16,24 @@
       "revId": "dc78776d1ef02225ee4b5f0aa70dc716a2b71c56",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_d70f762d",
+        "filename": "res/layout/forecast_activity.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-04T02:08:13Z",
+      "side": 1,
+      "message": "textAppearanceMedium is 18sp, so size is not changed. And it does not obey textColor attribute, so changed it to textSize.",
+      "parentUuid": "7a288981_34123863",
+      "revId": "dc78776d1ef02225ee4b5f0aa70dc716a2b71c56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
