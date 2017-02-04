@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_57a026f4",
+        "filename": "res/layout/forecast_item.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-04T06:25:08Z",
+      "side": 1,
+      "message": "Should probably change lines 31 and 50 to use textAppearanceSmallInverse as well, just to cover all bases",
+      "revId": "c84047fa5836e27803efce909eea19010b1129b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
