@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_34123863",
+        "filename": "res/layout/forecast_activity.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-04T01:41:02Z",
+      "side": 1,
+      "message": "Looks like you\u0027re also changing text sizes in this change. Might want to provide some kind of explanation for that in the commit message?",
+      "revId": "dc78776d1ef02225ee4b5f0aa70dc716a2b71c56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
