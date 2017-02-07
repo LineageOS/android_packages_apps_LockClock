@@ -165,10 +165,10 @@
   <string name="calendar_highlight_upcoming_events_summary">Resaltar los eventos del día actual y, después de las 8 p. m., también los eventos del día siguiente</string>
   <string name="calendar_highlight_upcoming_events_bold">Negrita</string>
   <!-- Preferences - Font colors -->
-  <string name="font_color">Color de fuente</string>
-  <string name="font_color_alarm">Color de fuente de la alarma</string>
-  <string name="font_color_timestamp">Color de fuente de la fecha</string>
-  <string name="font_color_calendar_details">Color de fuente de los detalles</string>
+  <string name="font_color">Color del texto</string>
+  <string name="font_color_alarm">Color del texto de la alarma</string>
+  <string name="font_color_timestamp">Color del texto de la fecha</string>
+  <string name="font_color_calendar_details">Color del texto de los detalles</string>
   <!-- Preferences - Background color -->
   <string name="background_color">Color de fondo</string>
   <string name="background_transparency">Transparencia de fondo</string>
