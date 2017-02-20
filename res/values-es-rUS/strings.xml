@@ -126,7 +126,7 @@
   <string name="show_alarm_title">Mostrar alarma siguiente</string>
   <string name="clock_am_pm_title">Mostrar indicador AM/PM</string>
   <!-- Preferences - Weather -->
-  <string name="weather_enabled">Habilitado</string>
+  <string name="weather_enabled">Activado</string>
   <string name="weather_enable">Mostrar clima</string>
   <string name="weather_source_title">Fuente del clima</string>
   <string name="weather_use_custom_location">Usar ubicación personalizada</string>
@@ -140,7 +140,7 @@
   <string name="weather_use_metric">Usar sistema métrico</string>
   <string name="weather_retrieve_location_dialog_title">¡No se puede encontrar la ubicación!</string>
   <string name="weather_retrieve_location_dialog_message">La geolocalización por red está deshabilitada.\n\nConfigurar una ubicación personalizada o habilitar la geolocalización por red</string>
-  <string name="weather_retrieve_location_dialog_enable_button">Habilitar</string>
+  <string name="weather_retrieve_location_dialog_enable_button">Activar</string>
   <string name="weather_invert_lowhigh">Invertir las temperaturas mínimas/máximas</string>
   <string name="weather_progress_title">Verificando ubicación</string>
   <string name="weather_alternate_icons_title">Usar íconos de color</string>
