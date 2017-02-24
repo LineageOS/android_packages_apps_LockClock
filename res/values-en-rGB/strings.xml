@@ -17,11 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
+  <string name="unknown">Unknown</string>
+  <string name="cancel">Cancel</string>
+  <string name="loading_indicator">Loading widget\u2026</string>
+  <string name="menu_done">Done</string>
   <!-- Formating strings for widget clock -->
   <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
          android.text.format.DateFormat uses k for hours in the 0-23 range.
          We need to support both -->
   <!-- Weather - Weather codes -->
+  <string name="weather_0">Tornado</string>
   <!-- Night -->
   <!-- Day -->
   <!-- Night -->
@@ -38,11 +43,21 @@
   <!-- Preferences - Categories -->
   <!-- Preferences - Clock -->
   <!-- Preferences - Weather -->
+  <string name="weather_alternate_icons_title">Use colour icons</string>
+  <string name="weather_alternate_icons_summary">Select to toggle between the default (Colour) and the alternate (White) icons</string>
+  <string name="weather_show_when_minimized_title">Show when minimised</string>
+  <string name="weather_show_when_minimized_summary">Display summary weather information when the widget is minimised</string>
   <!-- Preferences - Calendar -->
   <!-- Preferences - Font colors -->
+  <string name="font_color">Font colour</string>
+  <string name="font_color_alarm">Alarm font colour</string>
+  <string name="font_color_timestamp">Timestamp font colour</string>
+  <string name="font_color_calendar_details">Details font colour</string>
   <!-- Preferences - Background color -->
+  <string name="background_color">Background colour</string>
   <!-- Calendar - Lookahead -->
   <!-- Calendar - Event metadata -->
   <!-- Font colors -->
   <!-- Weather icon sets -->
+  <string name="weather_icons_standard">Coloured</string>
 </resources>
