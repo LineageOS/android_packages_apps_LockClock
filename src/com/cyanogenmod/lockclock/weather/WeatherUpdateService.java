@@ -249,7 +249,7 @@ public class WeatherUpdateService extends Service {
 
             AlarmManager am = (AlarmManager) mContext.getSystemService(ALARM_SERVICE);
             long elapseTime = SystemClock.elapsedRealtime() + WEATHER_UPDATE_REQUEST_TIMEOUT_MS;
-            am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, elapseTime, mTimeoutPendingIntent);
+            am.setExactAndAllowWhileIdle(AlarmManager.ELAPSED_REALTIME_WAKEUP, elapseTime, mTimeoutPendingIntent);
             if (D) Log.v(TAG, "Timeout alarm set to expire in " + elapseTime + " ms");
         }
 
@@ -493,7 +493,7 @@ public class WeatherUpdateService extends Service {
 
             AlarmManager am = (AlarmManager) mContext.getSystemService(ALARM_SERVICE);
             long elapseTime = SystemClock.elapsedRealtime() + LOCATION_REQUEST_TIMEOUT;
-            am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, elapseTime, mTimeoutIntent);
+            am.setExactAndAllowWhileIdle(AlarmManager.ELAPSED_REALTIME_WAKEUP, elapseTime, mTimeoutIntent);
         }
 
         private void cancelTimeoutAlarm() {
@@ -544,7 +544,7 @@ public class WeatherUpdateService extends Service {
         long due = SystemClock.elapsedRealtime() + millisFromNow;
         if (D) Log.d(TAG, "Next update scheduled at "
                 + new Date(System.currentTimeMillis() + millisFromNow));
-        am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, due, getUpdateIntent(context, force));
+        am.setExactAndAllowWhileIdle(AlarmManager.ELAPSED_REALTIME_WAKEUP, due, getUpdateIntent(context, force));
     }
 
     public static void scheduleNextUpdate(Context context, boolean force) {
