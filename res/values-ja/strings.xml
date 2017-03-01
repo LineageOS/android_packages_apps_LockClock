@@ -143,7 +143,7 @@
   <string name="weather_retrieve_location_dialog_enable_button">有効</string>
   <string name="weather_invert_lowhigh">最低/最高気温を入れ替える</string>
   <string name="weather_progress_title">場所を確認中</string>
-  <string name="weather_alternate_icons_title">カラーアイコンを使う</string>
+  <string name="weather_alternate_icons_title">カラーアイコンを使用する</string>
   <string name="weather_alternate_icons_summary">デフォルトのアイコン（カラー）と別のアイコン（ホワイト）を切り替える</string>
   <string name="weather_show_when_minimized_title">最小化時に表示</string>
   <string name="weather_show_when_minimized_summary">ウィジェット最小化時に天気情報の概要を表示する</string>
