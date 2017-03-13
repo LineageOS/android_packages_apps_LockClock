@@ -57,7 +57,7 @@
                 android:padding="8dp"
                 android:src="@drawable/ic_menu_refresh"
                 android:layout_weight="0.2"
-                android:background="?android:attr/selectableItemBackground" />
+                android:background="?android:attr/selectableItemBackgroundBorderless" />
         </LinearLayout>
 
         <ImageView
