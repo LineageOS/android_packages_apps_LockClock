@@ -43,7 +43,14 @@
   <string name="weather_14">Light Snow Showers</string>
   <string name="weather_15">Blowing Snow</string>
   <string name="weather_16">Snow</string>
+  <string name="weather_17">Hail</string>
+  <string name="weather_18">Sleet</string>
   <string name="weather_19">Dust</string>
+  <string name="weather_20">Foggy</string>
+  <string name="weather_21">Haze</string>
+  <string name="weather_22">Smoky</string>
+  <string name="weather_23">Blustery</string>
+  <string name="weather_24">Windy</string>
   <string name="weather_25">Cold</string>
   <string name="weather_26">Cloudy</string>
   <!-- Night -->
@@ -52,7 +59,10 @@
   <string name="weather_28">Mostly Cloudy</string>
   <!-- Night -->
   <!-- Day -->
+  <string name="weather_30">Partly Cloudy</string>
   <!-- Night -->
+  <string name="weather_31">Clear</string>
+  <string name="weather_32">Sunny</string>
   <!-- Night -->
   <!-- Day -->
   <!-- Forecast unavailable -->
