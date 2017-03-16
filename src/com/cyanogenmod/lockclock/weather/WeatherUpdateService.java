@@ -74,6 +74,8 @@ public class WeatherUpdateService extends Service {
     private static final long OUTDATED_LOCATION_THRESHOLD_MILLIS = 10L * 60L * 1000L; // 10 minutes
     private static final float LOCATION_ACCURACY_THRESHOLD_METERS = 50000;
 
+    private static long sNextUpdate = 0;
+
     private WorkerThread mWorkerThread;
     private Handler mHandler;
 
@@ -541,10 +543,10 @@ public class WeatherUpdateService extends Service {
 
     private static void scheduleUpdate(Context context, long millisFromNow, boolean force) {
         AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-        long due = SystemClock.elapsedRealtime() + millisFromNow;
+        sNextUpdate = SystemClock.elapsedRealtime() + millisFromNow;
         if (D) Log.d(TAG, "Next update scheduled at "
                 + new Date(System.currentTimeMillis() + millisFromNow));
-        am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, due, getUpdateIntent(context, force));
+        am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, sNextUpdate, getUpdateIntent(context, force));
     }
 
     public static void scheduleNextUpdate(Context context, boolean force) {
@@ -575,5 +577,14 @@ public class WeatherUpdateService extends Service {
         am.cancel(getUpdateIntent(context, true));
         am.cancel(getUpdateIntent(context, false));
         WeatherLocationListener.cancel(context);
+    }
+
+    public static void rescheduleUpdates(Context context) {
+        long now = SystemClock.elapsedRealtime();
+        if (sNextUpdate < now) {
+            scheduleNextUpdate(context, true);
+        } else {
+            scheduleUpdate(context, sNextUpdate - now, false);
+        }
     }
 }
