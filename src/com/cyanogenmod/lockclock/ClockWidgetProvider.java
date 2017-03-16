@@ -55,6 +55,12 @@ public class ClockWidgetProvider extends AppWidgetProvider {
                 } else {
                     context.stopService(i);
                 }
+            } else if (Intent.ACTION_SCREEN_OFF.equals(action)) {
+                if (D) Log.d(TAG, "onDisplayOff: Cancel pending update");
+                WeatherUpdateService.cancelUpdates(context);
+            } else if (Intent.ACTION_SCREEN_ON.equals(action)) {
+                if (D) Log.d(TAG, "onDisplayOn: Reschedule update");
+                WeatherUpdateService.scheduleNextUpdate(context, false);
             }
         }
     };
@@ -137,6 +143,8 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         if (Utils.isWeatherServiceAvailable(context)) {
             context.startService(new Intent(context, WeatherSourceListenerService.class));
             IntentFilter intentFilter = new IntentFilter();
+            intentFilter.addAction(Intent.ACTION_SCREEN_ON);
+            intentFilter.addAction(Intent.ACTION_SCREEN_OFF);
             intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
             context.getApplicationContext().registerReceiver(mDeviceStatusListenerReceiver,
                     intentFilter);
