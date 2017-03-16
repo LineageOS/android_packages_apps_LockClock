@@ -17,8 +17,10 @@
 package com.cyanogenmod.lockclock.weather;
 
 import android.app.Service;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.IBinder;
 import android.util.Log;
 import com.cyanogenmod.lockclock.ClockWidgetService;
@@ -33,6 +35,7 @@ public class WeatherSourceListenerService extends Service
     private static final boolean D = Constants.DEBUG;
     private Context mContext;
     private volatile boolean mRegistered;
+    private BroadcastReceiver mScreenStateReceiver;
 
     @Override
     public void onWeatherServiceProviderChanged(String providerLabel) {
@@ -59,6 +62,23 @@ public class WeatherSourceListenerService extends Service
     @Override
     public void onCreate() {
         mContext = getApplicationContext();
+
+        IntentFilter screenStateFilter = new IntentFilter();
+        screenStateFilter.addAction(Intent.ACTION_SCREEN_ON);
+        screenStateFilter.addAction(Intent.ACTION_SCREEN_OFF);
+        mScreenStateReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
+                    if (D) Log.d(TAG, "onDisplayOff: Cancel pending updates");
+                    WeatherUpdateService.cancelUpdates(context);
+                } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
+                    if (D) Log.d(TAG, "onDisplayOn: Reschedule updates");
+                    WeatherUpdateService.rescheduleUpdates(context);
+                }
+            }
+        };
+        mContext.registerReceiver(mScreenStateReceiver, screenStateFilter);
     }
 
     @Override
@@ -77,6 +97,7 @@ public class WeatherSourceListenerService extends Service
             final CMWeatherManager weatherManager = CMWeatherManager.getInstance(mContext);
             weatherManager.unregisterWeatherServiceProviderChangeListener(this);
         }
+        mContext.unregisterReceiver(mScreenStateReceiver);
     }
 
     @Override
