@@ -362,6 +362,7 @@ public class WeatherUpdateService extends Service {
             cancelTimeoutAlarm();
             long now = SystemClock.elapsedRealtime();
             Preferences.setCachedWeatherInfo(mContext, now, result);
+            Preferences.setLastWeatherUpdateTimestamp(mContext, now);
             scheduleUpdate(mContext, Preferences.weatherRefreshIntervalInMs(mContext), false);
 
             Intent updateIntent = new Intent(mContext, ClockWidgetProvider.class);
