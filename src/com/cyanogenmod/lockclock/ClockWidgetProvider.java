@@ -28,6 +28,7 @@ import com.cyanogenmod.lockclock.misc.Preferences;
 import com.cyanogenmod.lockclock.misc.WidgetUtils;
 import com.cyanogenmod.lockclock.weather.ForecastActivity;
 import com.cyanogenmod.lockclock.weather.Utils;
+import com.cyanogenmod.lockclock.weather.WeatherScreenStateService;
 import com.cyanogenmod.lockclock.weather.WeatherSourceListenerService;
 import com.cyanogenmod.lockclock.weather.WeatherUpdateService;
 
@@ -127,6 +128,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         if (D) Log.d(TAG, "Scheduling next weather update");
         if (Utils.isWeatherServiceAvailable(context)) {
             context.startService(new Intent(context, WeatherSourceListenerService.class));
+            context.startService(new Intent(context, WeatherScreenStateService.class));
             WeatherUpdateService.scheduleNextUpdate(context, true);
         }
 
@@ -144,6 +146,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         if (D) Log.d(TAG, "Cleaning up: Clearing all pending alarms");
         if (Utils.isWeatherServiceAvailable(context)) {
             context.stopService(new Intent(context, WeatherSourceListenerService.class));
+            context.stopService(new Intent(context, WeatherScreenStateService.class));
             ClockWidgetService.cancelUpdates(context);
             WeatherUpdateService.cancelUpdates(context);
         }

@@ -577,4 +577,16 @@ public class WeatherUpdateService extends Service {
         am.cancel(getUpdateIntent(context, false));
         WeatherLocationListener.cancel(context);
     }
+
+    public static void rescheduleUpdate(Context context) {
+        final long now = SystemClock.elapsedRealtime();
+        final long lastUpdate = Preferences.lastWeatherUpdateTimestamp(context);
+        final long interval = Preferences.weatherRefreshIntervalInMs(context);
+        final long due = lastUpdate + interval;
+        if (now > due) {
+            scheduleNextUpdate(context, true);
+        } else {
+            scheduleUpdate(context, due, false);
+        }
+    }
 }
