@@ -99,6 +99,7 @@
         </receiver>
 
         <service android:name=".ClockWidgetService"></service>
+        <service android:name=".weather.ScreenStateService"></service>
         <service android:name=".weather.WeatherUpdateService"></service>
         <service android:name=".weather.WeatherSourceListenerService"></service>
         <service android:name=".calendar.CalendarViewsService"
