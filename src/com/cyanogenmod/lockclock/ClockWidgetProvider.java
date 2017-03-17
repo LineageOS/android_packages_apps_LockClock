@@ -68,7 +68,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         } else if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             //Since we're using elapsed time since boot, we can't use the timestamp from the
             //previous boot so we need to reset the timer
-            Preferences.setLastWeatherUpadteTimestamp(context, 0);
+            Preferences.setLastWeatherUpdateTimestamp(context, 0);
         // A widget has been deleted, prevent our handling and ask the super class handle it
         } else if (AppWidgetManager.ACTION_APPWIDGET_DELETED.equals(action)
                 || AppWidgetManager.ACTION_APPWIDGET_DISABLED.equals(action)) {

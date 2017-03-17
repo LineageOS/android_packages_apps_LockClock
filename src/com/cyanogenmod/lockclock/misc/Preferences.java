@@ -361,7 +361,7 @@ public class Preferences {
         return getPrefs(context).getLong(Constants.WEATHER_LAST_UPDATE, 0);
     }
 
-    public static void setLastWeatherUpadteTimestamp(Context context, long timestamp) {
+    public static void setLastWeatherUpdateTimestamp(Context context, long timestamp) {
         getPrefs(context).edit().putLong(Constants.WEATHER_LAST_UPDATE, timestamp).apply();
     }
 
