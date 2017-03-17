@@ -20,7 +20,6 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
 import android.util.Log;
 
 import com.cyanogenmod.lockclock.misc.Constants;
@@ -49,23 +48,8 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         String action = intent.getAction();
         if (D) Log.v(TAG, "Received intent " + intent);
 
-        // Network connection has changed, make sure the weather update service knows about it
-        if (ConnectivityManager.CONNECTIVITY_ACTION.equals(action)
-                && Utils.isWeatherServiceAvailable(context)) {
-            boolean hasConnection =
-                    !intent.getBooleanExtra(ConnectivityManager.EXTRA_NO_CONNECTIVITY, false);
-
-            if (D) Log.d(TAG, "Got connectivity change, has connection: " + hasConnection);
-
-            Intent i = new Intent(context, WeatherUpdateService.class);
-            if (hasConnection) {
-                context.startService(i);
-            } else {
-                context.stopService(i);
-            }
-
         // Boot completed, schedule next weather update
-        } else if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
+        if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             //Since we're using elapsed time since boot, we can't use the timestamp from the
             //previous boot so we need to reset the timer
             Preferences.setLastWeatherUpdateTimestamp(context, 0);
@@ -127,6 +111,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         if (D) Log.d(TAG, "Scheduling next weather update");
         if (Utils.isWeatherServiceAvailable(context)) {
             context.startService(new Intent(context, WeatherSourceListenerService.class));
+            context.startService(new Intent(context, DeviceStatusService.class));
             WeatherUpdateService.scheduleNextUpdate(context, true);
         }
 
@@ -144,6 +129,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         if (D) Log.d(TAG, "Cleaning up: Clearing all pending alarms");
         if (Utils.isWeatherServiceAvailable(context)) {
             context.stopService(new Intent(context, WeatherSourceListenerService.class));
+            context.stopService(new Intent(context, DeviceStatusService.class));
             ClockWidgetService.cancelUpdates(context);
             WeatherUpdateService.cancelUpdates(context);
         }
