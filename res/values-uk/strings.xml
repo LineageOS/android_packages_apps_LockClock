@@ -203,6 +203,6 @@
   <!-- Weather icon sets -->
   <string name="weather_icon_set_title">Значки</string>
   <string name="weather_icons_standard">Кольорові</string>
-  <string name="weather_icons_monochrome">Чорнобілі</string>
+  <string name="weather_icons_monochrome">Монохромні</string>
   <string name="icon_set_selection_get_more">Більше\u2026</string>
 </resources>

@@ -48,7 +48,7 @@
   <string name="weather_19">Прах</string>
   <string name="weather_20">Мъгливо</string>
   <string name="weather_21">Мараня</string>
-  <string name="weather_22">Опушено</string>
+  <string name="weather_22">Задимено</string>
   <string name="weather_23">Бурен</string>
   <string name="weather_24">Ветровито</string>
   <string name="weather_25">Студено</string>
@@ -78,9 +78,9 @@
   <string name="weather_42">Възможни са превалявания от сняг</string>
   <string name="weather_43">Силен снеговалеж</string>
   <string name="weather_44">Частична облачност</string>
-  <string name="weather_45">Гръмотевици</string>
+  <string name="weather_45">Преваляване с гръмотевици</string>
   <string name="weather_46">Снеговалеж</string>
-  <string name="weather_47">Проливен дъжд с гръмотевици</string>
+  <string name="weather_47">Изолирани превалявания с гръмотевици</string>
   <!-- Forecast unavailable -->
   <!-- Weather - Speed units -->
   <string name="weather_kph">км/ч</string>
@@ -143,13 +143,13 @@
   <string name="weather_retrieve_location_dialog_enable_button">Активирай</string>
   <string name="weather_invert_lowhigh">Обръщане на ниски / високи температури</string>
   <string name="weather_progress_title">Проверка на местоположението</string>
-  <string name="weather_alternate_icons_title">Използвай цвятни икони</string>
-  <string name="weather_alternate_icons_summary">Изберете, за да превключвате иконите по цвят по подразбиране (цвят) или на алтернативно (бяло)</string>
+  <string name="weather_alternate_icons_title">Използвай цвeтни икони</string>
+  <string name="weather_alternate_icons_summary">Изберете, за да превключвате иконите по подразбиране (цвeтни) или на алтернативни (бели)</string>
   <string name="weather_show_when_minimized_title">Винаги показвай</string>
   <string name="weather_show_when_minimized_summary">Ще показва информация за времето, дори когато приспособлението е минимизирано</string>
   <string name="weather_select_location">Изберете местоположение</string>
   <!-- Preferences - Calendar -->
-  <string name="calendar_title">Покажи събития от календара</string>
+  <string name="calendar_title">Покажи следващото събитие</string>
   <string name="calendars_title">Показване на събития от календари</string>
   <string name="calendars_summary">Търсене на събития в следните календари</string>
   <string name="calendars_none_found_summary">Не са намерени календари</string>
