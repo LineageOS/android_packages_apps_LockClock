@@ -139,12 +139,12 @@
   <string name="weather_refresh_interval">Intervalo de actualización</string>
   <string name="weather_use_metric">Usar sistema métrico</string>
   <string name="weather_retrieve_location_dialog_title">¡No se puede encontrar la ubicación!</string>
-  <string name="weather_retrieve_location_dialog_message">La geolocalización por red está deshabilitada.\n\nConfigurar una ubicación personalizada o habilitar la geolocalización por red</string>
+  <string name="weather_retrieve_location_dialog_message">La geolocalización por red está desactivada.\n\nConfigura una ubicación personalizada o activa la geolocalización por red</string>
   <string name="weather_retrieve_location_dialog_enable_button">Activar</string>
   <string name="weather_invert_lowhigh">Invertir las temperaturas mínimas/máximas</string>
   <string name="weather_progress_title">Verificando ubicación</string>
   <string name="weather_alternate_icons_title">Usar íconos de color</string>
-  <string name="weather_alternate_icons_summary">Seleccionar para alternar entre los íconos de color predeterminado (Color) y los alternativos (Blanco)</string>
+  <string name="weather_alternate_icons_summary">Seleccionar para alternar entre los íconos de color predefinido (Color) y los alternativos (Blanco)</string>
   <string name="weather_show_when_minimized_title">Mostrar al estar minimizado</string>
   <string name="weather_show_when_minimized_summary">Mostrar la información climática cuando el widget esté minimizado</string>
   <string name="weather_select_location">Seleccionar ubicación</string>
@@ -158,7 +158,7 @@
   <string name="calendar_hide_allday_title">Ocultar eventos de todo el día</string>
   <string name="calendar_icon_title">Ícono de calendario</string>
   <string name="calendar_lookahead_title">Eventos futuros</string>
-  <string name="calendar_show_location_title">Lugar del evento</string>
+  <string name="calendar_show_location_title">Ubucación del evento</string>
   <string name="calendar_show_description_title">Descripción del evento</string>
   <string name="calendar_upcoming_events_category">Próximos eventos</string>
   <string name="calendar_highlight_upcoming_events_title">Resaltar eventos</string>

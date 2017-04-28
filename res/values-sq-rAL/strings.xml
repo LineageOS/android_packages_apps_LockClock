@@ -17,32 +17,182 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
+  <string name="unknown">E panjohur</string>
+  <string name="cancel">Anullo</string>
+  <string name="loading_indicator">Duke ngarkuar widget-in\u2026</string>
+  <string name="menu_done">U krye</string>
   <!-- Formating strings for widget clock -->
   <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
          android.text.format.DateFormat uses k for hours in the 0-23 range.
          We need to support both -->
   <!-- Weather - Weather codes -->
+  <string name="weather_0">Tornado</string>
+  <string name="weather_1">Stuhi Tropikale</string>
+  <string name="weather_2">Uragan</string>
+  <string name="weather_3">Stuhira të Fuqishme</string>
+  <string name="weather_4">Stuhira</string>
+  <string name="weather_5">Përzjerje shiu dhe bore</string>
+  <string name="weather_6">Shi i përzierë me borë të shkrirë</string>
+  <string name="weather_7">Borë e përzierë me borë të shkrirë</string>
+  <string name="weather_8">Shi i imët dhe i ngrirë</string>
+  <string name="weather_9">Shi i imët</string>
+  <string name="weather_10">Shi i ngrirë</string>
+  <string name="weather_11">Rreshje</string>
+  <string name="weather_12">Rreshje</string>
+  <string name="weather_13">Rreshje të lehta bore</string>
+  <string name="weather_14">Rreshje të lehta bore</string>
+  <string name="weather_15">Borë me erë</string>
+  <string name="weather_16">Borë</string>
+  <string name="weather_17">Breshër</string>
+  <string name="weather_18">Borë e shkrirë</string>
+  <string name="weather_19">Pluhur</string>
+  <string name="weather_20">Me mjegull</string>
+  <string name="weather_21">Mjegull e dendur</string>
+  <string name="weather_22">E nxirë</string>
+  <string name="weather_23">Stuhi e vrullshme</string>
+  <string name="weather_24">Me erë</string>
+  <string name="weather_25">Ftohtë</string>
+  <string name="weather_26">Vranësirë</string>
   <!-- Night -->
+  <string name="weather_27">Kryesisht me re</string>
   <!-- Day -->
+  <string name="weather_28">Kryesisht me re</string>
   <!-- Night -->
+  <string name="weather_29">Pjesërisht me re</string>
   <!-- Day -->
+  <string name="weather_30">Pjesërisht me re</string>
   <!-- Night -->
+  <string name="weather_31">I kthjellët</string>
+  <string name="weather_32">Me diell</string>
   <!-- Night -->
+  <string name="weather_33">I hapur, pak re</string>
   <!-- Day -->
+  <string name="weather_34">I hapur, pak re</string>
+  <string name="weather_35">Përzjerje shiu dhe breshëri</string>
+  <string name="weather_36">Nxehtë</string>
+  <string name="weather_37">Stuhi të izoluara</string>
+  <string name="weather_38">Stuhi të shpërndara</string>
+  <string name="weather_39">Stuhi të shpërndara</string>
+  <string name="weather_40">Rreshje të shpërndara</string>
+  <string name="weather_41">Borë e fortë</string>
+  <string name="weather_42">Rreshje bore të shpërndara</string>
+  <string name="weather_43">Borë e fortë</string>
+  <string name="weather_44">Pjesërisht me re</string>
+  <string name="weather_45">Stuhi dhe rreshje</string>
+  <string name="weather_46">Rreshje bore</string>
+  <string name="weather_47">Stuhi dhe rreshje të izoluara</string>
   <!-- Forecast unavailable -->
   <!-- Weather - Speed units -->
+  <string name="weather_kph">km/h</string>
+  <string name="weather_mph">mph</string>
   <!-- Weather - Wind directions -->
+  <string name="weather_N">V</string>
+  <string name="weather_NE">VL</string>
+  <string name="weather_E">L</string>
+  <string name="weather_SE">JL</string>
+  <string name="weather_S">J</string>
+  <string name="weather_SW">JP</string>
+  <string name="weather_W">P</string>
+  <string name="weather_NW">VP</string>
   <!-- Weather - Error messages -->
+  <string name="weather_no_data">Nuk ka të dhëna</string>
+  <string name="weather_tap_to_refresh">Kliko per të rifreskuar</string>
+  <string name="weather_refreshing">Duke rifreskuar</string>
+  <string name="weather_last_sync_just_now">Tani</string>
+  <string name="weather_cannot_reach_provider">E pamundur lidhja me %s për momentin</string>
+  <string name="weather_source_not_selected">Nuk është zgjedhur asnjë burim moti</string>
+  <string name="weather_tap_to_select_source">Shtyp për të zgjedhur</string>
   <!-- Weather - Update frequency -->
+  <string name="weather_refresh_manual">Manualisht</string>
+  <string name="weather_refresh_30min">30 minuta</string>
+  <string name="weather_refresh_60min">60 minuta</string>
+  <string name="weather_refresh_2hrs">2 orë</string>
+  <string name="weather_refresh_4hrs">4 orë</string>
+  <string name="weather_refresh_6hrs">6 orë</string>
+  <string name="weather_refresh_8hrs">8 orë</string>
   <!-- Preferences - Categories -->
+  <string name="clock_category">Ora dhe alarmet</string>
+  <string name="weather_category">Paneli i motit</string>
+  <string name="calendar_category">Evenimentet e kalendarit</string>
   <!-- Preferences - Categories -->
+  <string name="general_category">Të përgjithshme</string>
+  <string name="display_category">Pamja</string>
   <!-- Preferences - Clock -->
+  <string name="use_digital_clock_title">Përdor orë dixhitale</string>
+  <string name="use_digital_clock_summary">Zgjidh midis orës me akrepa dhe orës dixhitale</string>
+  <string name="clock_font_title">Ora me numra të zinj</string>
+  <string name="clock_font_minutes_title">Minutat me numra të zinj</string>
+  <string name="clock_font_date_title">Data dhe alarmi me numra të zinj</string>
+  <string name="show_alarm_title">Trego alarmin e radhës</string>
+  <string name="clock_am_pm_title">Shfaq treguesin AM/PM</string>
   <!-- Preferences - Weather -->
+  <string name="weather_enabled">I aktivizuar</string>
+  <string name="weather_enable">Trego motin</string>
+  <string name="weather_source_title">Burimi i motit</string>
+  <string name="weather_use_custom_location">Përdor vendndodhje të personalizuar</string>
+  <string name="weather_geolocated">Përdor rrjetin për të gjetur vendndodhjen</string>
+  <string name="weather_custom_location_dialog_title">Vendos vendndodhjen</string>
+  <string name="weather_custom_location_hint">Qyteti, Rrethi/Shteti</string>
+  <string name="weather_custom_location_title">Vendndodhja</string>
+  <string name="weather_show_location_title">Trego vendndodhjen</string>
+  <string name="weather_show_timestamp_title">Trego datën dhe orën</string>
+  <string name="weather_refresh_interval">Intervali i përditësimit</string>
+  <string name="weather_use_metric">Përdor sistemin metrik</string>
+  <string name="weather_retrieve_location_dialog_title">Nuk mund të përcaktohet vendndodhja!</string>
+  <string name="weather_retrieve_location_dialog_message">Opsioni për gjetjen e vendndodhjes me anë të rrjetit është i çaktivizuar.\n\nCakto një vendndodhje ose aktivizo gjetjen e vendndodhjes me anë të rrjetit</string>
+  <string name="weather_retrieve_location_dialog_enable_button">Aktivizo</string>
+  <string name="weather_invert_lowhigh">Ndërro vendet e temperaturave minimale dhe maksimale</string>
+  <string name="weather_progress_title">Duke verifikuar vendndodhjen</string>
+  <string name="weather_alternate_icons_title">Përdor ikona me ngjyra</string>
+  <string name="weather_show_when_minimized_title">Shfaq kur minimizohet</string>
+  <string name="weather_show_when_minimized_summary">Trego një përmbledhje të motit kur widget është i minimizuar</string>
+  <string name="weather_select_location">Zgjidh vendndodhjen</string>
   <!-- Preferences - Calendar -->
+  <string name="calendar_title">Trego evenimentin e radhës</string>
+  <string name="calendars_title">Kalendari i evenimenteve</string>
+  <string name="calendars_summary">Gjej evenimente nga këta kalendarë</string>
+  <string name="calendars_none_found_summary">Nuk u gjet asnjë kalendar</string>
+  <string name="calendar_reminders_only_title">Vetëm kujtesat</string>
+  <string name="calendar_reminders_only_summary">Trego vetëm evenimente me kujtesa</string>
+  <string name="calendar_hide_allday_title">Fshihi evenimentet që zgjasin gjatë gjithë ditës</string>
+  <string name="calendar_icon_title">Ikona e kalendarit</string>
+  <string name="calendar_show_location_title">Vendndodhja e evenimentit</string>
+  <string name="calendar_show_description_title">Përshkrimi i evenimentit</string>
   <!-- Preferences - Font colors -->
   <!-- Preferences - Background color -->
+  <string name="background_color">Ngjyra e sfondit</string>
+  <string name="background_transparency">Tejdukshmëria e sfondit</string>
   <!-- Calendar - Lookahead -->
+  <string name="calendar_lookahead_3hrs">3 orë</string>
+  <string name="calendar_lookahead_6hrs">6 orë</string>
+  <string name="calendar_lookahead_12hrs">12 orë</string>
+  <string name="calendar_lookahead_today">Sot</string>
+  <string name="calendar_lookahead_1day">1 ditë</string>
+  <string name="calendar_lookahead_3days">3 ditë</string>
+  <string name="calendar_lookahead_1wk">1 javë</string>
+  <string name="calendar_lookahead_2wks">2 javë</string>
+  <string name="calendar_lookahead_4wks">4 javë</string>
   <!-- Calendar - Event metadata -->
+  <string name="calendar_metadata_none">Mos e trego</string>
+  <string name="calendar_metadata_first_line">Trego rreshtin e parë</string>
+  <string name="calendar_metadata_all">Trego të gjitha</string>
   <!-- Font colors -->
+  <string name="white">E bardhë</string>
+  <string name="grey">Gri</string>
+  <string name="black">E zezë</string>
+  <string name="holo_blue_light">Blu e çelur</string>
+  <string name="holo_green_light">E gjelbërt e çelur</string>
+  <string name="holo_red_light">E kuqe e çelur</string>
+  <string name="holo_blue_dark">Blu e errët</string>
+  <string name="holo_green_dark">E gjelbërt e errët</string>
+  <string name="holo_red_dark">E kuqe e errët</string>
+  <string name="holo_purple">Lejla</string>
+  <string name="holo_orange_light">Portokalli e çelur</string>
+  <string name="holo_orange_dark">Portokalli e errët</string>
+  <string name="holo_blue_bright">Blu e shndritshme</string>
   <!-- Weather icon sets -->
+  <string name="weather_icon_set_title">Kompleti i ikonave</string>
+  <string name="weather_icons_standard">Të ngjyrosura</string>
+  <string name="weather_icons_monochrome">Monokromatike</string>
+  <string name="icon_set_selection_get_more">Merr të tjera\u2026</string>
 </resources>
