@@ -96,8 +96,8 @@
   <string name="weather_NW">북서</string>
   <!-- Weather - Error messages -->
   <string name="weather_no_data">데이터 없음</string>
-  <string name="weather_tap_to_refresh">탭하여 새로 고침</string>
-  <string name="weather_refreshing">새로 고침 중</string>
+  <string name="weather_tap_to_refresh">탭하여 새로고침</string>
+  <string name="weather_refreshing">새로 고치는 중</string>
   <string name="weather_last_sync_just_now">방금 전</string>
   <string name="weather_cannot_reach_provider">%s에 접속할 수 없음</string>
   <string name="weather_source_not_selected">날씨 제공자 선택하지 않음</string>
@@ -135,8 +135,8 @@
   <string name="weather_custom_location_hint">시/도</string>
   <string name="weather_custom_location_title">위치</string>
   <string name="weather_show_location_title">위치 표시</string>
-  <string name="weather_show_timestamp_title">새로 고침 시간 표시</string>
-  <string name="weather_refresh_interval">새로 고침 간격</string>
+  <string name="weather_show_timestamp_title">업데이트 시간 표시</string>
+  <string name="weather_refresh_interval">새로고침 간격</string>
   <string name="weather_use_metric">미터법 사용</string>
   <string name="weather_retrieve_location_dialog_title">위치를 받아올 수 없음</string>
   <string name="weather_retrieve_location_dialog_message">네트워크 위치가 비활성화되어 있습니다.\n\n위치를 직접 지정하거나 네트워크 위치를 활성화해 주십시오</string>
