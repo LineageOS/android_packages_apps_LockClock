@@ -95,7 +95,7 @@
   <string name="weather_W">O</string>
   <string name="weather_NW">NO</string>
   <!-- Weather - Error messages -->
-  <string name="weather_no_data">No hay datos</string>
+  <string name="weather_no_data">Sin datos</string>
   <string name="weather_tap_to_refresh">Pulsa para actualizar</string>
   <string name="weather_refreshing">Actualizando</string>
   <string name="weather_last_sync_just_now">Ahora</string>
