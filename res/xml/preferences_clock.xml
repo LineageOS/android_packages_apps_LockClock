@@ -28,6 +28,11 @@
             android:defaultValue="true" />
 
         <SwitchPreference
+            android:key="clock_show_date"
+            android:title="@string/show_date_title"
+            android:defaultValue="true" />
+
+        <SwitchPreference
             android:key="clock_show_alarm"
             android:title="@string/show_alarm_title"
             android:defaultValue="true" />

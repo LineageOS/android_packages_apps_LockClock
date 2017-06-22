@@ -305,20 +305,21 @@ public class ClockWidgetService extends IntentService {
 
     private void refreshDateAlarmFont(RemoteViews clockViews, boolean smallWidget) {
         int color = Preferences.clockFontColor(this);
+        boolean showDate = Preferences.showDate(this);
 
         // Date and Alarm font
         if (!smallWidget) {
             if (Preferences.useBoldFontForDateAndAlarms(this)) {
-                clockViews.setViewVisibility(R.id.date_bold, View.VISIBLE);
+                clockViews.setViewVisibility(R.id.date_bold, showDate ? View.VISIBLE : View.GONE);
                 clockViews.setViewVisibility(R.id.date_regular, View.GONE);
                 clockViews.setTextColor(R.id.date_bold, color);
             } else {
-                clockViews.setViewVisibility(R.id.date_regular, View.VISIBLE);
+                clockViews.setViewVisibility(R.id.date_regular, showDate ? View.VISIBLE : View.GONE);
                 clockViews.setViewVisibility(R.id.date_bold, View.GONE);
                 clockViews.setTextColor(R.id.date_regular, color);
             }
         } else {
-            clockViews.setViewVisibility(R.id.date, View.VISIBLE);
+            clockViews.setViewVisibility(R.id.date, showDate ? View.VISIBLE : View.GONE);
             clockViews.setTextColor(R.id.date, color);
         }
 
