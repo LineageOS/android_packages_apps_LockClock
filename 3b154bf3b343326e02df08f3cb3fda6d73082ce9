@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_0bb1f7e0",
+        "filename": "src/com/cyanogenmod/lockclock/ClockWidgetService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-06-22T17:31:51Z",
+      "side": 1,
+      "message": "this is becoming a horrible mess...",
+      "range": {
+        "startLine": 312,
+        "startChar": 0,
+        "endLine": 335,
+        "endChar": 13
+      },
+      "revId": "3b154bf3b343326e02df08f3cb3fda6d73082ce9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
