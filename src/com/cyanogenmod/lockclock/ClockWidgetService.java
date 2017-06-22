@@ -309,16 +309,30 @@ public class ClockWidgetService extends IntentService {
         // Date and Alarm font
         if (!smallWidget) {
             if (Preferences.useBoldFontForDateAndAlarms(this)) {
-                clockViews.setViewVisibility(R.id.date_bold, View.VISIBLE);
-                clockViews.setViewVisibility(R.id.date_regular, View.GONE);
+                if (Preferences.showDate(this)) {
+                    clockViews.setViewVisibility(R.id.date_bold, View.VISIBLE);
+                    clockViews.setViewVisibility(R.id.date_regular, View.GONE);
+                } else {
+                    clockViews.setViewVisibility(R.id.date_bold, View.GONE);
+                    clockViews.setViewVisibility(R.id.date_regular, View.GONE);
+                }
                 clockViews.setTextColor(R.id.date_bold, color);
             } else {
-                clockViews.setViewVisibility(R.id.date_regular, View.VISIBLE);
-                clockViews.setViewVisibility(R.id.date_bold, View.GONE);
+                if (Preferences.showDate(this)) {
+                    clockViews.setViewVisibility(R.id.date_regular, View.VISIBLE);
+                    clockViews.setViewVisibility(R.id.date_bold, View.GONE);
+                } else {
+                    clockViews.setViewVisibility(R.id.date_regular, View.GONE);
+                    clockViews.setViewVisibility(R.id.date_bold, View.GONE);
+                }
                 clockViews.setTextColor(R.id.date_regular, color);
             }
         } else {
-            clockViews.setViewVisibility(R.id.date, View.VISIBLE);
+            if (Preferences.showDate(this)) {
+                clockViews.setViewVisibility(R.id.date, View.VISIBLE);
+            } else {
+                clockViews.setViewVisibility(R.id.date, View.GONE);
+            }
             clockViews.setTextColor(R.id.date, color);
         }
 
