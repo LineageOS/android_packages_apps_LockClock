@@ -136,7 +136,7 @@
   <string name="weather_custom_location_title">Kokalekua</string>
   <string name="weather_show_location_title">Erakutsi kokalekua</string>
   <string name="weather_show_timestamp_title">Erakutsi ordua eta data</string>
-  <string name="weather_refresh_interval">Eguneraketaren maiztasuna</string>
+  <string name="weather_refresh_interval">Eguneratze-maiztasuna</string>
   <string name="weather_use_metric">Sistema metrikoa erabili</string>
   <string name="weather_retrieve_location_dialog_title">Ezin da kokalekua eskuratu!</string>
   <string name="weather_retrieve_location_dialog_message">Sare bidezko geo-kokapena ezgaituta.\n\nEzarri kokaleku pertsonalizatua edo gaitu sare bidezko geo-kokapena</string>
