@@ -131,7 +131,7 @@
   <string name="weather_source_title">Fuente del clima</string>
   <string name="weather_use_custom_location">Usar ubicación personalizada</string>
   <string name="weather_geolocated">Geolocalizado por red</string>
-  <string name="weather_custom_location_dialog_title">Introducir ubicación</string>
+  <string name="weather_custom_location_dialog_title">Ingresar ubicación</string>
   <string name="weather_custom_location_hint">Ciudad, Estado/País</string>
   <string name="weather_custom_location_title">Ubicación</string>
   <string name="weather_show_location_title">Mostrar ubicación</string>
