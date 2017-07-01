@@ -75,11 +75,11 @@
   <string name="weather_39">Tormentas eléctricas dispersas</string>
   <string name="weather_40">Chubascos aislados</string>
   <string name="weather_41">Fuertes nevadas</string>
-  <string name="weather_42">Chubascos con nieve dispersos</string>
+  <string name="weather_42">Chubascos de nieve dispersos</string>
   <string name="weather_43">Fuertes nevadas</string>
   <string name="weather_44">Parcialmente nublado</string>
   <string name="weather_45">Chaparrones</string>
-  <string name="weather_46">Chubascos con nieve</string>
+  <string name="weather_46">Chubascos de nieve</string>
   <string name="weather_47">Chaparrones aislados</string>
   <!-- Forecast unavailable -->
   <!-- Weather - Speed units -->
@@ -99,8 +99,8 @@
   <string name="weather_tap_to_refresh">Pulsa para actualizar</string>
   <string name="weather_refreshing">Actualizando</string>
   <string name="weather_last_sync_just_now">Ahora</string>
-  <string name="weather_cannot_reach_provider">No se puede conectar con %s por el momento</string>
-  <string name="weather_source_not_selected">No ha seleccionado ningún proveedor meteorológico</string>
+  <string name="weather_cannot_reach_provider">Imposible acceder en este momento a %s</string>
+  <string name="weather_source_not_selected">Sin proveedor meteorológico seleccionado</string>
   <string name="weather_tap_to_select_source">Pulsa para seleccionar uno</string>
   <!-- Weather - Update frequency -->
   <string name="weather_refresh_manual">Manual</string>
@@ -112,7 +112,7 @@
   <string name="weather_refresh_8hrs">8 horas</string>
   <!-- Preferences - Categories -->
   <string name="clock_category">Reloj y alarma</string>
-  <string name="weather_category">Panel del tiempo</string>
+  <string name="weather_category">Panel climático</string>
   <string name="calendar_category">Evento de calendario</string>
   <!-- Preferences - Categories -->
   <string name="general_category">General</string>
@@ -128,9 +128,9 @@
   <!-- Preferences - Weather -->
   <string name="weather_enabled">Activado</string>
   <string name="weather_enable">Mostrar clima</string>
-  <string name="weather_source_title">Fuente del clima</string>
+  <string name="weather_source_title">Servicio meteorológico</string>
   <string name="weather_use_custom_location">Usar ubicación personalizada</string>
-  <string name="weather_geolocated">Geolocalizado por red</string>
+  <string name="weather_geolocated">Geolocalización por red</string>
   <string name="weather_custom_location_dialog_title">Ingresar ubicación</string>
   <string name="weather_custom_location_hint">Ciudad, Estado/País</string>
   <string name="weather_custom_location_title">Ubicación</string>
@@ -138,14 +138,14 @@
   <string name="weather_show_timestamp_title">Mostrar fecha y hora</string>
   <string name="weather_refresh_interval">Intervalo de actualización</string>
   <string name="weather_use_metric">Usar sistema métrico</string>
-  <string name="weather_retrieve_location_dialog_title">¡No se puede encontrar la ubicación!</string>
+  <string name="weather_retrieve_location_dialog_title">¡Imposible encontrar la ubicación!</string>
   <string name="weather_retrieve_location_dialog_message">La geolocalización por red está desactivada.\n\nConfigura una ubicación personalizada o activa la geolocalización por red</string>
   <string name="weather_retrieve_location_dialog_enable_button">Activar</string>
   <string name="weather_invert_lowhigh">Invertir las temperaturas mínimas/máximas</string>
   <string name="weather_progress_title">Verificando ubicación</string>
   <string name="weather_alternate_icons_title">Usar íconos de color</string>
-  <string name="weather_alternate_icons_summary">Seleccionar para alternar entre los íconos de color predefinido (Color) y los alternativos (Blanco)</string>
-  <string name="weather_show_when_minimized_title">Mostrar al estar minimizado</string>
+  <string name="weather_alternate_icons_summary">Seleccionar para alternar entre los iconos predefinidos en color y los iconos blancos</string>
+  <string name="weather_show_when_minimized_title">Mostrar al minimizar</string>
   <string name="weather_show_when_minimized_summary">Mostrar la información climática cuando el widget esté minimizado</string>
   <string name="weather_select_location">Seleccionar ubicación</string>
   <!-- Preferences - Calendar -->
@@ -158,7 +158,7 @@
   <string name="calendar_hide_allday_title">Ocultar eventos de todo el día</string>
   <string name="calendar_icon_title">Ícono de calendario</string>
   <string name="calendar_lookahead_title">Eventos futuros</string>
-  <string name="calendar_show_location_title">Ubucación del evento</string>
+  <string name="calendar_show_location_title">Ubicación del evento</string>
   <string name="calendar_show_description_title">Descripción del evento</string>
   <string name="calendar_upcoming_events_category">Próximos eventos</string>
   <string name="calendar_highlight_upcoming_events_title">Resaltar eventos</string>
