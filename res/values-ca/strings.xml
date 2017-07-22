@@ -123,6 +123,7 @@
   <string name="clock_font_title">Hores en negreta</string>
   <string name="clock_font_minutes_title">Minuts en negreta</string>
   <string name="clock_font_date_title">Data i alarma en negreta</string>
+  <string name="show_date_title">Mostra la data</string>
   <string name="show_alarm_title">Mostra la propera alarma</string>
   <string name="clock_am_pm_title">Mostra l\'indicador AM/PM</string>
   <!-- Preferences - Weather -->

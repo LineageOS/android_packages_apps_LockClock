@@ -123,6 +123,7 @@
   <string name="clock_font_title">Έντονη ώρα</string>
   <string name="clock_font_minutes_title">Έντονα λεπτά</string>
   <string name="clock_font_date_title">Έντονη ημερομηνία και ξυπνητήρι</string>
+  <string name="show_date_title">Εμφάνιση ημερομηνίας</string>
   <string name="show_alarm_title">Εμφάνιση επόμενου ξυπνητηριού</string>
   <string name="clock_am_pm_title">Εμφάνιση ένδειξης ΠΜ/ΜΜ</string>
   <!-- Preferences - Weather -->

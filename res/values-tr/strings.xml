@@ -123,6 +123,7 @@
   <string name="clock_font_title">Saatleri kalın göster</string>
   <string name="clock_font_minutes_title">Dakikaları kalın göster</string>
   <string name="clock_font_date_title">Tarih ve alarmı kalın göster</string>
+  <string name="show_date_title">Tarihi göster</string>
   <string name="show_alarm_title">Sonraki alarmı göster</string>
   <string name="clock_am_pm_title">ÖÖ/ÖS bildirimini göster</string>
   <!-- Preferences - Weather -->

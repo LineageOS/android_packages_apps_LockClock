@@ -123,6 +123,7 @@
   <string name="clock_font_title">Resaltar hora</string>
   <string name="clock_font_minutes_title">Resaltar minutos</string>
   <string name="clock_font_date_title">Resaltar fecha y alarma</string>
+  <string name="show_date_title">Mostrar fecha</string>
   <string name="show_alarm_title">Mostrar alarma siguiente</string>
   <string name="clock_am_pm_title">Mostrar indicador AM/PM</string>
   <!-- Preferences - Weather -->

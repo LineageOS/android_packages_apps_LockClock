@@ -123,6 +123,7 @@
   <string name="clock_font_title">小時使用粗體</string>
   <string name="clock_font_minutes_title">分鐘使用粗體</string>
   <string name="clock_font_date_title">日期與鬧鐘使用粗體</string>
+  <string name="show_date_title">顯示日期</string>
   <string name="show_alarm_title">顯示下一個鬧鐘</string>
   <string name="clock_am_pm_title">顯示上午/下午指示器</string>
   <!-- Preferences - Weather -->

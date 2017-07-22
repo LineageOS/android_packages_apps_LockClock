@@ -123,6 +123,7 @@
   <string name="clock_font_title">Stunden in Fettschrift</string>
   <string name="clock_font_minutes_title">Minuten in Fettschrift</string>
   <string name="clock_font_date_title">Datum und Alarm in Fettschrift</string>
+  <string name="show_date_title">Datum anzeigen</string>
   <string name="show_alarm_title">Nächsten Alarm anzeigen</string>
   <string name="clock_am_pm_title">Vorm./Nachm. anzeigen</string>
   <!-- Preferences - Weather -->

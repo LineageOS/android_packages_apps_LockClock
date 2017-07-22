@@ -123,6 +123,7 @@
   <string name="clock_font_title">שעות מודגשות</string>
   <string name="clock_font_minutes_title">דקות מודגשות</string>
   <string name="clock_font_date_title">שעון מעורר ותאריך מודגשים</string>
+  <string name="show_date_title">הצג תאריך</string>
   <string name="show_alarm_title">הצג שעון מעורר הבא</string>
   <string name="clock_am_pm_title">הצג מחוון AM/PM</string>
   <!-- Preferences - Weather -->

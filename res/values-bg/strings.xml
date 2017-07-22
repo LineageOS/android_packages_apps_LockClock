@@ -123,6 +123,7 @@
   <string name="clock_font_title">Удебели часа</string>
   <string name="clock_font_minutes_title">Удебели минутите</string>
   <string name="clock_font_date_title">Удебели датата и алармата</string>
+  <string name="show_date_title">Покажи дата</string>
   <string name="show_alarm_title">Покажи следваща аларма</string>
   <string name="clock_am_pm_title">Покажи индикатора AM/PM</string>
   <!-- Preferences - Weather -->

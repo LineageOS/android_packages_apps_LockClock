@@ -123,6 +123,7 @@
   <string name="clock_font_title">Tebal jam</string>
   <string name="clock_font_minutes_title">Tebal menit</string>
   <string name="clock_font_date_title">Tebal tanggal dan alarm</string>
+  <string name="show_date_title">Tampilkan tanggal</string>
   <string name="show_alarm_title">Tampilkan alarm berikutnya</string>
   <string name="clock_am_pm_title">Tampilkan indikator AM/PM</string>
   <!-- Preferences - Weather -->

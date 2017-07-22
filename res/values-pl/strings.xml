@@ -123,6 +123,7 @@
   <string name="clock_font_title">Pogrubione godziny</string>
   <string name="clock_font_minutes_title">Pogrubione minuty</string>
   <string name="clock_font_date_title">Pogrubione data i alarm</string>
+  <string name="show_date_title">Wyświetl datę</string>
   <string name="show_alarm_title">Wyświetl następny alarm</string>
   <string name="clock_am_pm_title">Pokaż wskaźnik AM/PM</string>
   <!-- Preferences - Weather -->

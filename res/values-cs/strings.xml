@@ -123,6 +123,7 @@
   <string name="clock_font_title">Zvýraznit hodiny</string>
   <string name="clock_font_minutes_title">Zvýraznit minuty</string>
   <string name="clock_font_date_title">Zvýraznit datum a budík</string>
+  <string name="show_date_title">Zobrazit datum</string>
   <string name="show_alarm_title">Zobrazit příští budík</string>
   <string name="clock_am_pm_title">Zobrazit AM/PM</string>
   <!-- Preferences - Weather -->

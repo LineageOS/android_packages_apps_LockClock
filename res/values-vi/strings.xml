@@ -123,6 +123,7 @@
   <string name="clock_font_title">Tô đậm giờ</string>
   <string name="clock_font_minutes_title">Tô đậm phút</string>
   <string name="clock_font_date_title">Tô đậm ngày và báo thức</string>
+  <string name="show_date_title">Hiển thị ngày</string>
   <string name="show_alarm_title">Hiển thị báo thức tiếp theo</string>
   <string name="clock_am_pm_title">Hiện chế độ giờ SA/CH</string>
   <!-- Preferences - Weather -->

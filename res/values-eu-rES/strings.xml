@@ -123,6 +123,7 @@
   <string name="clock_font_title">Nabarmendu orduak</string>
   <string name="clock_font_minutes_title">Nabarmendu minutuak</string>
   <string name="clock_font_date_title">Nabarmendu data eta alarma</string>
+  <string name="show_date_title">Erakutsi data</string>
   <string name="show_alarm_title">Erakutsi hurrengo alarama</string>
   <string name="clock_am_pm_title">Erakutsi AM/PM adierazlea</string>
   <!-- Preferences - Weather -->

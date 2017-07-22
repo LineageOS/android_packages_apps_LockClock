@@ -123,6 +123,7 @@
   <string name="clock_font_title">Подебљани сати</string>
   <string name="clock_font_minutes_title">Подебљани минути</string>
   <string name="clock_font_date_title">Подебљани датум и аларм</string>
+  <string name="show_date_title">Прикажи датум</string>
   <string name="show_alarm_title">Прикажи следећи аларм</string>
   <string name="clock_am_pm_title">Прикажи AM/PM индикатор</string>
   <!-- Preferences - Weather -->

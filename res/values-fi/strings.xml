@@ -123,6 +123,7 @@
   <string name="clock_font_title">Lihavoi tunnit</string>
   <string name="clock_font_minutes_title">Lihavoi minuutit</string>
   <string name="clock_font_date_title">Lihavoi päivä ja hälytys</string>
+  <string name="show_date_title">Näytä päivämäärä</string>
   <string name="show_alarm_title">Näytä seuraava hälytys</string>
   <string name="clock_am_pm_title">Näytä AM/PM tunniste</string>
   <!-- Preferences - Weather -->

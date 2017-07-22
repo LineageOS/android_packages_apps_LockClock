@@ -123,6 +123,7 @@
   <string name="clock_font_title">Часы полужирным</string>
   <string name="clock_font_minutes_title">Минуты полужирным</string>
   <string name="clock_font_date_title">Дата и будильник полужирным</string>
+  <string name="show_date_title">Показывать дату</string>
   <string name="show_alarm_title">Показывать будильник</string>
   <string name="clock_am_pm_title">Показывать индикатор «AM/PM»</string>
   <!-- Preferences - Weather -->
