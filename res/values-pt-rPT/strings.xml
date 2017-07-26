@@ -123,6 +123,7 @@
   <string name="clock_font_title">Horas a negrito</string>
   <string name="clock_font_minutes_title">Minutos a negrito</string>
   <string name="clock_font_date_title">Data e alarme a negrito</string>
+  <string name="show_date_title">Mostrar data</string>
   <string name="show_alarm_title">Mostrar próximo alarme</string>
   <string name="clock_am_pm_title">Mostrar indicador AM/PM</string>
   <!-- Preferences - Weather -->
