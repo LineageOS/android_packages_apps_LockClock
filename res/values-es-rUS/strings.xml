@@ -153,8 +153,8 @@
   <string name="calendars_title">Calendario de eventos</string>
   <string name="calendars_summary">Buscar eventos en estos calendarios</string>
   <string name="calendars_none_found_summary">No se encontraron calendarios</string>
-  <string name="calendar_reminders_only_title">Solo recordatorios</string>
-  <string name="calendar_reminders_only_summary">Mostrar solo eventos con recordatorios</string>
+  <string name="calendar_reminders_only_title">Sólo recordatorios</string>
+  <string name="calendar_reminders_only_summary">Mostrar sólo eventos con recordatorios</string>
   <string name="calendar_hide_allday_title">Ocultar eventos de todo el día</string>
   <string name="calendar_icon_title">Ícono de calendario</string>
   <string name="calendar_lookahead_title">Eventos futuros</string>
