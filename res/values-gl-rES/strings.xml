@@ -123,6 +123,7 @@
   <string name="clock_font_title">Salientar horas</string>
   <string name="clock_font_minutes_title">Salientar minutos</string>
   <string name="clock_font_date_title">Salientar a data e a alarma</string>
+  <string name="show_date_title">Amosar data</string>
   <string name="show_alarm_title">Amosar a alarma seguinte</string>
   <string name="clock_am_pm_title">Amosar o indicador AM/PM</string>
   <!-- Preferences - Weather -->
