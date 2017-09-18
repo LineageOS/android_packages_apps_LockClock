@@ -123,6 +123,7 @@
   <string name="clock_font_title">Ure vetgedruk</string>
   <string name="clock_font_minutes_title">Minute vetgedruk</string>
   <string name="clock_font_date_title">Datum en alarm vetgedruk</string>
+  <string name="show_date_title">Toon datum</string>
   <string name="show_alarm_title">Wys opkomende alarm</string>
   <string name="clock_am_pm_title">Wys VM/NM indikator</string>
   <!-- Preferences - Weather -->
