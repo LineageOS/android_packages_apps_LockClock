@@ -163,7 +163,7 @@
   <string name="calendar_show_description_title">事件說明</string>
   <string name="calendar_upcoming_events_category">即將開始的事件</string>
   <string name="calendar_highlight_upcoming_events_title">強調顯示事件</string>
-  <string name="calendar_highlight_upcoming_events_summary">強調顯示今日事件、晚上 8 點之後的活動以及隔天的事件</string>
+  <string name="calendar_highlight_upcoming_events_summary">強調顯示今日事件、晚上 8 點之後以及隔天的事件</string>
   <string name="calendar_highlight_upcoming_events_bold">粗體</string>
   <!-- Preferences - Font colors -->
   <string name="font_color">字體顏色</string>

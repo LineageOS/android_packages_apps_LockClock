@@ -123,6 +123,7 @@
   <string name="clock_font_title">Години напівжирними</string>
   <string name="clock_font_minutes_title">Хвилини напівжирними</string>
   <string name="clock_font_date_title">Дата та будильник напівжирними</string>
+  <string name="show_date_title">Показувати дату</string>
   <string name="show_alarm_title">Показувати будильник</string>
   <string name="clock_am_pm_title">Показувати AM/PM індикатор</string>
   <!-- Preferences - Weather -->
