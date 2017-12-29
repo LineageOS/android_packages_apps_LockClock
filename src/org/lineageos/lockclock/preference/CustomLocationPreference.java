@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.preference;
+package org.lineageos.lockclock.preference;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -28,16 +28,16 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import cyanogenmod.weather.CMWeatherManager;
-import cyanogenmod.weather.WeatherLocation;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.Preferences;
+import lineageos.weather.LineageWeatherManager;
+import lineageos.weather.WeatherLocation;
 
 import java.util.HashSet;
 import java.util.List;
 
 public class CustomLocationPreference extends EditTextPreference
-        implements CMWeatherManager.LookupCityRequestListener {
+        implements LineageWeatherManager.LookupCityRequestListener {
     public CustomLocationPreference(Context context) {
         super(context);
     }
@@ -64,7 +64,7 @@ public class CustomLocationPreference extends EditTextPreference
                 CustomLocationPreference.this.onClick(d, DialogInterface.BUTTON_POSITIVE);
                 final String customLocationToLookUp = getEditText().getText().toString();
                 if (TextUtils.equals(customLocationToLookUp, "")) return;
-                final CMWeatherManager weatherManager = CMWeatherManager.getInstance(getContext());
+                final LineageWeatherManager weatherManager = LineageWeatherManager.getInstance(getContext());
                 mProgressDialog = new ProgressDialog(getContext());
                 mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
                 mProgressDialog.setMessage(getContext().getString(R.string.weather_progress_title));

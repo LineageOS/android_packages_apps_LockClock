@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.misc;
+package org.lineageos.lockclock.misc;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import com.cyanogenmod.lockclock.weather.Utils;
-import cyanogenmod.weather.WeatherInfo;
-import cyanogenmod.weather.WeatherLocation;
+import org.lineageos.lockclock.weather.Utils;
+import lineageos.weather.WeatherInfo;
+import lineageos.weather.WeatherLocation;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

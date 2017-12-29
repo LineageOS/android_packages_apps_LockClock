@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.preference;
+package org.lineageos.lockclock.preference;
 
 import android.content.Context;
 import android.content.Intent;
@@ -27,9 +27,9 @@ import android.preference.PreferenceFragment;
 import android.preference.SwitchPreference;
 import android.text.format.DateFormat;
 
-import com.cyanogenmod.lockclock.ClockWidgetProvider;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.Constants;
+import org.lineageos.lockclock.ClockWidgetProvider;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.Constants;
 
 public class ClockPreferences extends PreferenceFragment implements
     OnSharedPreferenceChangeListener {

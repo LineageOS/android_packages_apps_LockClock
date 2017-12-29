@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock;
+package org.lineageos.lockclock;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -22,13 +22,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import com.cyanogenmod.lockclock.misc.WidgetUtils;
-import com.cyanogenmod.lockclock.weather.ForecastActivity;
-import com.cyanogenmod.lockclock.weather.Utils;
-import com.cyanogenmod.lockclock.weather.WeatherSourceListenerService;
-import com.cyanogenmod.lockclock.weather.WeatherUpdateService;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.misc.Preferences;
+import org.lineageos.lockclock.misc.WidgetUtils;
+import org.lineageos.lockclock.weather.ForecastActivity;
+import org.lineageos.lockclock.weather.Utils;
+import org.lineageos.lockclock.weather.WeatherSourceListenerService;
+import org.lineageos.lockclock.weather.WeatherUpdateService;
 
 public class ClockWidgetProvider extends AppWidgetProvider {
     private static final String TAG = "ClockWidgetProvider";

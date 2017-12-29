@@ -15,9 +15,11 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cyanogenmod.lockclock"
+    package="org.lineageos.lockclock"
     android:versionCode="22"
     android:versionName="3.5" >
+
+    <original-package android:name="com.cyanogenmod.lockclock" />
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="24" />
 
@@ -26,7 +28,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET" />
-    <protected-broadcast android:name="com.cyanogenmod.lockclock.action.FORCE_WEATHER_UPDATE" />
+    <protected-broadcast android:name="org.lineageos.lockclock.action.FORCE_WEATHER_UPDATE" />
 
     <!-- Calendar -->
     <uses-permission android:name="android.permission.READ_CALENDAR" />
@@ -35,8 +37,8 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-permission android:name="cyanogenmod.permission.ACCESS_WEATHER_MANAGER" />
-    <uses-permission android:name="cyanogenmod.permission.READ_WEATHER" />
+    <uses-permission android:name="lineageos.permission.ACCESS_WEATHER_MANAGER" />
+    <uses-permission android:name="lineageos.permission.READ_WEATHER" />
 
     <application
         android:allowBackup="true"
@@ -88,7 +90,7 @@
                 <action android:name="android.intent.action.LOCALE_CHANGED"/>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <action android:name="com.android.deskclock.NEXT_ALARM_TIME_SET"/>
-                <action android:name="com.cyanogenmod.lockclock.action.SHOW_FORECAST" />
+                <action android:name="org.lineageos.lockclock.action.SHOW_FORECAST" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.PROVIDER_CHANGED"/>

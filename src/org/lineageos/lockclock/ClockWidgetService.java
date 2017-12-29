@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock;
+package org.lineageos.lockclock;
 
 import android.app.AlarmManager;
 import android.app.IntentService;
@@ -33,18 +33,18 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.RemoteViews;
-import com.cyanogenmod.lockclock.calendar.CalendarViewsService;
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.misc.IconUtils;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import com.cyanogenmod.lockclock.misc.WidgetUtils;
-import com.cyanogenmod.lockclock.weather.Utils;
-import com.cyanogenmod.lockclock.weather.WeatherUpdateService;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.TempUnit.FAHRENHEIT;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.TempUnit.CELSIUS;
-import cyanogenmod.weather.CMWeatherManager;
-import cyanogenmod.weather.WeatherInfo;
-import cyanogenmod.weather.util.WeatherUtils;
+import org.lineageos.lockclock.calendar.CalendarViewsService;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.misc.IconUtils;
+import org.lineageos.lockclock.misc.Preferences;
+import org.lineageos.lockclock.misc.WidgetUtils;
+import org.lineageos.lockclock.weather.Utils;
+import org.lineageos.lockclock.weather.WeatherUpdateService;
+import static lineageos.providers.WeatherContract.WeatherColumns.TempUnit.FAHRENHEIT;
+import static lineageos.providers.WeatherContract.WeatherColumns.TempUnit.CELSIUS;
+import lineageos.weather.LineageWeatherManager;
+import lineageos.weather.WeatherInfo;
+import lineageos.weather.util.WeatherUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -54,9 +54,9 @@ public class ClockWidgetService extends IntentService {
     private static final String TAG = "ClockWidgetService";
     private static final boolean D = Constants.DEBUG;
 
-    public static final String ACTION_REFRESH = "com.cyanogenmod.lockclock.action.REFRESH_WIDGET";
-    public static final String ACTION_REFRESH_CALENDAR = "com.cyanogenmod.lockclock.action.REFRESH_CALENDAR";
-    public static final String ACTION_HIDE_CALENDAR = "com.cyanogenmod.lockclock.action.HIDE_CALENDAR";
+    public static final String ACTION_REFRESH = "org.lineageos.lockclock.action.REFRESH_WIDGET";
+    public static final String ACTION_REFRESH_CALENDAR = "org.lineageos.lockclock.action.REFRESH_CALENDAR";
+    public static final String ACTION_HIDE_CALENDAR = "org.lineageos.lockclock.action.HIDE_CALENDAR";
 
     // This needs to be static to persist between refreshes until explicitly changed by an intent
     private static boolean mHideCalendar = false;
@@ -513,7 +513,7 @@ public class ClockWidgetService extends IntentService {
         boolean firstRun = Preferences.isFirstWeatherUpdate(this);
 
         // Hide the normal weather stuff
-        final CMWeatherManager weatherManager = CMWeatherManager.getInstance(mContext);
+        final LineageWeatherManager weatherManager = LineageWeatherManager.getInstance(mContext);
         final String activeProviderLabel = weatherManager.getActiveWeatherServiceProviderLabel();
         String noData;
         if (activeProviderLabel != null) {
@@ -577,7 +577,7 @@ public class ClockWidgetService extends IntentService {
 
     private void setWeatherClickListener(RemoteViews weatherViews) {
         PendingIntent pi = PendingIntent.getActivity(mContext, 0,
-                new Intent("cyanogenmod.intent.action.MANAGE_WEATHER_PROVIDER_SERVICES"),
+                new Intent("lineageos.intent.action.MANAGE_WEATHER_PROVIDER_SERVICES"),
                         PendingIntent.FLAG_UPDATE_CURRENT);
         weatherViews.setOnClickPendingIntent(R.id.weather_panel, pi);
     }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.preference;
+package org.lineageos.lockclock.preference;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -45,7 +45,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.cyanogenmod.lockclock.R;
+import org.lineageos.lockclock.R;
 
 public class IconSelectionPreference extends DialogPreference implements
         AdapterView.OnItemClickListener {

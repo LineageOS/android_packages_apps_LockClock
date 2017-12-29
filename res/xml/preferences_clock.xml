@@ -87,7 +87,7 @@
             android:entryValues="@array/font_color_values" />
 
         <!-- Background transparency selection -->
-        <com.cyanogenmod.lockclock.preference.BackgroundTransparency
+        <org.lineageos.lockclock.preference.BackgroundTransparency
                 android:key="clock_background_transparency"
                 android:title="@string/background_transparency"
                 android:dialogTitle="@string/background_transparency"

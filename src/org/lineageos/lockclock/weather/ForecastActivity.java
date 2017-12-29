@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.weather;
+package org.lineageos.lockclock.weather;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -32,10 +32,10 @@ import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import com.cyanogenmod.lockclock.misc.WidgetUtils;
-import cyanogenmod.weather.WeatherInfo;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.Preferences;
+import org.lineageos.lockclock.misc.WidgetUtils;
+import lineageos.weather.WeatherInfo;
 
 public class ForecastActivity extends Activity implements OnClickListener {
     private static final String TAG = "ForecastActivity";

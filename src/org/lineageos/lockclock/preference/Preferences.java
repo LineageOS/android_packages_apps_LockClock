@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.preference;
+package org.lineageos.lockclock.preference;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
@@ -24,8 +24,8 @@ import android.preference.PreferenceActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.weather.Utils;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.weather.Utils;
 
 import java.util.List;
 

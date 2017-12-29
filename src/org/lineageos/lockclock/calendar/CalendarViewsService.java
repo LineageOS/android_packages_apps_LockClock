@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.calendar;
+package org.lineageos.lockclock.calendar;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -37,12 +37,12 @@ import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 import android.widget.RemoteViewsService.RemoteViewsFactory;
 
-import com.cyanogenmod.lockclock.ClockWidgetProvider;
-import com.cyanogenmod.lockclock.ClockWidgetService;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.calendar.CalendarInfo.EventInfo;
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.misc.Preferences;
+import org.lineageos.lockclock.ClockWidgetProvider;
+import org.lineageos.lockclock.ClockWidgetService;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.calendar.CalendarInfo.EventInfo;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.misc.Preferences;
 
 import java.util.Calendar;
 import java.util.Date;

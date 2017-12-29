@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.weather;
+package org.lineageos.lockclock.weather;
 
 import android.Manifest;
 import android.app.Activity;

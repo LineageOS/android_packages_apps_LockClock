@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.misc;
+package org.lineageos.lockclock.misc;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -29,8 +29,8 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.weather.Utils;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.weather.Utils;
 
 public class IconUtils {
     private static final String TAG = "IconUtils";

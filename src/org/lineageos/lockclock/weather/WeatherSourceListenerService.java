@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.weather;
+package org.lineageos.lockclock.weather;
 
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
-import com.cyanogenmod.lockclock.ClockWidgetService;
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import cyanogenmod.weather.CMWeatherManager;
+import org.lineageos.lockclock.ClockWidgetService;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.misc.Preferences;
+import lineageos.weather.LineageWeatherManager;
 
 public class WeatherSourceListenerService extends Service
-        implements CMWeatherManager.WeatherServiceProviderChangeListener {
+        implements LineageWeatherManager.WeatherServiceProviderChangeListener {
 
     private static final String TAG = WeatherSourceListenerService.class.getSimpleName();
     private static final boolean D = Constants.DEBUG;
@@ -63,8 +63,8 @@ public class WeatherSourceListenerService extends Service
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        final CMWeatherManager weatherManager
-                = CMWeatherManager.getInstance(mContext);
+        final LineageWeatherManager weatherManager
+                = LineageWeatherManager.getInstance(mContext);
         weatherManager.registerWeatherServiceProviderChangeListener(this);
         mRegistered = true;
         if (D) Log.d(TAG, "Listener registered");
@@ -74,7 +74,7 @@ public class WeatherSourceListenerService extends Service
     @Override
     public void onDestroy() {
         if (mRegistered) {
-            final CMWeatherManager weatherManager = CMWeatherManager.getInstance(mContext);
+            final LineageWeatherManager weatherManager = LineageWeatherManager.getInstance(mContext);
             weatherManager.unregisterWeatherServiceProviderChangeListener(this);
         }
     }

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.weather;
+package org.lineageos.lockclock.weather;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,17 +27,17 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.IconUtils;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WindSpeedUnit.MPH;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WindSpeedUnit.KPH;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.TempUnit.FAHRENHEIT;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.TempUnit.CELSIUS;
-import cyanogenmod.weather.CMWeatherManager;
-import cyanogenmod.weather.WeatherInfo;
-import cyanogenmod.weather.WeatherInfo.DayForecast;
-import cyanogenmod.weather.util.WeatherUtils;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.IconUtils;
+import org.lineageos.lockclock.misc.Preferences;
+import static lineageos.providers.WeatherContract.WeatherColumns.WindSpeedUnit.MPH;
+import static lineageos.providers.WeatherContract.WeatherColumns.WindSpeedUnit.KPH;
+import static lineageos.providers.WeatherContract.WeatherColumns.TempUnit.FAHRENHEIT;
+import static lineageos.providers.WeatherContract.WeatherColumns.TempUnit.CELSIUS;
+import lineageos.weather.LineageWeatherManager;
+import lineageos.weather.WeatherInfo;
+import lineageos.weather.WeatherInfo.DayForecast;
+import lineageos.weather.util.WeatherUtils;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -97,8 +97,8 @@ public class ForecastBuilder {
 
         // Set the weather source
         TextView weatherSource = (TextView) view.findViewById(R.id.weather_source);
-        final CMWeatherManager cmWeatherManager = CMWeatherManager.getInstance(context);
-        String activeWeatherLabel = cmWeatherManager.getActiveWeatherServiceProviderLabel();
+        final LineageWeatherManager weatherManager = LineageWeatherManager.getInstance(context);
+        String activeWeatherLabel = weatherManager.getActiveWeatherServiceProviderLabel();
         weatherSource.setText(activeWeatherLabel != null ? activeWeatherLabel : "");
 
         // Set the current conditions

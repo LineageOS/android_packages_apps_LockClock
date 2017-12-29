@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.preference;
+package org.lineageos.lockclock.preference;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -32,9 +32,9 @@ import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.cyanogenmod.lockclock.ClockWidgetProvider;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.Constants;
+import org.lineageos.lockclock.ClockWidgetProvider;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.Constants;
 
 /**
  * Preference for selection of background transparency for the clock widget

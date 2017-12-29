@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.weather;
+package org.lineageos.lockclock.weather;
 
 import android.content.Context;
 import android.content.res.Resources;
-import com.cyanogenmod.lockclock.R;
-import cyanogenmod.app.CMContextConstants;
-import cyanogenmod.providers.WeatherContract;
+import org.lineageos.lockclock.R;
+import lineageos.app.LineageContextConstants;
+import lineageos.providers.WeatherContract;
 
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.NOT_AVAILABLE;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_THUNDERSTORMS;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_SNOW_SHOWERS;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.ISOLATED_THUNDERSHOWERS;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.NOT_AVAILABLE;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_THUNDERSTORMS;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_SNOW_SHOWERS;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.ISOLATED_THUNDERSHOWERS;
 
 import java.text.DecimalFormat;
 
@@ -123,9 +123,9 @@ public final class Utils {
      * @param context Application context to access resources
      * @param windSpeed The wind speed
      * @param windSpeedUnit The speed unit. See
-     *        {@link cyanogenmod.providers.WeatherContract.WeatherColumns.WindSpeedUnit}
+     *        {@link lineageos.providers.WeatherContract.WeatherColumns.WindSpeedUnit}
      * @return The formatted string if a valid speed and speed unit a provided.
-     * {@link com.cyanogenmod.lockclock.R.string#unknown} otherwise
+     * {@link org.lineageos.lockclock.R.string#unknown} otherwise
      */
     public static String formatWindSpeed(Context context, double windSpeed, int windSpeedUnit) {
         if (windSpeed < 0) {
@@ -184,14 +184,14 @@ public final class Utils {
     }
 
     /**
-     * Checks if the CM Weather service is available in this device
+     * Checks if the Lineage Weather service is available in this device
      * @param context
      * @return true if service is available, false otherwise
      */
     public static boolean isWeatherServiceAvailable(Context context) {
         if (!weatherServiceFeatureCached) {
             weatherServiceAvailable = context.getPackageManager()
-                    .hasSystemFeature(CMContextConstants.Features.WEATHER_SERVICES);
+                    .hasSystemFeature(LineageContextConstants.Features.WEATHER_SERVICES);
             weatherServiceFeatureCached = true;
         }
         return weatherServiceAvailable;

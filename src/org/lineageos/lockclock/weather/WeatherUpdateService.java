@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.weather;
+package org.lineageos.lockclock.weather;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -38,18 +38,18 @@ import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
-import com.cyanogenmod.lockclock.ClockWidgetProvider;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import com.cyanogenmod.lockclock.misc.WidgetUtils;
-import com.cyanogenmod.lockclock.preference.WeatherPreferences;
+import org.lineageos.lockclock.ClockWidgetProvider;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.misc.Preferences;
+import org.lineageos.lockclock.misc.WidgetUtils;
+import org.lineageos.lockclock.preference.WeatherPreferences;
 
-import cyanogenmod.weather.CMWeatherManager;
-import cyanogenmod.weather.WeatherInfo;
-import cyanogenmod.weather.WeatherLocation;
+import lineageos.weather.LineageWeatherManager;
+import lineageos.weather.WeatherInfo;
+import lineageos.weather.WeatherLocation;
 
-import org.cyanogenmod.internal.util.PackageManagerUtils;
+import org.lineageos.internal.util.PackageManagerUtils;
 
 import java.lang.ref.WeakReference;
 import java.util.Date;
@@ -58,16 +58,16 @@ public class WeatherUpdateService extends Service {
     private static final String TAG = "WeatherUpdateService";
     private static final boolean D = Constants.DEBUG;
 
-    public static final String ACTION_FORCE_UPDATE = "com.cyanogenmod.lockclock.action.FORCE_WEATHER_UPDATE";
+    public static final String ACTION_FORCE_UPDATE = "org.lineageos.lockclock.action.FORCE_WEATHER_UPDATE";
     private static final String ACTION_CANCEL_LOCATION_UPDATE =
-            "com.cyanogenmod.lockclock.action.CANCEL_LOCATION_UPDATE";
+            "org.lineageos.lockclock.action.CANCEL_LOCATION_UPDATE";
 
     private static final String ACTION_CANCEL_UPDATE_WEATHER_REQUEST =
-            "com.cyanogenmod.lockclock.action.CANCEL_UPDATE_WEATHER_REQUEST";
+            "org.lineageos.lockclock.action.CANCEL_UPDATE_WEATHER_REQUEST";
     private static final long WEATHER_UPDATE_REQUEST_TIMEOUT_MS = 30L * 1000L;
 
     // Broadcast action for end of update
-    public static final String ACTION_UPDATE_FINISHED = "com.cyanogenmod.lockclock.action.WEATHER_UPDATE_FINISHED";
+    public static final String ACTION_UPDATE_FINISHED = "org.lineageos.lockclock.action.WEATHER_UPDATE_FINISHED";
     public static final String EXTRA_UPDATE_CANCELLED = "update_cancelled";
 
     private static final long LOCATION_REQUEST_TIMEOUT = 5L * 60L * 1000L; // request for at most 5 minutes
@@ -114,8 +114,8 @@ public class WeatherUpdateService extends Service {
                     @Override
                     public void run() {
                         final Context context = getApplicationContext();
-                        final CMWeatherManager weatherManager
-                                = CMWeatherManager.getInstance(context);
+                        final LineageWeatherManager weatherManager
+                                = LineageWeatherManager.getInstance(context);
                         final String activeProviderLabel
                                 = weatherManager.getActiveWeatherServiceProviderLabel();
                         final String noData
@@ -144,8 +144,8 @@ public class WeatherUpdateService extends Service {
     }
 
     private boolean shouldUpdate(boolean force) {
-        final CMWeatherManager weatherManager
-                = CMWeatherManager.getInstance(getApplicationContext());
+        final LineageWeatherManager weatherManager
+                = LineageWeatherManager.getInstance(getApplicationContext());
         if (weatherManager.getActiveWeatherServiceProviderLabel() == null) {
             //Why bother if we don't even have an active provider
             if (D) Log.d(TAG, "No active weather service provider found, skip");
@@ -191,7 +191,7 @@ public class WeatherUpdateService extends Service {
     }
 
     private static class WorkerThread extends HandlerThread
-            implements CMWeatherManager.WeatherUpdateRequestListener {
+            implements LineageWeatherManager.WeatherUpdateRequestListener {
 
         public static final int MSG_ON_NEW_WEATHER_REQUEST = 1;
         public static final int MSG_ON_WEATHER_REQUEST_COMPLETED = 2;
@@ -203,13 +203,13 @@ public class WeatherUpdateService extends Service {
         private WakeLock mWakeLock;
         private PendingIntent mTimeoutPendingIntent;
         private int mRequestId;
-        private final CMWeatherManager mWeatherManager;
+        private final LineageWeatherManager mWeatherManager;
         final private Context mContext;
 
         public WorkerThread(Context context) {
             super("weather-service-worker");
             mContext = context;
-            mWeatherManager = CMWeatherManager.getInstance(mContext);
+            mWeatherManager = LineageWeatherManager.getInstance(mContext);
         }
 
         public synchronized void prepareHandler() {
@@ -305,7 +305,7 @@ public class WeatherUpdateService extends Service {
                                 + cachedInfo.toString()+ " ]");
                     } else {
                         mHandler.obtainMessage(MSG_WEATHER_REQUEST_FAILED,
-                                CMWeatherManager.RequestStatus.FAILED, 0).sendToTarget();
+                                LineageWeatherManager.RequestStatus.FAILED, 0).sendToTarget();
                     }
                 }
             }
@@ -373,9 +373,9 @@ public class WeatherUpdateService extends Service {
         private void onWeatherRequestFailed(int status) {
             if (D) Log.d(TAG, "Weather refresh failed ["+status+"]");
             cancelTimeoutAlarm();
-            if (status == CMWeatherManager.RequestStatus.ALREADY_IN_PROGRESS) {
+            if (status == LineageWeatherManager.RequestStatus.ALREADY_IN_PROGRESS) {
                 if (D) Log.d(TAG, "A request is already in progress, no need to schedule again");
-            } else if (status == CMWeatherManager.RequestStatus.FAILED) {
+            } else if (status == LineageWeatherManager.RequestStatus.FAILED) {
                 //Something went wrong, let's schedule an update at the next interval from now
                 //A force update might happen earlier anyway
                 scheduleUpdate(mContext, Preferences.weatherRefreshIntervalInMs(mContext), false);
@@ -408,7 +408,7 @@ public class WeatherUpdateService extends Service {
 
         @Override
         public void onWeatherRequestCompleted(int state, WeatherInfo weatherInfo) {
-            if (state == CMWeatherManager.RequestStatus.COMPLETED) {
+            if (state == LineageWeatherManager.RequestStatus.COMPLETED) {
                 mHandler.obtainMessage(WorkerThread.MSG_ON_WEATHER_REQUEST_COMPLETED, weatherInfo)
                         .sendToTarget();
             } else {

@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.calendar;
+package org.lineageos.lockclock.calendar;
 
-import com.cyanogenmod.lockclock.misc.Constants;
+import org.lineageos.lockclock.misc.Constants;
 
 import java.util.ArrayList;
 import java.util.Collections;

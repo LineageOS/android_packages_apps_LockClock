@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.preference;
+package org.lineageos.lockclock.preference;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -34,10 +34,10 @@ import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.provider.CalendarContract;
 
-import com.cyanogenmod.lockclock.ClockWidgetProvider;
-import com.cyanogenmod.lockclock.ClockWidgetService;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.Constants;
+import org.lineageos.lockclock.ClockWidgetProvider;
+import org.lineageos.lockclock.ClockWidgetService;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.Constants;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -129,7 +129,7 @@ public class CalendarPreferences extends PreferenceFragment implements
                 (MultiSelectListPreference) findPreference(Constants.CALENDAR_LIST);
         CalendarEntries calEntries = CalendarEntries.findCalendars(getActivity());
 
-        boolean firstTime = com.cyanogenmod.lockclock.misc.Preferences.calendarsToDisplay(mContext) == null;
+        boolean firstTime = org.lineageos.lockclock.misc.Preferences.calendarsToDisplay(mContext) == null;
         calendarList.setEntries(calEntries.getEntries());
         calendarList.setEntryValues(calEntries.getEntryValues());
         if (firstTime) {

@@ -26,7 +26,6 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.cyanogenmod.platform.internal \
-    org.cyanogenmod.platform.sdk
+    org.lineageos.platform.internal
 
 include $(BUILD_PACKAGE)

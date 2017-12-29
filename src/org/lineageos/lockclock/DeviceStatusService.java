@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock;
+package org.lineageos.lockclock;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -24,8 +24,8 @@ import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.IBinder;
 import android.util.Log;
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.weather.WeatherUpdateService;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.weather.WeatherUpdateService;
 
 public class DeviceStatusService extends Service {
 

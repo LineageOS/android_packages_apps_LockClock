@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.misc;
+package org.lineageos.lockclock.misc;
 
 import android.text.format.DateUtils;
 
@@ -98,6 +98,6 @@ public class Constants {
     public static final int DEFAULT_BACKGROUND_TRANSPARENCY = 0;
 
     // Intent actions
-    public static final String ACTION_SHOW_FORECAST = "com.cyanogenmod.lockclock.action.SHOW_FORECAST";
+    public static final String ACTION_SHOW_FORECAST = "org.lineageos.lockclock.action.SHOW_FORECAST";
 
 }

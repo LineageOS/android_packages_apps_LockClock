@@ -1,4 +1,4 @@
--keep class com.cyanogenmod.lockclock.preference.Preferences {
+-keep class org.lineageos.lockclock.preference.Preferences {
   *;
 }
 
@@ -11,5 +11,5 @@
     public static final ** CREATOR;
 }
 
--dontwarn cyanogenmod.**
--keep class cyanogenmod.app.** { *; }
+-dontwarn lineageos.**
+-keep class lineageos.app.** { *; }

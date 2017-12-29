@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.misc;
+package org.lineageos.lockclock.misc;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -30,7 +30,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
 
-import com.cyanogenmod.lockclock.R;
+import org.lineageos.lockclock.R;
 
 public class WidgetUtils {
     //===============================================================================================

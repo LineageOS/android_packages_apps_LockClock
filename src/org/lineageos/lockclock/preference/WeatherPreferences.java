@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock.preference;
+package org.lineageos.lockclock.preference;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -35,16 +35,16 @@ import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
-import com.cyanogenmod.lockclock.ClockWidgetProvider;
-import com.cyanogenmod.lockclock.R;
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.misc.Preferences;
-import com.cyanogenmod.lockclock.weather.WeatherUpdateService;
-import cyanogenmod.weather.CMWeatherManager;
+import org.lineageos.lockclock.ClockWidgetProvider;
+import org.lineageos.lockclock.R;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.misc.Preferences;
+import org.lineageos.lockclock.weather.WeatherUpdateService;
+import lineageos.weather.LineageWeatherManager;
 
 public class WeatherPreferences extends PreferenceFragment implements
         SharedPreferences.OnSharedPreferenceChangeListener, Preference.OnPreferenceChangeListener,
-        CMWeatherManager.WeatherServiceProviderChangeListener {
+        LineageWeatherManager.WeatherServiceProviderChangeListener {
     private static final String TAG = "WeatherPreferences";
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
 
@@ -119,7 +119,7 @@ public class WeatherPreferences extends PreferenceFragment implements
             mPostResumeRunnable = null;
         }
 
-        final CMWeatherManager weatherManager = CMWeatherManager.getInstance(mContext);
+        final LineageWeatherManager weatherManager = LineageWeatherManager.getInstance(mContext);
         weatherManager.registerWeatherServiceProviderChangeListener(this);
 
         mWeatherSource.setEnabled(mShowWeather.isChecked());
@@ -134,7 +134,7 @@ public class WeatherPreferences extends PreferenceFragment implements
     public void onPause() {
         super.onPause();
         getPreferenceManager().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(this);
-        final CMWeatherManager weatherManager = CMWeatherManager.getInstance(mContext);
+        final LineageWeatherManager weatherManager = LineageWeatherManager.getInstance(mContext);
         weatherManager.unregisterWeatherServiceProviderChangeListener(this);
     }
 
@@ -334,7 +334,7 @@ public class WeatherPreferences extends PreferenceFragment implements
     }
 
     private String getWeatherProviderName() {
-        final CMWeatherManager weatherManager = CMWeatherManager.getInstance(mContext);
+        final LineageWeatherManager weatherManager = LineageWeatherManager.getInstance(mContext);
         return weatherManager.getActiveWeatherServiceProviderLabel();
     }
 }

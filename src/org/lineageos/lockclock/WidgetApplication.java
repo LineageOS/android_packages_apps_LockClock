@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.lockclock;
+package org.lineageos.lockclock;
 
-import com.cyanogenmod.lockclock.misc.Constants;
-import com.cyanogenmod.lockclock.ClockWidgetProvider;
-import com.cyanogenmod.lockclock.ClockWidgetService;
+import org.lineageos.lockclock.misc.Constants;
+import org.lineageos.lockclock.ClockWidgetProvider;
+import org.lineageos.lockclock.ClockWidgetService;
 
 import android.app.AlarmManager;
 import android.app.Application;
