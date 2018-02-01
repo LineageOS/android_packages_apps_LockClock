@@ -26,6 +26,10 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
+    android-support-v4 \
+    android-support-v7-appcompat \
+    android-support-v7-preference \
+    android-support-v7-recyclerview \
     org.lineageos.platform.internal
 
 include $(BUILD_PACKAGE)
