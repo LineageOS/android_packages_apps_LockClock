@@ -32,6 +32,10 @@
   <!-- Forecast unavailable -->
   <!-- Weather - Speed units -->
   <!-- Weather - Wind directions -->
+  <string name="weather_N">Gog</string>
+  <string name="weather_E">Dn</string>
+  <string name="weather_S">De</string>
+  <string name="weather_W">Gn</string>
   <!-- Weather - Error messages -->
   <!-- Weather - Update frequency -->
   <!-- Preferences - Categories -->
@@ -42,6 +46,8 @@
   <!-- Preferences - Font colors -->
   <!-- Preferences - Background color -->
   <!-- Calendar - Lookahead -->
+  <string name="calendar_lookahead_12hrs">12 awr</string>
+  <string name="calendar_lookahead_1wk">1 wythnos</string>
   <!-- Calendar - Event metadata -->
   <!-- Font colors -->
   <!-- Weather icon sets -->
