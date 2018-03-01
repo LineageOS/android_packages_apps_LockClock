@@ -47,12 +47,11 @@ public class WeatherSourceListenerService extends Service
         Preferences.setUseCustomWeatherLocation(mContext, false);
 
         //Refresh the widget
-        mContext.startService(new Intent(mContext, ClockWidgetService.class)
-                .setAction(ClockWidgetService.ACTION_REFRESH));
+        ClockWidgetService.scheduleUpdate(mContext, ClockWidgetService.ACTION_REFRESH);
+
 
         if (providerLabel != null) {
-            mContext.startService(new Intent(mContext, WeatherUpdateService.class)
-                    .putExtra(WeatherUpdateService.ACTION_FORCE_UPDATE, true));
+            WeatherUpdateService.scheduleNextUpdate(mContext, true);
         }
     }
 

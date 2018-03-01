@@ -117,9 +117,7 @@ public class ForecastActivity extends Activity implements OnClickListener {
             anim.setDuration(700);
             view.startAnimation(anim); 
 
-            Intent i = new Intent(this, WeatherUpdateService.class);
-            i.setAction(WeatherUpdateService.ACTION_FORCE_UPDATE);
-            startService(i);
+            WeatherUpdateService.scheduleNextUpdate(this, true);
         } else {
             finish();
         }

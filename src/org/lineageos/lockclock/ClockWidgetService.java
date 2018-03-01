@@ -19,6 +19,10 @@ package org.lineageos.lockclock;
 import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.PendingIntent;
+import android.app.job.JobInfo;
+import android.app.job.JobParameters;
+import android.app.job.JobScheduler;
+import android.app.job.JobService;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.ComponentName;
@@ -27,6 +31,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.util.Log;
@@ -50,7 +55,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class ClockWidgetService extends IntentService {
+public class ClockWidgetService extends JobService {
     private static final String TAG = "ClockWidgetService";
     private static final boolean D = Constants.DEBUG;
 
@@ -65,9 +70,6 @@ public class ClockWidgetService extends IntentService {
     private AppWidgetManager mAppWidgetManager;
     private Context mContext;
 
-    public ClockWidgetService() {
-        super("ClockWidgetService");
-    }
 
     @Override
     public void onCreate() {
@@ -80,17 +82,17 @@ public class ClockWidgetService extends IntentService {
     }
 
     @Override
-    protected void onHandleIntent(Intent intent) {
-        if (D) Log.d(TAG, "Got intent " + intent);
+    public boolean onStartJob(JobParameters params) {
+        String action = params.getExtras().getString("action");
 
         if (mWidgetIds != null && mWidgetIds.length != 0) {
             // Check passed in intents
-            if (intent != null) {
-                if (ACTION_HIDE_CALENDAR.equals(intent.getAction())) {
+            if (params != null) {
+                if (ACTION_HIDE_CALENDAR.equals(action)) {
                     if (D) Log.v(TAG, "Force hiding the calendar panel");
                     // Explicitly hide the panel since we received a broadcast indicating no events
                     mHideCalendar = true;
-                } else if (ACTION_REFRESH_CALENDAR.equals(intent.getAction())) {
+                } else if (ACTION_REFRESH_CALENDAR.equals(action)) {
                     if (D) Log.v(TAG, "Forcing a calendar refresh");
                     // Start with the panel not explicitly hidden
                     // If there are no events, a broadcast to the service will hide the panel
@@ -100,6 +102,12 @@ public class ClockWidgetService extends IntentService {
             }
             refreshWidget();
         }
+        return false;
+    }
+
+    @Override
+    public boolean onStopJob(JobParameters jobParameters) {
+        return false;
     }
 
     /**
@@ -502,7 +510,7 @@ public class ClockWidgetService extends IntentService {
         }
 
         // Register an onClickListener on Weather
-        setWeatherClickListener(weatherViews, false);
+        //setWeatherClickListener(weatherViews, false);
     }
 
     /**
@@ -553,26 +561,28 @@ public class ClockWidgetService extends IntentService {
         // Register an onClickListener on Weather with the default (Refresh) action
         if (!firstRun) {
             if (activeProviderLabel != null) {
-                setWeatherClickListener(weatherViews, true);
+                //setWeatherClickListener(weatherViews, true);
             } else {
-                setWeatherClickListener(weatherViews);
+                //setWeatherClickListener(weatherViews);
             }
         }
     }
 
-    private void setWeatherClickListener(RemoteViews weatherViews, boolean forceRefresh) {
+    //TODO Make available again through helper intent possibly?
+    /*private void setWeatherClickListener(RemoteViews weatherViews, boolean forceRefresh) {
         // Register an onClickListener on the Weather panel, default action is show forecast
         PendingIntent pi = null;
         if (forceRefresh) {
-            pi = WeatherUpdateService.getUpdateIntent(this, true);
-        }
-
-        if (pi == null) {
+            Intent i = new Intent(mContext, ClockWidgetService.class);
+            pi = PendingIntent.getService(mContext, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
+        }else {
             Intent i = new Intent(this, ClockWidgetProvider.class);
             i.setAction(Constants.ACTION_SHOW_FORECAST);
             pi = PendingIntent.getBroadcast(this, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
         }
         weatherViews.setOnClickPendingIntent(R.id.weather_panel, pi);
+
+
     }
 
     private void setWeatherClickListener(RemoteViews weatherViews) {
@@ -580,7 +590,7 @@ public class ClockWidgetService extends IntentService {
                 new Intent("lineageos.intent.action.MANAGE_WEATHER_PROVIDER_SERVICES"),
                         PendingIntent.FLAG_UPDATE_CURRENT);
         weatherViews.setOnClickPendingIntent(R.id.weather_panel, pi);
-    }
+    }*/
 
     //===============================================================================================
     // Calendar related functionality
@@ -615,14 +625,26 @@ public class ClockWidgetService extends IntentService {
         calendarViews.setPendingIntentTemplate(R.id.calendar_list, eventClickPendingIntent);
     }
 
-    public static PendingIntent getRefreshIntent(Context context) {
-        Intent i = new Intent(context, ClockWidgetService.class);
-        i.setAction(ClockWidgetService.ACTION_REFRESH_CALENDAR);
-        return PendingIntent.getService(context, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
+    public static void scheduleUpdate(Context context, String action){
+        ComponentName serviceComponent = new ComponentName(context, ClockWidgetService.class);
+        JobInfo.Builder builder = new JobInfo.Builder(0, serviceComponent);
+
+        PersistableBundle args = new PersistableBundle();
+        args.putString("action", action);
+        builder.setExtras(args);
+
+        builder.setOverrideDeadline(10);
+
+        JobScheduler jobScheduler = context.getSystemService(JobScheduler.class);
+        jobScheduler.schedule(builder.build());
     }
 
     public static void cancelUpdates(Context context) {
-        AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-        am.cancel(getRefreshIntent(context));
+        JobScheduler jobScheduler = context.getSystemService(JobScheduler.class);
+        for(JobInfo jobInfo : jobScheduler.getAllPendingJobs()){
+            if(jobInfo.getService().getClassName().equals(ClockWidgetService.class.getName())){
+                jobScheduler.cancel(jobInfo.getId());
+            }
+        }
     }
 }

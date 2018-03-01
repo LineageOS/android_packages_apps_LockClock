@@ -214,11 +214,7 @@ public class WeatherPreferences extends PreferenceFragment implements
         }
 
         if (Preferences.showWeather(mContext) && (needWeatherUpdate || forceWeatherUpdate)) {
-            Intent updateIntent = new Intent(mContext, WeatherUpdateService.class);
-            if (forceWeatherUpdate) {
-                updateIntent.setAction(WeatherUpdateService.ACTION_FORCE_UPDATE);
-            }
-            mContext.startService(updateIntent);
+            WeatherUpdateService.scheduleNextUpdate(mContext, forceWeatherUpdate);
         }
 
         Intent updateIntent = new Intent(mContext, ClockWidgetProvider.class);
