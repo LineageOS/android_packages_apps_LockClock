@@ -16,10 +16,14 @@
 
 package org.lineageos.lockclock;
 
+import android.app.job.JobInfo;
+import android.app.job.JobScheduler;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.os.PersistableBundle;
 import android.util.Log;
 
 import org.lineageos.lockclock.misc.Constants;
@@ -29,6 +33,8 @@ import org.lineageos.lockclock.weather.ForecastActivity;
 import org.lineageos.lockclock.weather.Utils;
 import org.lineageos.lockclock.weather.WeatherSourceListenerService;
 import org.lineageos.lockclock.weather.WeatherUpdateService;
+
+import static android.app.job.JobInfo.NETWORK_TYPE_ANY;
 
 public class ClockWidgetProvider extends AppWidgetProvider {
     private static final String TAG = "ClockWidgetProvider";
@@ -92,26 +98,31 @@ public class ClockWidgetProvider extends AppWidgetProvider {
      */
     private void updateWidgets(Context context, boolean refreshCalendar, boolean hideCalendar) {
         // Build the intent and pass on the weather and calendar refresh triggers
-        Intent i = new Intent(context.getApplicationContext(), ClockWidgetService.class);
+        ComponentName serviceComponent = new ComponentName(context, ClockWidgetService.class);
+        JobInfo.Builder builder = new JobInfo.Builder(0, serviceComponent);
+        PersistableBundle args = new PersistableBundle();
         if (refreshCalendar) {
-            i.setAction(ClockWidgetService.ACTION_REFRESH_CALENDAR);
+            args.putString("action", ClockWidgetService.ACTION_REFRESH_CALENDAR);
         } else if (hideCalendar) {
-            i.setAction(ClockWidgetService.ACTION_HIDE_CALENDAR);
+            args.putString("action", ClockWidgetService.ACTION_HIDE_CALENDAR);
         } else {
-            i.setAction(ClockWidgetService.ACTION_REFRESH);
+            args.putString("action", ClockWidgetService.ACTION_REFRESH);
         }
+        builder.setExtras(args);
+        builder.setOverrideDeadline(500);
+
+        JobScheduler jobScheduler = context.getSystemService(JobScheduler.class);
+        jobScheduler.schedule(builder.build());
+
+
 
         // Start the service. The service itself will take care of scheduling refreshes if needed
-        if (D) Log.d(TAG, "Starting the service to update the widgets...");
-        context.startService(i);
     }
 
     @Override
     public void onEnabled(Context context) {
         if (D) Log.d(TAG, "Scheduling next weather update");
         if (Utils.isWeatherServiceAvailable(context)) {
-            context.startService(new Intent(context, WeatherSourceListenerService.class));
-            context.startService(new Intent(context, DeviceStatusService.class));
             WeatherUpdateService.scheduleNextUpdate(context, true);
         }
 
@@ -128,8 +139,6 @@ public class ClockWidgetProvider extends AppWidgetProvider {
     public void onDisabled(Context context) {
         if (D) Log.d(TAG, "Cleaning up: Clearing all pending alarms");
         if (Utils.isWeatherServiceAvailable(context)) {
-            context.stopService(new Intent(context, WeatherSourceListenerService.class));
-            context.stopService(new Intent(context, DeviceStatusService.class));
             ClockWidgetService.cancelUpdates(context);
             WeatherUpdateService.cancelUpdates(context);
         }

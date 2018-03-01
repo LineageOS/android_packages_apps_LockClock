@@ -16,12 +16,12 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.lineageos.lockclock"
-    android:versionCode="22"
+    android:versionCode="26"
     android:versionName="3.5" >
 
     <original-package android:name="com.cyanogenmod.lockclock" />
 
-    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="24" />
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="26" />
 
     <!-- Weather -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -99,9 +99,8 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".ClockWidgetService"></service>
-        <service android:name=".DeviceStatusService"></service>
-        <service android:name=".weather.WeatherUpdateService"></service>
+        <service android:name=".ClockWidgetService" android:permission="android.permission.BIND_JOB_SERVICE"></service>
+        <service android:name=".weather.WeatherUpdateService" android:permission="android.permission.BIND_JOB_SERVICE"></service>
         <service android:name=".weather.WeatherSourceListenerService"></service>
         <service android:name=".calendar.CalendarViewsService"
             android:permission="android.permission.BIND_REMOTEVIEWS">
