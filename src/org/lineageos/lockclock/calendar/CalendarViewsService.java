@@ -18,12 +18,16 @@ package org.lineageos.lockclock.calendar;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
+import android.app.job.JobInfo;
+import android.app.job.JobScheduler;
+import android.content.ComponentName;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
+import android.os.PersistableBundle;
 import android.provider.CalendarContract;
 import android.provider.CalendarContract.Events;
 import android.text.SpannableString;
@@ -47,6 +51,8 @@ import org.lineageos.lockclock.misc.Preferences;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Set;
+
+import static android.app.job.JobInfo.NETWORK_TYPE_ANY;
 
 public class CalendarViewsService extends RemoteViewsService {
 
@@ -473,16 +479,25 @@ class CalendarRemoteViewsFactory implements RemoteViewsFactory {
      * the next event time boundary (start/end).
      */
     private void scheduleCalendarUpdate(Context context) {
-        PendingIntent pi = ClockWidgetService.getRefreshIntent(context);
         long updateTime = calculateUpdateTime(context);
 
-        // Clear any old alarms and schedule the new alarm
+        // Clear any old jobs and schedule the new job
         // Since the updates are now only done very infrequently, it can wake the device to ensure
         // the latest date is available when the user turns the screen on after a few hours sleep
-        AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-        am.cancel(pi);
+
+        ClockWidgetService.cancelUpdates(context);
+
+
         if (updateTime > 0) {
-            am.set(AlarmManager.RTC_WAKEUP, updateTime, pi);
+            ComponentName serviceComponent = new ComponentName(context, ClockWidgetService.class);
+            JobInfo.Builder builder = new JobInfo.Builder(0, serviceComponent);
+            PersistableBundle args = new PersistableBundle();
+            args.putString("action", ClockWidgetService.ACTION_REFRESH_CALENDAR);
+            builder.setExtras(args);
+
+            builder.setOverrideDeadline(updateTime);
+            JobScheduler jobScheduler = context.getSystemService(JobScheduler.class);
+            jobScheduler.schedule(builder.build());
         }
     }
 

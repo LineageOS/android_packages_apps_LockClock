@@ -19,6 +19,11 @@ package org.lineageos.lockclock.weather;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.app.job.JobInfo;
+import android.app.job.JobParameters;
+import android.app.job.JobScheduler;
+import android.app.job.JobService;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.location.Criteria;
@@ -32,6 +37,7 @@ import android.os.HandlerThread;
 import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
+import android.os.PersistableBundle;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.os.SystemClock;
@@ -53,8 +59,12 @@ import org.lineageos.internal.util.PackageManagerUtils;
 
 import java.lang.ref.WeakReference;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
-public class WeatherUpdateService extends Service {
+import static android.app.job.JobInfo.NETWORK_TYPE_ANY;
+
+public class WeatherUpdateService extends JobService {
     private static final String TAG = "WeatherUpdateService";
     private static final boolean D = Constants.DEBUG;
 
@@ -95,52 +105,54 @@ public class WeatherUpdateService extends Service {
     }
 
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        if (D) Log.v(TAG, "Got intent " + intent);
-
-        if (ACTION_CANCEL_LOCATION_UPDATE.equals(intent.getAction())) {
+    public boolean onStartJob(JobParameters params) {
+        String action = params.getExtras().getString("action", "");
+        Log.e("TESTING", "LockWeather Job Started!!!! " + action);
+        if (ACTION_CANCEL_LOCATION_UPDATE.equals(action)) {
             WeatherLocationListener.cancel(this);
             if (!mWorkerThread.isProcessing()) {
                 stopSelf();
             }
-            return START_NOT_STICKY;
+            return false;
         }
 
-        if (ACTION_CANCEL_UPDATE_WEATHER_REQUEST.equals(intent.getAction())) {
+        if (ACTION_CANCEL_UPDATE_WEATHER_REQUEST.equals(action)) {
             if (mWorkerThread.isProcessing()) {
                 mWorkerThread.getHandler().obtainMessage(
                         WorkerThread.MSG_CANCEL_UPDATE_WEATHER_REQUEST).sendToTarget();
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        final Context context = getApplicationContext();
-                        final LineageWeatherManager weatherManager
-                                = LineageWeatherManager.getInstance(context);
-                        final String activeProviderLabel
-                                = weatherManager.getActiveWeatherServiceProviderLabel();
-                        final String noData
-                                = getString(R.string.weather_cannot_reach_provider,
-                                    activeProviderLabel);
-                        Toast.makeText(context, noData, Toast.LENGTH_SHORT).show();
-                    }
+                mHandler.post(() -> {
+                    final Context context = getApplicationContext();
+                    final LineageWeatherManager weatherManager
+                            = LineageWeatherManager.getInstance(context);
+                    final String activeProviderLabel
+                            = weatherManager.getActiveWeatherServiceProviderLabel();
+                    final String noData
+                            = getString(R.string.weather_cannot_reach_provider,
+                                activeProviderLabel);
+                    Toast.makeText(context, noData, Toast.LENGTH_SHORT).show();
                 });
             }
             stopSelf();
-            return START_NOT_STICKY;
+            return false;
         }
 
-        boolean force = ACTION_FORCE_UPDATE.equals(intent.getAction());
+        boolean force = ACTION_FORCE_UPDATE.equals(action);
         if (!shouldUpdate(force)) {
             Log.d(TAG, "Service started, but shouldn't update ... stopping");
             sendCancelledBroadcast();
             stopSelf();
-            return START_NOT_STICKY;
+            return false;
         }
-
+        mWorkerThread.setCallback(() -> jobFinished(params, false));
         mWorkerThread.getHandler().obtainMessage(WorkerThread.MSG_ON_NEW_WEATHER_REQUEST)
                 .sendToTarget();
 
-        return START_REDELIVER_INTENT;
+        return true;
+    }
+
+    @Override
+    public boolean onStopJob(JobParameters jobParameters) {
+        return false;
     }
 
     private boolean shouldUpdate(boolean force) {
@@ -206,6 +218,8 @@ public class WeatherUpdateService extends Service {
         private final LineageWeatherManager mWeatherManager;
         final private Context mContext;
 
+        private Runnable callback;
+
         public WorkerThread(Context context) {
             super("weather-service-worker");
             mContext = context;
@@ -224,13 +238,16 @@ public class WeatherUpdateService extends Service {
                         case MSG_ON_WEATHER_REQUEST_COMPLETED:
                             WeatherInfo info = (WeatherInfo) msg.obj;
                             onWeatherRequestCompleted(info);
+                            if(callback != null) callback.run();
                             break;
                         case MSG_WEATHER_REQUEST_FAILED:
                             int status = msg.arg1;
                             onWeatherRequestFailed(status);
+                            if(callback != null) callback.run();
                             break;
                         case MSG_CANCEL_UPDATE_WEATHER_REQUEST:
                             onCancelUpdateWeatherRequest();
+                            if(callback != null) callback.run();
                             break;
                         default:
                             //Unknown message, pass it on...
@@ -239,7 +256,11 @@ public class WeatherUpdateService extends Service {
                 }
             };
         }
+        public void setCallback(Runnable callback){
+            this.callback = callback;
+        }
 
+        //TODO PendingIntent doesn't work here anymore - maybe trigger the job through a BroadcastReceiver?
         private void startTimeoutAlarm() {
             Intent intent = new Intent(mContext, WeatherUpdateService.class);
             intent.setAction(ACTION_CANCEL_UPDATE_WEATHER_REQUEST);
@@ -403,7 +424,7 @@ public class WeatherUpdateService extends Service {
             if (D) Log.d(TAG, "RELEASING WAKELOCK");
             mWakeLock.release();
             mIsProcessingWeatherUpdate = false;
-            mContext.stopService(new Intent(mContext, WeatherUpdateService.class));
+            cancelUpdates(mContext);
         }
 
         @Override
@@ -422,11 +443,6 @@ public class WeatherUpdateService extends Service {
         Intent finishedIntent = new Intent(ACTION_UPDATE_FINISHED);
         finishedIntent.putExtra(EXTRA_UPDATE_CANCELLED, true);
         sendBroadcast(finishedIntent);
-    }
-
-    @Override
-    public IBinder onBind(Intent intent) {
-        return null;
     }
 
     @Override
@@ -485,6 +501,7 @@ public class WeatherUpdateService extends Service {
             mContext = context;
         }
 
+        //TODO PendingIntent doesn't work here anymore
         private void setTimeoutAlarm() {
             Intent intent = new Intent(mContext, WeatherUpdateService.class);
             intent.setAction(ACTION_CANCEL_LOCATION_UPDATE);
@@ -541,11 +558,21 @@ public class WeatherUpdateService extends Service {
     }
 
     private static void scheduleUpdate(Context context, long millisFromNow, boolean force) {
-        AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         long due = SystemClock.elapsedRealtime() + millisFromNow;
         if (D) Log.d(TAG, "Next update scheduled at "
                 + new Date(System.currentTimeMillis() + millisFromNow));
-        am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, due, getUpdateIntent(context, force));
+
+        ComponentName serviceComponent = new ComponentName(context, WeatherUpdateService.class);
+        JobInfo.Builder builder = new JobInfo.Builder(10, serviceComponent);
+        if(force){
+            PersistableBundle args = new PersistableBundle();
+            args.putString("action", ACTION_FORCE_UPDATE);
+            builder.setExtras(args);
+        }
+        builder.setOverrideDeadline(due);
+        builder.setRequiredNetworkType(NETWORK_TYPE_ANY);
+        JobScheduler jobScheduler = context.getSystemService(JobScheduler.class);
+        jobScheduler.schedule(builder.build());
     }
 
     public static void scheduleNextUpdate(Context context, boolean force) {
@@ -563,18 +590,13 @@ public class WeatherUpdateService extends Service {
         }
     }
 
-    public static PendingIntent getUpdateIntent(Context context, boolean force) {
-        Intent i = new Intent(context, WeatherUpdateService.class);
-        if (force) {
-            i.setAction(ACTION_FORCE_UPDATE);
-        }
-        return PendingIntent.getService(context, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
-    }
-
     public static void cancelUpdates(Context context) {
-        AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-        am.cancel(getUpdateIntent(context, true));
-        am.cancel(getUpdateIntent(context, false));
+        JobScheduler jobScheduler = context.getSystemService(JobScheduler.class);
+        for(JobInfo jobInfo : jobScheduler.getAllPendingJobs()){
+            if(jobInfo.getService().getClassName().equals(WeatherUpdateService.class.getName())){
+                jobScheduler.cancel(jobInfo.getId());
+            }
+        }
         WeatherLocationListener.cancel(context);
     }
 }

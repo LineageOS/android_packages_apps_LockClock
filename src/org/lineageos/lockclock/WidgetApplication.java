@@ -52,9 +52,7 @@ public class WidgetApplication extends Application {
                 scheduleClockRefresh(context);
 
                 // Refresh the widget
-                Intent refreshIntent = new Intent(context, ClockWidgetProvider.class);
-                refreshIntent.setAction(ClockWidgetService.ACTION_REFRESH);
-                context.sendBroadcast(refreshIntent);
+                ClockWidgetService.scheduleUpdate(context, ClockWidgetService.ACTION_REFRESH);
 
                 // We no longer need the tick receiver, its done its job, stop it
                 stopTickReceiver();
@@ -92,7 +90,7 @@ public class WidgetApplication extends Application {
         AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         am.cancel(getClockRefreshIntent(context));
     }
-
+    //TODO Pending intent doesn't work here anymore
     private static PendingIntent getClockRefreshIntent(Context context) {
         Intent i = new Intent(context, ClockWidgetService.class);
         i.setAction(ClockWidgetService.ACTION_REFRESH);
