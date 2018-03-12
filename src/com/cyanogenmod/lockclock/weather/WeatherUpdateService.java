@@ -313,7 +313,11 @@ public class WeatherUpdateService extends Service {
 
         public void tearDown() {
             if (D) Log.d(TAG, "Tearing down worker thread");
-            if (isProcessing()) mWeatherManager.cancelRequest(mRequestId);
+            if (isProcessing()) {
+                cancelTimeoutAlarm();
+                mWeatherManager.cancelRequest(mRequestId);
+                broadcastAndCleanUp(true);
+            }
             quit();
         }
 
