@@ -17,6 +17,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
+  <string name="unknown">Disconnotu</string>
+  <string name="cancel">Annulla</string>
+  <string name="menu_done">Fatu</string>
   <!-- Formating strings for widget clock -->
   <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
          android.text.format.DateFormat uses k for hours in the 0-23 range.
@@ -27,22 +30,47 @@
   <!-- Night -->
   <!-- Day -->
   <!-- Night -->
+  <string name="weather_31">Isbòida</string>
   <!-- Night -->
   <!-- Day -->
   <!-- Forecast unavailable -->
   <!-- Weather - Speed units -->
   <!-- Weather - Wind directions -->
+  <string name="weather_SW">SO</string>
+  <string name="weather_W">O</string>
   <!-- Weather - Error messages -->
   <!-- Weather - Update frequency -->
+  <string name="weather_refresh_30min">30 minutos</string>
+  <string name="weather_refresh_60min">60 minutos</string>
+  <string name="weather_refresh_2hrs">2 oras</string>
+  <string name="weather_refresh_4hrs">4 oras</string>
+  <string name="weather_refresh_6hrs">6 oras</string>
+  <string name="weather_refresh_8hrs">8 oras</string>
   <!-- Preferences - Categories -->
   <!-- Preferences - Categories -->
+  <string name="general_category">Generale</string>
   <!-- Preferences - Clock -->
+  <string name="show_date_title">Ammustra sa data</string>
   <!-- Preferences - Weather -->
+  <string name="weather_enabled">Abilitadu</string>
+  <string name="weather_custom_location_title">Positzione</string>
+  <string name="weather_retrieve_location_dialog_enable_button">Abìlita</string>
   <!-- Preferences - Calendar -->
   <!-- Preferences - Font colors -->
   <!-- Preferences - Background color -->
   <!-- Calendar - Lookahead -->
+  <string name="calendar_lookahead_3hrs">3 oras</string>
+  <string name="calendar_lookahead_6hrs">6 oras</string>
+  <string name="calendar_lookahead_12hrs">12 oras</string>
+  <string name="calendar_lookahead_today">Oe</string>
+  <string name="calendar_lookahead_1day">1 die</string>
+  <string name="calendar_lookahead_3days">3 dies</string>
+  <string name="calendar_lookahead_1wk">1 chida</string>
+  <string name="calendar_lookahead_2wks">2 chidas</string>
+  <string name="calendar_lookahead_4wks">4 chidas</string>
   <!-- Calendar - Event metadata -->
   <!-- Font colors -->
+  <string name="white">Biancu</string>
+  <string name="black">Nieddu</string>
   <!-- Weather icon sets -->
 </resources>
