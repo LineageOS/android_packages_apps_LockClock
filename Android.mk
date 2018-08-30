@@ -23,13 +23,16 @@ LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_PACKAGE_NAME := LockClock
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
-LOCAL_AAPT_FLAGS := --auto-add-overlay
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
+LOCAL_USE_AAPT2 := true
 
-LOCAL_STATIC_JAVA_LIBRARIES := \
+LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v4 \
     android-support-v7-appcompat \
     android-support-v7-preference \
-    android-support-v7-recyclerview \
+    android-support-v7-recyclerview
+
+LOCAL_STATIC_JAVA_LIBRARIES := \
     org.lineageos.platform.internal
 
 include $(BUILD_PACKAGE)
