@@ -16,40 +16,40 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General strings -->
-  <string name="cancel">Diddymu</string>
-  <!-- Formating strings for widget clock -->
-  <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
+    <!-- General strings -->
+    <string name="cancel">Diddymu</string>
+    <!-- Formating strings for widget clock -->
+    <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
          android.text.format.DateFormat uses k for hours in the 0-23 range.
          We need to support both -->
-  <!-- Weather - Weather codes -->
-  <!-- Night -->
-  <!-- Day -->
-  <!-- Night -->
-  <!-- Day -->
-  <!-- Night -->
-  <!-- Night -->
-  <!-- Day -->
-  <!-- Forecast unavailable -->
-  <!-- Weather - Speed units -->
-  <!-- Weather - Wind directions -->
-  <string name="weather_N">Gog</string>
-  <string name="weather_E">Dn</string>
-  <string name="weather_S">De</string>
-  <string name="weather_W">Gn</string>
-  <!-- Weather - Error messages -->
-  <!-- Weather - Update frequency -->
-  <!-- Preferences - Categories -->
-  <!-- Preferences - Categories -->
-  <!-- Preferences - Clock -->
-  <!-- Preferences - Weather -->
-  <!-- Preferences - Calendar -->
-  <!-- Preferences - Font colors -->
-  <!-- Preferences - Background color -->
-  <!-- Calendar - Lookahead -->
-  <string name="calendar_lookahead_12hrs">12 awr</string>
-  <string name="calendar_lookahead_1wk">1 wythnos</string>
-  <!-- Calendar - Event metadata -->
-  <!-- Font colors -->
-  <!-- Weather icon sets -->
+    <!-- Weather - Weather codes -->
+    <!-- Night -->
+    <!-- Day -->
+    <!-- Night -->
+    <!-- Day -->
+    <!-- Night -->
+    <!-- Night -->
+    <!-- Day -->
+    <!-- Forecast unavailable -->
+    <!-- Weather - Speed units -->
+    <!-- Weather - Wind directions -->
+    <string name="weather_N">Gog</string>
+    <string name="weather_E">Dn</string>
+    <string name="weather_S">De</string>
+    <string name="weather_W">Gn</string>
+    <!-- Weather - Error messages -->
+    <!-- Weather - Update frequency -->
+    <!-- Preferences - Categories -->
+    <!-- Preferences - Categories -->
+    <!-- Preferences - Clock -->
+    <!-- Preferences - Weather -->
+    <!-- Preferences - Calendar -->
+    <!-- Preferences - Font colors -->
+    <!-- Preferences - Background color -->
+    <!-- Calendar - Lookahead -->
+    <string name="calendar_lookahead_12hrs">12 awr</string>
+    <string name="calendar_lookahead_1wk">1 wythnos</string>
+    <!-- Calendar - Event metadata -->
+    <!-- Font colors -->
+    <!-- Weather icon sets -->
 </resources>
