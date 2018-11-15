@@ -17,6 +17,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
+    <string name="unknown">Chan eil fhios</string>
+    <string name="cancel">Sguir dheth</string>
+    <string name="menu_done">Deiseil</string>
     <!-- Formating strings for widget clock -->
     <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
          android.text.format.DateFormat uses k for hours in the 0-23 range.
@@ -32,10 +35,18 @@
     <!-- Forecast unavailable -->
     <!-- Weather - Speed units -->
     <!-- Weather - Wind directions -->
+    <string name="weather_N">T</string>
+    <string name="weather_NE">ETh</string>
+    <string name="weather_SE">EDh</string>
+    <string name="weather_S">D</string>
+    <string name="weather_SW">IDh</string>
+    <string name="weather_W">I</string>
+    <string name="weather_NW">ITh</string>
     <!-- Weather - Error messages -->
     <!-- Weather - Update frequency -->
     <!-- Preferences - Categories -->
     <!-- Preferences - Categories -->
+    <string name="general_category">Coitcheann</string>
     <!-- Preferences - Clock -->
     <!-- Preferences - Weather -->
     <!-- Preferences - Calendar -->

@@ -125,7 +125,7 @@
     <string name="clock_font_date_title">加粗日期与闹钟</string>
     <string name="show_date_title">显示日期</string>
     <string name="show_alarm_title">显示下一个闹钟</string>
-    <string name="clock_am_pm_title">显示 上午/下午 指示器</string>
+    <string name="clock_am_pm_title"> 显示 上午/下午 指示器</string>
     <!-- Preferences - Weather -->
     <string name="weather_enabled">已启用</string>
     <string name="weather_enable">显示天气</string>
