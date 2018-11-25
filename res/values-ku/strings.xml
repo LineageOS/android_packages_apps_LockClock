@@ -31,7 +31,7 @@
     <string name="weather_2">زریان</string>
     <string name="weather_3">هەورە بروسکەی تووند</string>
     <string name="weather_4">هەورە بروسکە</string>
-    <string name="weather_5">بەفر و باران</string>
+    <string name="weather_5">بەفر و باران </string>
     <string name="weather_6">باران و تەرزە</string>
     <string name="weather_7">بەفر و تەرزە</string>
     <string name="weather_8">به‌ستنی ورده‌باران</string>
@@ -122,7 +122,7 @@
     <string name="clock_font_minutes_title">تۆخکردنی خولەک</string>
     <string name="clock_font_date_title">تۆخکردنی بەروار و ئاگادارکەرەوە</string>
     <string name="show_alarm_title">پیساندانی ئاگادارکەرەوەی داهاتوو</string>
-    <string name="clock_am_pm_title">AM/PM پیشاندانی</string>
+    <string name="clock_am_pm_title">AM/PM پیشاندانی </string>
     <!-- Preferences - Weather -->
     <string name="weather_enabled">چالاکە</string>
     <string name="weather_enable">پیشاندانی کەش و هەو</string>
