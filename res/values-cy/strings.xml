@@ -17,33 +17,49 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
+    <string name="unknown">Anhysybys</string>
     <string name="cancel">Diddymu</string>
     <!-- Formating strings for widget clock -->
     <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
          android.text.format.DateFormat uses k for hours in the 0-23 range.
          We need to support both -->
     <!-- Weather - Weather codes -->
+    <string name="weather_0">Corwynt</string>
+    <string name="weather_1">Storm Drofannol</string>
+    <string name="weather_4">Stormydd fellt a tharanau</string>
+    <string name="weather_24">Gwyntog</string>
     <!-- Night -->
     <!-- Day -->
     <!-- Night -->
     <!-- Day -->
     <!-- Night -->
+    <string name="weather_32">Heulog</string>
     <!-- Night -->
     <!-- Day -->
+    <string name="weather_45">Cawodydd storm</string>
     <!-- Forecast unavailable -->
     <!-- Weather - Speed units -->
     <!-- Weather - Wind directions -->
     <string name="weather_N">Gog</string>
     <string name="weather_E">Dn</string>
     <string name="weather_S">De</string>
+    <string name="weather_SW">DGn</string>
     <string name="weather_W">Gn</string>
     <!-- Weather - Error messages -->
+    <string name="weather_tap_to_refresh">Tara i ail-lwytho</string>
+    <string name="weather_tap_to_select_source">Tara i ddewis un</string>
     <!-- Weather - Update frequency -->
     <!-- Preferences - Categories -->
+    <string name="weather_category">Panel tywydd</string>
     <!-- Preferences - Categories -->
     <!-- Preferences - Clock -->
+    <string name="use_digital_clock_title">Defnyddio cloc digidol</string>
     <!-- Preferences - Weather -->
+    <string name="weather_source_title">Ffynhonnell tywydd</string>
+    <string name="weather_use_metric">Defnyddio metrig</string>
+    <string name="weather_progress_title">Yn dilysu lleoliad</string>
     <!-- Preferences - Calendar -->
+    <string name="calendar_upcoming_events_category">Digwyddiadau i ddod</string>
     <!-- Preferences - Font colors -->
     <!-- Preferences - Background color -->
     <!-- Calendar - Lookahead -->
@@ -51,5 +67,6 @@
     <string name="calendar_lookahead_1wk">1 wythnos</string>
     <!-- Calendar - Event metadata -->
     <!-- Font colors -->
+    <string name="white">Gwyn</string>
     <!-- Weather icon sets -->
 </resources>
