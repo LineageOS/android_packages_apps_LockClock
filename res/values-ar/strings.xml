@@ -123,6 +123,7 @@
     <string name="clock_font_title">الساعات بلون غامق</string>
     <string name="clock_font_minutes_title">دقائق بخط عريض</string>
     <string name="clock_font_date_title">التاريخ والإنذار بخط عريض</string>
+    <string name="show_date_title">إظهار التاريخ</string>
     <string name="show_alarm_title">إظهار التنبيه التالي</string>
     <string name="clock_am_pm_title">اظهار المؤشر صباحاً/ مساءً</string>
     <!-- Preferences - Weather -->
