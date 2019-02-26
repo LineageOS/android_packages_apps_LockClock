@@ -75,6 +75,7 @@
     <string name="weather_no_data">Dim data</string>
     <string name="weather_tap_to_refresh">Tara i ail-lwytho</string>
     <string name="weather_refreshing">Yn ail-lwytho</string>
+    <string name="weather_cannot_reach_provider">Methu â chyrraedd %s ar hyn o bryd</string>
     <string name="weather_tap_to_select_source">Tara i ddewis un</string>
     <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">Â llaw</string>
@@ -87,12 +88,16 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">Cloc a larwm</string>
     <string name="weather_category">Panel tywydd</string>
+    <string name="calendar_category">Digwyddiadau calendr</string>
     <!-- Preferences - Categories -->
     <string name="general_category">Cyffredinol</string>
     <string name="display_category">Dangosydd</string>
     <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">Defnyddio cloc digidol</string>
     <string name="use_digital_clock_summary">Dewisa i doglo rhwng cloc digidol ac analog</string>
+    <string name="clock_font_title">Oriau trwm</string>
+    <string name="clock_font_minutes_title">Munudau trwm</string>
+    <string name="clock_font_date_title">Dyddiad a larwm trwm</string>
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Galluogwyd</string>
     <string name="weather_source_title">Ffynhonnell tywydd</string>
@@ -100,13 +105,14 @@
     <string name="weather_custom_location_title">Lleoliad</string>
     <string name="weather_show_location_title">Dangos lleoliad</string>
     <string name="weather_use_metric">Defnyddio metrig</string>
+    <string name="weather_retrieve_location_dialog_message">Dyw geoleoliad trwy rwydwaith heb ei alluogi.\n\nGosoda leoliad dy hun neu alluogi adnabod lleoliad trwy\'r rhwydwaith</string>
     <string name="weather_retrieve_location_dialog_enable_button">Galluogi</string>
     <string name="weather_progress_title">Yn dilysu lleoliad</string>
     <!-- Preferences - Calendar -->
     <string name="calendar_icon_title">Eicon calendr</string>
     <string name="calendar_show_location_title">Lleoliad y digwyddiad</string>
     <string name="calendar_upcoming_events_category">Digwyddiadau i ddod</string>
-    <string name="calendar_highlight_upcoming_events_bold">Ffont bras</string>
+    <string name="calendar_highlight_upcoming_events_bold">Ffont trwm</string>
     <!-- Preferences - Font colors -->
     <string name="font_color_alarm">Lliw ffont larwm</string>
     <!-- Preferences - Background color -->
@@ -131,6 +137,7 @@
     <string name="holo_green_light">Gwyrdd golau</string>
     <string name="holo_red_light">Coch golau</string>
     <string name="holo_blue_dark">Glas tywyll</string>
+    <string name="holo_green_dark">Gwyrdd tywyll</string>
     <string name="holo_red_dark">Coch tywyll</string>
     <string name="holo_purple">Porffor</string>
     <string name="holo_orange_light">Oren golau</string>
