@@ -16,16 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
     <string name="unknown">Неизвестна</string>
     <string name="cancel">Отказ</string>
     <string name="loading_indicator">Зареждане на графичен обект\u2026</string>
     <string name="menu_done">Готово</string>
-    <!-- Formating strings for widget clock -->
-    <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
-         android.text.format.DateFormat uses k for hours in the 0-23 range.
-         We need to support both -->
-    <!-- Weather - Weather codes -->
     <string name="weather_0">Торнадо</string>
     <string name="weather_1">Тропическа буря</string>
     <string name="weather_2">Ураган</string>
@@ -53,20 +47,13 @@
     <string name="weather_24">Ветровито</string>
     <string name="weather_25">Студено</string>
     <string name="weather_26">Облачно</string>
-    <!-- Night -->
     <string name="weather_27">Предимно облачно</string>
-    <!-- Day -->
     <string name="weather_28">Предимно облачно</string>
-    <!-- Night -->
     <string name="weather_29">Частична облачност</string>
-    <!-- Day -->
     <string name="weather_30">Частична облачност</string>
-    <!-- Night -->
     <string name="weather_31">Ясно</string>
     <string name="weather_32">Слънчево</string>
-    <!-- Night -->
     <string name="weather_33">Ясно</string>
-    <!-- Day -->
     <string name="weather_34">Ясно</string>
     <string name="weather_35">Смесени дъжд и градушка</string>
     <string name="weather_36">Горещо</string>
@@ -81,11 +68,8 @@
     <string name="weather_45">Преваляване с гръмотевици</string>
     <string name="weather_46">Снеговалеж</string>
     <string name="weather_47">Изолирани превалявания с гръмотевици</string>
-    <!-- Forecast unavailable -->
-    <!-- Weather - Speed units -->
     <string name="weather_kph">км/ч</string>
     <string name="weather_mph">мили/ч</string>
-    <!-- Weather - Wind directions -->
     <string name="weather_N">Север</string>
     <string name="weather_NE">Северо-изток</string>
     <string name="weather_E">Изток</string>
@@ -94,7 +78,6 @@
     <string name="weather_SW">Юго-запад</string>
     <string name="weather_W">Запад</string>
     <string name="weather_NW">Северо-запад</string>
-    <!-- Weather - Error messages -->
     <string name="weather_no_data">Няма данни</string>
     <string name="weather_tap_to_refresh">Натиснете, за да обнови</string>
     <string name="weather_refreshing">Обновяване</string>
@@ -102,7 +85,6 @@
     <string name="weather_cannot_reach_provider">Не може да достигнете до %s в този момент</string>
     <string name="weather_source_not_selected">Няма избран източник на синоптични данни</string>
     <string name="weather_tap_to_select_source">Натиснете, за да изберете</string>
-    <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">Ръчно</string>
     <string name="weather_refresh_30min">30 минути</string>
     <string name="weather_refresh_60min">60 минути</string>
@@ -110,14 +92,11 @@
     <string name="weather_refresh_4hrs">4 часа</string>
     <string name="weather_refresh_6hrs">6 часа</string>
     <string name="weather_refresh_8hrs">8 часа</string>
-    <!-- Preferences - Categories -->
     <string name="clock_category">Часовник и аларма</string>
     <string name="weather_category">Времето</string>
     <string name="calendar_category">Събития от календара</string>
-    <!-- Preferences - Categories -->
     <string name="general_category">Общи</string>
     <string name="display_category">Дисплей</string>
-    <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">Използвай цифров часовник</string>
     <string name="use_digital_clock_summary">Изберете между цифров и аналогов часовник</string>
     <string name="clock_font_title">Удебели часа</string>
@@ -126,7 +105,6 @@
     <string name="show_date_title">Покажи дата</string>
     <string name="show_alarm_title">Покажи следваща аларма</string>
     <string name="clock_am_pm_title">Покажи индикатора AM/PM</string>
-    <!-- Preferences - Weather -->
     <string name="weather_enabled">Разрешено</string>
     <string name="weather_enable">Показване на времето</string>
     <string name="weather_source_title">Източник за проверка на времето</string>
@@ -149,7 +127,6 @@
     <string name="weather_show_when_minimized_title">Винаги показвай</string>
     <string name="weather_show_when_minimized_summary">Ще показва информация за времето, дори когато приспособлението е минимизирано</string>
     <string name="weather_select_location">Изберете местоположение</string>
-    <!-- Preferences - Calendar -->
     <string name="calendar_title">Покажи следващото събитие</string>
     <string name="calendars_title">Показване на събития от календари</string>
     <string name="calendars_summary">Търсене на събития в следните календари</string>
@@ -165,15 +142,12 @@
     <string name="calendar_highlight_upcoming_events_title">Маркирайте събития</string>
     <string name="calendar_highlight_upcoming_events_summary">Маркирайте събития от деня, както и събития след 20: 00 часа на следващия ден</string>
     <string name="calendar_highlight_upcoming_events_bold">Удебелен шрифт</string>
-    <!-- Preferences - Font colors -->
     <string name="font_color">Цвят на шрифта</string>
     <string name="font_color_alarm">Цвят на алармата</string>
     <string name="font_color_timestamp">Цвят на шрифта на датата</string>
     <string name="font_color_calendar_details">Цвят на шрифта на детайлите</string>
-    <!-- Preferences - Background color -->
     <string name="background_color">Цвят на фона</string>
     <string name="background_transparency">Прозрачност на фона</string>
-    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">3 часа</string>
     <string name="calendar_lookahead_6hrs">6 часа</string>
     <string name="calendar_lookahead_12hrs">12 часа</string>
@@ -183,11 +157,9 @@
     <string name="calendar_lookahead_1wk">1 седмица</string>
     <string name="calendar_lookahead_2wks">2 седмици</string>
     <string name="calendar_lookahead_4wks">4 седмици</string>
-    <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">Не показвай</string>
     <string name="calendar_metadata_first_line">Покажи първия ред</string>
     <string name="calendar_metadata_all">Покажи всичко</string>
-    <!-- Font colors -->
     <string name="white">Бял</string>
     <string name="grey">Сив</string>
     <string name="black">Черен</string>
@@ -201,7 +173,6 @@
     <string name="holo_orange_light">Светло оранжев</string>
     <string name="holo_orange_dark">Тъмно оранжев</string>
     <string name="holo_blue_bright">Ярко син</string>
-    <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Набор от икони</string>
     <string name="weather_icons_standard">Цветни</string>
     <string name="weather_icons_monochrome">Едноцветни</string>

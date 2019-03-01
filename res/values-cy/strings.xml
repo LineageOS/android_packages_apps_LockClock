@@ -16,16 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
     <string name="unknown">Anhysybys</string>
     <string name="cancel">Diddymu</string>
     <string name="loading_indicator">Yn llwytho teclyn\u2026</string>
     <string name="menu_done">Iawn</string>
-    <!-- Formating strings for widget clock -->
-    <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
-         android.text.format.DateFormat uses k for hours in the 0-23 range.
-         We need to support both -->
-    <!-- Weather - Weather codes -->
     <string name="weather_0">Corwynt</string>
     <string name="weather_1">Storm Drofannol</string>
     <string name="weather_2">Corwynt</string>
@@ -40,29 +34,19 @@
     <string name="weather_24">Gwyntog</string>
     <string name="weather_25">Oer</string>
     <string name="weather_26">Cymylog</string>
-    <!-- Night -->
     <string name="weather_27">Cymylog yn bennaf</string>
-    <!-- Day -->
     <string name="weather_28">Cymylog yn bennaf</string>
-    <!-- Night -->
     <string name="weather_29">Rhai cymylau</string>
-    <!-- Day -->
     <string name="weather_30">Rhai cymylau</string>
-    <!-- Night -->
     <string name="weather_31">Clir</string>
     <string name="weather_32">Heulog</string>
-    <!-- Night -->
-    <!-- Day -->
     <string name="weather_36">Poeth</string>
     <string name="weather_41">Eira trwm</string>
     <string name="weather_43">Eira trwm</string>
     <string name="weather_44">Rhai cymylau</string>
     <string name="weather_45">Cawodydd storm</string>
-    <!-- Forecast unavailable -->
-    <!-- Weather - Speed units -->
     <string name="weather_kph">kya</string>
     <string name="weather_mph">mya</string>
-    <!-- Weather - Wind directions -->
     <string name="weather_N">Gog</string>
     <string name="weather_NE">GDn</string>
     <string name="weather_E">Dn</string>
@@ -71,12 +55,11 @@
     <string name="weather_SW">DGn</string>
     <string name="weather_W">Gn</string>
     <string name="weather_NW">GGn</string>
-    <!-- Weather - Error messages -->
     <string name="weather_no_data">Dim data</string>
     <string name="weather_tap_to_refresh">Tara i ail-lwytho</string>
     <string name="weather_refreshing">Yn ail-lwytho</string>
+    <string name="weather_cannot_reach_provider">Methu â chyrraedd %s ar hyn o bryd</string>
     <string name="weather_tap_to_select_source">Tara i ddewis un</string>
-    <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">Â llaw</string>
     <string name="weather_refresh_30min">30 munud</string>
     <string name="weather_refresh_60min">60 munud</string>
@@ -84,34 +67,31 @@
     <string name="weather_refresh_4hrs">4 awr</string>
     <string name="weather_refresh_6hrs">6 awr</string>
     <string name="weather_refresh_8hrs">4 awr</string>
-    <!-- Preferences - Categories -->
     <string name="clock_category">Cloc a larwm</string>
     <string name="weather_category">Panel tywydd</string>
-    <!-- Preferences - Categories -->
+    <string name="calendar_category">Digwyddiadau calendr</string>
     <string name="general_category">Cyffredinol</string>
     <string name="display_category">Dangosydd</string>
-    <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">Defnyddio cloc digidol</string>
     <string name="use_digital_clock_summary">Dewisa i doglo rhwng cloc digidol ac analog</string>
-    <!-- Preferences - Weather -->
+    <string name="clock_font_title">Oriau trwm</string>
+    <string name="clock_font_minutes_title">Munudau trwm</string>
+    <string name="clock_font_date_title">Dyddiad a larwm trwm</string>
     <string name="weather_enabled">Galluogwyd</string>
     <string name="weather_source_title">Ffynhonnell tywydd</string>
     <string name="weather_custom_location_dialog_title">Rho leoliad</string>
     <string name="weather_custom_location_title">Lleoliad</string>
     <string name="weather_show_location_title">Dangos lleoliad</string>
     <string name="weather_use_metric">Defnyddio metrig</string>
+    <string name="weather_retrieve_location_dialog_message">Dyw geoleoliad trwy rwydwaith heb ei alluogi.\n\nGosoda leoliad dy hun neu alluogi adnabod lleoliad trwy\'r rhwydwaith</string>
     <string name="weather_retrieve_location_dialog_enable_button">Galluogi</string>
     <string name="weather_progress_title">Yn dilysu lleoliad</string>
-    <!-- Preferences - Calendar -->
     <string name="calendar_icon_title">Eicon calendr</string>
     <string name="calendar_show_location_title">Lleoliad y digwyddiad</string>
     <string name="calendar_upcoming_events_category">Digwyddiadau i ddod</string>
-    <string name="calendar_highlight_upcoming_events_bold">Ffont bras</string>
-    <!-- Preferences - Font colors -->
+    <string name="calendar_highlight_upcoming_events_bold">Ffont trwm</string>
     <string name="font_color_alarm">Lliw ffont larwm</string>
-    <!-- Preferences - Background color -->
     <string name="background_color">Lliw cefndir</string>
-    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">3 awr</string>
     <string name="calendar_lookahead_6hrs">6 awr</string>
     <string name="calendar_lookahead_12hrs">12 awr</string>
@@ -121,22 +101,20 @@
     <string name="calendar_lookahead_1wk">1 wythnos</string>
     <string name="calendar_lookahead_2wks">2 wythnos</string>
     <string name="calendar_lookahead_4wks">4 wythnos</string>
-    <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">Peidio â dangos</string>
     <string name="calendar_metadata_all">Dangos y cwbl</string>
-    <!-- Font colors -->
     <string name="white">Gwyn</string>
     <string name="grey">Llwyd</string>
     <string name="black">Du</string>
     <string name="holo_green_light">Gwyrdd golau</string>
     <string name="holo_red_light">Coch golau</string>
     <string name="holo_blue_dark">Glas tywyll</string>
+    <string name="holo_green_dark">Gwyrdd tywyll</string>
     <string name="holo_red_dark">Coch tywyll</string>
     <string name="holo_purple">Porffor</string>
     <string name="holo_orange_light">Oren golau</string>
     <string name="holo_orange_dark">Oren tywyll</string>
     <string name="holo_blue_bright">Golau llachar</string>
-    <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Set eiconau</string>
     <string name="icon_set_selection_get_more">Cael mwy\u2026</string>
 </resources>
