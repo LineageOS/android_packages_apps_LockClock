@@ -16,16 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
     <string name="unknown">અજાણ્યો</string>
     <string name="cancel">રદ કરો</string>
     <string name="loading_indicator">વિજેટ લોડ થાય છે\u2026</string>
     <string name="menu_done">થઈ ગયું</string>
-    <!-- Formating strings for widget clock -->
-    <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
-         android.text.format.DateFormat uses k for hours in the 0-23 range.
-         We need to support both -->
-    <!-- Weather - Weather codes -->
     <string name="weather_0">ટોર્નાડો</string>
     <string name="weather_1">ટ્રૉપિકલ સ્ટૉર્મ</string>
     <string name="weather_2">હરિકેન</string>
@@ -53,20 +47,13 @@
     <string name="weather_24">પવનના સુસવાટા</string>
     <string name="weather_25">શરદી</string>
     <string name="weather_26">વાદળીયું</string>
-    <!-- Night -->
     <string name="weather_27">ઘણું કરીને વાદળિયું</string>
-    <!-- Day -->
     <string name="weather_28">ઘણું કરીને વાદળિયું</string>
-    <!-- Night -->
     <string name="weather_29">આંશિક વાદળિયું</string>
-    <!-- Day -->
     <string name="weather_30">આંશિક વાદળિયું</string>
-    <!-- Night -->
     <string name="weather_31">સાફ કરો</string>
     <string name="weather_32">તડકો</string>
-    <!-- Night -->
     <string name="weather_33">વાજબી</string>
-    <!-- Day -->
     <string name="weather_34">વાજબી</string>
     <string name="weather_35">મિશ્રિત વરસાદ અને હિમવર્ષા</string>
     <string name="weather_36">ગરમી</string>
@@ -81,11 +68,8 @@
     <string name="weather_45">ગાજવીજનાં તોફાન</string>
     <string name="weather_46">હિમ વર્ષા</string>
     <string name="weather_47">છૂટા ગાજવીજ સાથેના તોફાનો</string>
-    <!-- Forecast unavailable -->
-    <!-- Weather - Speed units -->
     <string name="weather_kph">kph</string>
     <string name="weather_mph">mph</string>
-    <!-- Weather - Wind directions -->
     <string name="weather_N">ઉ</string>
     <string name="weather_NE">ઉ.પૂ</string>
     <string name="weather_E">પૂ</string>
@@ -94,13 +78,11 @@
     <string name="weather_SW">દ.પ</string>
     <string name="weather_W">પ</string>
     <string name="weather_NW">ઉ.પ</string>
-    <!-- Weather - Error messages -->
     <string name="weather_no_data">કોઇ ડેટા નથી</string>
     <string name="weather_tap_to_refresh">રિફ્રેશ કરવા ટૅપ કરો</string>
     <string name="weather_refreshing">રીફ્રેશ થઈ રહ્યુ છે</string>
     <string name="weather_last_sync_just_now">હમણાં જ</string>
     <string name="weather_cannot_reach_provider">આ પળે %s સુધી પહોંચી શકાતું નથી</string>
-    <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">મેન્યુલ</string>
     <string name="weather_refresh_30min">30 મિનીટ્સ</string>
     <string name="weather_refresh_60min">60 મિનીટ્સ</string>
@@ -108,14 +90,11 @@
     <string name="weather_refresh_4hrs">4 કલાક</string>
     <string name="weather_refresh_6hrs">6 કલાક</string>
     <string name="weather_refresh_8hrs">8 કલાક</string>
-    <!-- Preferences - Categories -->
     <string name="clock_category">ક્લૉક અને ઍલાર્મ</string>
     <string name="weather_category">હવામાન પૅનલ</string>
     <string name="calendar_category">કૅલેન્ડર ઇવેન્ટ્સ</string>
-    <!-- Preferences - Categories -->
     <string name="general_category">સામાન્ય</string>
     <string name="display_category">પ્રદર્શન</string>
-    <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">ડિજિટલ ક્લૉકનો વપરાશ કરો</string>
     <string name="use_digital_clock_summary">ડિજિટલ અને ઍનાલોગ ક્લૉક વચ્ચે ટૉગલ કરવા પસંદ કરો</string>
     <string name="clock_font_title">બોલ્ડ કલાકો</string>
@@ -123,7 +102,6 @@
     <string name="clock_font_date_title">બોલ્ડ તારીખ અને ઍલાર્મ</string>
     <string name="show_alarm_title">આગામી ઍલાર્મ દર્શાવો</string>
     <string name="clock_am_pm_title">AM/PM સૂચક દર્શાવો</string>
-    <!-- Preferences - Weather -->
     <string name="weather_enabled">સક્ષમ કરેલ</string>
     <string name="weather_enable">હવામાન દર્શાવો</string>
     <string name="weather_source_title">હવામાન સ્ત્રોત</string>
@@ -146,7 +124,6 @@
     <string name="weather_show_when_minimized_title">મિનિમાઇઝ થાય ત્યારે દર્શાવો</string>
     <string name="weather_show_when_minimized_summary">વિજેટ મિનિમાઇઝ કરવામાં આવે ત્યારે હવામાન માહિતીનો સારાંશ દર્શાવો</string>
     <string name="weather_select_location">સ્થાન પસંદ કરો</string>
-    <!-- Preferences - Calendar -->
     <string name="calendar_title">આગામી ઇવેન્ટ દર્શાવો</string>
     <string name="calendars_title">ઇવેન્ટ કૅલેન્ડરો</string>
     <string name="calendars_summary">આ કૅલેન્ડરોમાંથી ઇવેન્ટ્સ શોધો</string>
@@ -162,15 +139,12 @@
     <string name="calendar_highlight_upcoming_events_title">હાઇલાઇટ ઇવેન્ટ્સ</string>
     <string name="calendar_highlight_upcoming_events_summary">આજના દિવસની ઇવેન્ટ્સ અને 8pm પછીની, ઉપરાંત આગામી દિવસની ઇવેન્ટ્સ પણ હાઇલાઇટ કરો</string>
     <string name="calendar_highlight_upcoming_events_bold">બોલ્ડ ફોન્ટ</string>
-    <!-- Preferences - Font colors -->
     <string name="font_color">ફોન્ટ કલર</string>
     <string name="font_color_alarm">ઍલાર્મ ફોન્ટ કલર</string>
     <string name="font_color_timestamp">ટાઇમસ્ટેમ્પ ફોન્ટ કલર</string>
     <string name="font_color_calendar_details">ફોન્ટ કલર વિગતો</string>
-    <!-- Preferences - Background color -->
     <string name="background_color">પૃષ્ઠભૂમિ રંગ</string>
     <string name="background_transparency">પૃષ્ઠભૂમિ પારદર્શકતા</string>
-    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">3 કલાક</string>
     <string name="calendar_lookahead_6hrs">6 કલાક</string>
     <string name="calendar_lookahead_12hrs">12 કલાક</string>
@@ -180,11 +154,9 @@
     <string name="calendar_lookahead_1wk">1 સપ્તાહ</string>
     <string name="calendar_lookahead_2wks">2 અઠવાડિયા</string>
     <string name="calendar_lookahead_4wks">4 અઠવાડિયા</string>
-    <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">દર્શાવશો નહીં</string>
     <string name="calendar_metadata_first_line">પ્રથમ લાઇન દર્શાવો</string>
     <string name="calendar_metadata_all">બધા જ બતાવો</string>
-    <!-- Font colors -->
     <string name="white">સફેદ</string>
     <string name="grey">ગ્રે</string>
     <string name="black">કાળો</string>
@@ -198,7 +170,6 @@
     <string name="holo_orange_light">લાઇટ ઑરેન્જ</string>
     <string name="holo_orange_dark">ડાર્ક ઑરેન્જ</string>
     <string name="holo_blue_bright">બ્રાઇટ બ્લૂ</string>
-    <!-- Weather icon sets -->
     <string name="weather_icon_set_title">આઇકૉન સેટ</string>
     <string name="weather_icons_standard">કલર્ડ</string>
     <string name="weather_icons_monochrome">મોનોક્રોમ</string>

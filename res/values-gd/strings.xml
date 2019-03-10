@@ -16,16 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
     <string name="unknown">Chan eil fhios</string>
     <string name="cancel">Sguir dheth</string>
     <string name="loading_indicator">A’ luchdadh a’ widget…</string>
     <string name="menu_done">Deiseil</string>
-    <!-- Formating strings for widget clock -->
-    <!-- java.text.SimpleDateFormat uses H for hours in the 0-23 range and
-         android.text.format.DateFormat uses k for hours in the 0-23 range.
-         We need to support both -->
-    <!-- Weather - Weather codes -->
     <string name="weather_0">Tornàdo</string>
     <string name="weather_1">Stoirm thropaigeach</string>
     <string name="weather_2">Huracan</string>
@@ -53,20 +47,13 @@
     <string name="weather_24">Gaothach</string>
     <string name="weather_25">Fuar</string>
     <string name="weather_26">Neulach</string>
-    <!-- Night -->
     <string name="weather_27">Neulach sa mhòr-chuid</string>
-    <!-- Day -->
     <string name="weather_28">Neulach sa mhòr-chuid</string>
-    <!-- Night -->
     <string name="weather_29">Caran neulach</string>
-    <!-- Day -->
     <string name="weather_30">Caran neulach</string>
-    <!-- Night -->
     <string name="weather_31">Soilleir</string>
     <string name="weather_32">Grianach</string>
-    <!-- Night -->
     <string name="weather_33">Chan eil dona</string>
-    <!-- Day -->
     <string name="weather_34">Chan eil dona</string>
     <string name="weather_35">Measgachadh de dh’uisge ’s clachan-meallain</string>
     <string name="weather_36">Teth</string>
@@ -81,11 +68,8 @@
     <string name="weather_45">Frasan is tàirneanach</string>
     <string name="weather_46">Frasan sneachda</string>
     <string name="weather_47">Corra fras is tàirneanach</string>
-    <!-- Forecast unavailable -->
-    <!-- Weather - Speed units -->
     <string name="weather_kph">kph</string>
     <string name="weather_mph">mph</string>
-    <!-- Weather - Wind directions -->
     <string name="weather_N">T</string>
     <string name="weather_NE">ETh</string>
     <string name="weather_E">E</string>
@@ -94,7 +78,6 @@
     <string name="weather_SW">IDh</string>
     <string name="weather_W">I</string>
     <string name="weather_NW">ITh</string>
-    <!-- Weather - Error messages -->
     <string name="weather_no_data">Gun dàta</string>
     <string name="weather_tap_to_refresh">Thoir gnogag airson ath-nuadhachadh</string>
     <string name="weather_refreshing">’Ga ath-nuadhachadh</string>
@@ -102,7 +85,6 @@
     <string name="weather_cannot_reach_provider">Cha ruig sinn %s air an àm seo</string>
     <string name="weather_source_not_selected">Cha deach tùs aimsire a thaghadh</string>
     <string name="weather_tap_to_select_source">Thoir gnogag airson fear a thaghadh</string>
-    <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">A làimh</string>
     <string name="weather_refresh_30min">Leth-uair a thìde</string>
     <string name="weather_refresh_60min">Uair a thìde</string>
@@ -110,14 +92,11 @@
     <string name="weather_refresh_4hrs">4 uairean a thìde</string>
     <string name="weather_refresh_6hrs">6 uairean a thìde</string>
     <string name="weather_refresh_8hrs">8 uairean a thìde</string>
-    <!-- Preferences - Categories -->
     <string name="clock_category">Cleoc is caismeachd</string>
     <string name="weather_category">Panail na h-aimsire</string>
     <string name="calendar_category">Tachartasan a’ mhìosachain</string>
-    <!-- Preferences - Categories -->
     <string name="general_category">Coitcheann</string>
     <string name="display_category">Taisbeanadh</string>
-    <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">Cleachd an cleoc digiteach</string>
     <string name="use_digital_clock_summary">Tagh seo airson leum eadar an cleoc digiteach is an cleoc analog</string>
     <string name="clock_font_title">Uairean ann an clò trom</string>
@@ -125,7 +104,6 @@
     <string name="clock_font_date_title">Ceann-là ’s caismeachd ann an clò trom</string>
     <string name="show_alarm_title">Seall an ath-chaismeachd</string>
     <string name="clock_am_pm_title">Seall an taisbeanair m/f</string>
-    <!-- Preferences - Weather -->
     <string name="weather_enabled">An comas</string>
     <string name="weather_enable">Seall an aimsir</string>
     <string name="weather_source_title">Tùs na h-aimsire</string>
@@ -148,7 +126,6 @@
     <string name="weather_show_when_minimized_title">Seall nuair a bhios e fìor-lùghdaichte</string>
     <string name="weather_show_when_minimized_summary">Seall gearr-chunntas air an aimsir uair a bhios a’ widget fìor-lùghdaichte</string>
     <string name="weather_select_location">Tagh ionad</string>
-    <!-- Preferences - Calendar -->
     <string name="calendar_title">Seall an ath-thachartas</string>
     <string name="calendars_title">Mìosachain thachartasan</string>
     <string name="calendars_summary">Lorg tachartasan sna mìosachain seo</string>
@@ -164,15 +141,12 @@
     <string name="calendar_highlight_upcoming_events_title">Soillsich tachartasan</string>
     <string name="calendar_highlight_upcoming_events_summary">Soillsich tachartasan an latha agus, an dèidh 8f, tachartasan an ath-latha cuideachd</string>
     <string name="calendar_highlight_upcoming_events_bold">Cruth-clò trom</string>
-    <!-- Preferences - Font colors -->
     <string name="font_color">Dath a’ chrutha-chlò</string>
     <string name="font_color_alarm">Dath cruth-clò nan caismeachd</string>
     <string name="font_color_timestamp">Dath cruth-clò an stampa-ama</string>
     <string name="font_color_calendar_details">Dath cruth-clò a’ mhion-fhiosrachaidh</string>
-    <!-- Preferences - Background color -->
     <string name="background_color">Dath a’ chùlaibh</string>
     <string name="background_transparency">Trìd-shoilleireachd a’ chùlaibh</string>
-    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">3 uairean a thìde</string>
     <string name="calendar_lookahead_6hrs">6 uairean a thìde</string>
     <string name="calendar_lookahead_12hrs">12 uair a thìde</string>
@@ -182,11 +156,9 @@
     <string name="calendar_lookahead_1wk">1 seachdain</string>
     <string name="calendar_lookahead_2wks">2 sheachdain</string>
     <string name="calendar_lookahead_4wks">4 seachdainean</string>
-    <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">Na seall</string>
     <string name="calendar_metadata_first_line">Seall a’ chiad loidhne</string>
     <string name="calendar_metadata_all">Seall na h-uile</string>
-    <!-- Font colors -->
     <string name="white">Geal</string>
     <string name="grey">Liath</string>
     <string name="black">Dubh</string>
@@ -200,7 +172,6 @@
     <string name="holo_orange_light">Soilleir-orains</string>
     <string name="holo_orange_dark">Dorch-orains</string>
     <string name="holo_blue_bright">Soilleir-ghorm</string>
-    <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Seata ìomhaigheagan</string>
     <string name="weather_icons_standard">Dathte</string>
     <string name="weather_icons_monochrome">Aon-dathach</string>
