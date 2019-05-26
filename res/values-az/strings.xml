@@ -83,6 +83,8 @@
     <string name="weather_refreshing">Yenilənir</string>
     <string name="weather_last_sync_just_now">İndicə</string>
     <string name="weather_cannot_reach_provider">%s indi əlçatan deyil</string>
+    <string name="weather_source_not_selected">Heç bir hava mənbəsi seçilməyib</string>
+    <string name="weather_tap_to_select_source">Birini seçmək üçün toxun</string>
     <string name="weather_refresh_manual">Əllə</string>
     <string name="weather_refresh_30min">30 dəqiqə</string>
     <string name="weather_refresh_60min">60 dəqiqə</string>
@@ -100,6 +102,7 @@
     <string name="clock_font_title">Saatı qalın göstər</string>
     <string name="clock_font_minutes_title">Dəqiqəni qalın göstər</string>
     <string name="clock_font_date_title">Tarix və zəngli saatı qalın göstər</string>
+    <string name="show_date_title">Tarixi göstər</string>
     <string name="show_alarm_title">Növbəti zəngli saatı göstər</string>
     <string name="clock_am_pm_title">AM/PM göstəricisi</string>
     <string name="weather_enabled">Fəallaşdırıldı</string>
@@ -115,7 +118,7 @@
     <string name="weather_refresh_interval">Yeniləmə aralığı</string>
     <string name="weather_use_metric">Metrik sistem</string>
     <string name="weather_retrieve_location_dialog_title">Yer alına bilmir!</string>
-    <string name="weather_retrieve_location_dialog_message">Şəbəkə yerləşdirməsi ləğv edilib.\n\nXüsusi yer tənzimləyin, ya da şəbəkə yerini fəallaşdırın</string>
+    <string name="weather_retrieve_location_dialog_message">Şəbəkə üzrə yer təyini sıradan çıxarılıb.\n\nÖzəl yerinizi tənzimləyin və ya şəbəkə üzrə yer təyinini fəallaşdırın</string>
     <string name="weather_retrieve_location_dialog_enable_button">Fəallaşdır</string>
     <string name="weather_invert_lowhigh">Aşağı/Yüksək hərarətləri tərsinə çevir</string>
     <string name="weather_progress_title">Yer təsdiqlənir</string>
@@ -127,6 +130,7 @@
     <string name="calendar_title">Sonrakı tədbiri göstər</string>
     <string name="calendars_title">Tədbir təqvimləri</string>
     <string name="calendars_summary">Bu təqvimdən tədbirləri tap</string>
+    <string name="calendars_none_found_summary">Təqvim tapılmadı</string>
     <string name="calendar_reminders_only_title">Yalnız xatırlatmalar</string>
     <string name="calendar_reminders_only_summary">Yalnız xatırlatıcıları olan tədbirləri göstər</string>
     <string name="calendar_hide_allday_title">Gün ərzindəki tədbirləri gizlət</string>

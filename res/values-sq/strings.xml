@@ -102,6 +102,7 @@
     <string name="clock_font_title">Ora me numra të zinj</string>
     <string name="clock_font_minutes_title">Minutat me numra të zinj</string>
     <string name="clock_font_date_title">Data dhe alarmi me numra të zinj</string>
+    <string name="show_date_title">Shfaq datën</string>
     <string name="show_alarm_title">Trego alarmin e radhës</string>
     <string name="clock_am_pm_title">Shfaq treguesin AM/PM</string>
     <string name="weather_enabled">I aktivizuar</string>
