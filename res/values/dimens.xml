@@ -32,6 +32,10 @@
     <dimen name="def_digital_widget_width">160dip</dimen>
     <dimen name="def_digital_widget_height">70dip</dimen>
 
+    <dimen name="text_shadow_radius">2.75</dimen>
+    <dimen name="text_shadow_dx">2</dimen>
+    <dimen name="text_shadow_dy">2</dimen>
+
     <!-- Home screen -->
     <dimen name="min_digital_weather_height">110dip</dimen>
     <dimen name="min_analog_weather_height">110dip</dimen>
