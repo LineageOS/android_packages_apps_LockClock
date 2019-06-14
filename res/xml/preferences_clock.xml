@@ -74,7 +74,7 @@
         <ListPreference
             android:key="clock_alarm_font_color"
             android:title="@string/font_color_alarm"
-            android:defaultValue="#80ffffff"
+            android:defaultValue="#ffffffff"
             android:entries="@array/font_color_entries"
             android:entryValues="@array/font_color_values" />
 

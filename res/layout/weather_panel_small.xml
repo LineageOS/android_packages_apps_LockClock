@@ -73,8 +73,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="2dip"
                 android:gravity="right"
-                android:textColor="@color/clock_gray"
-                style="@style/alarm_label_small"
+                android:textColor="@color/clock_white"
+                style="@style/label_small"
                 android:visibility="gone" />
         </LinearLayout>
     </RelativeLayout>

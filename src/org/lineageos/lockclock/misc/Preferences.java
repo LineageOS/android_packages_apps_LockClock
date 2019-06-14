@@ -109,7 +109,7 @@ public class Preferences {
 
     public static int clockAlarmFontColor(Context context) {
         int color = Color.parseColor(getPrefs(context).getString(Constants.CLOCK_ALARM_FONT_COLOR,
-                Constants.DEFAULT_DARK_COLOR));
+                Constants.DEFAULT_LIGHT_COLOR));
         return color;
     }
 
