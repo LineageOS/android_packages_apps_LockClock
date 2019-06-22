@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b8469d50_ed11926c",
+        "filename": "res/values/styles.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-06-22T10:08:19Z",
+      "side": 1,
+      "message": "Remove these as well and change occurances of alarm_label_[xyz] to label_[xyz],",
+      "range": {
+        "startLine": 42,
+        "startChar": 2,
+        "endLine": 49,
+        "endChar": 12
+      },
+      "revId": "06ff2274d62054e71572b0abaca2e15989c33ee4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
