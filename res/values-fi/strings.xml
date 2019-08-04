@@ -70,7 +70,7 @@
     <string name="weather_47">Paikallisia ukkoskuuroja</string>
     <string name="weather_kph">km/h</string>
     <string name="weather_mph">mph</string>
-    <string name="weather_N">N</string>
+    <string name="weather_N">P</string>
     <string name="weather_NE">NE</string>
     <string name="weather_E">E</string>
     <string name="weather_SE">SE</string>
