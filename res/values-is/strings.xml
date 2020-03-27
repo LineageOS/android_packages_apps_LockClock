@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2014 The CyanogenMod Project (DvTonder)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calendar_category">Atburðir á dagatali</string>
+    <string name="use_digital_clock_title">Nota stafræna klukku</string>
+    <string name="clock_font_title">Feitletra klukkustundir</string>
+    <string name="clock_font_date_title">Feitletra dagsetningu og áminningu</string>
+    <string name="show_alarm_title">Sýna næstu áminningu</string>
+    <string name="clock_am_pm_title">Sýna merki fyrir FH/EH</string>
+    <string name="calendars_title">Dagatöl atburða</string>
+    <string name="calendars_summary">Finna atburði úr þessum dagatölum</string>
+    <string name="calendars_none_found_summary">Engin dagatöl fundust</string>
+    <string name="calendar_reminders_only_title">Einungis áminningar</string>
+    <string name="calendar_reminders_only_summary">Birta einungis atburði með áminningar</string>
+    <string name="calendar_hide_allday_title">Fela heilsdags-atburði</string>
+    <string name="calendar_lookahead_title">Áætlun atburðar</string>
+    <string name="calendar_show_location_title">Staðsetning atburðar</string>
+    <string name="calendar_show_description_title">Lýsing atburðar</string>
+    <string name="calendar_upcoming_events_category">Atburðir á næstunni</string>
+    <string name="calendar_highlight_upcoming_events_title">Áherslulita atburði</string>
+    <string name="calendar_highlight_upcoming_events_summary">Áherslulita atburði dagsins og, eftir kl 20, einnig atburði næsta dags</string>
+    <string name="calendar_highlight_upcoming_events_bold">Feitletur</string>
+    <string name="font_color_alarm">Litur á letri áminninga</string>
+    <string name="font_color_timestamp">Litur á letri tímamerkis</string>
+    <string name="font_color_calendar_details">Litur á letri ítarefnis</string>
+    <string name="calendar_metadata_first_line">Birta fyrstu línu</string>
+</resources>
