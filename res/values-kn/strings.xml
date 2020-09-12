@@ -145,7 +145,9 @@
     <string name="background_transparency">ಹಿನ್ನೆಲೆ ಪಾರದರ್ಶಕತೆ</string>
     <string name="calendar_lookahead_3hrs">3 ಗಂಟೆಗಳು</string>
     <string name="calendar_lookahead_6hrs">6 ಗಂಟೆಗಳು</string>
+    <string name="calendar_lookahead_12hrs">12 ಗಂಟೆಗಳು</string>
     <string name="calendar_lookahead_today">ಇಂದು</string>
+    <string name="calendar_lookahead_1day">1 ದಿನ</string>
     <string name="calendar_lookahead_3days">3 ದಿನಗಳು</string>
     <string name="calendar_lookahead_1wk">೧ ವಾರ</string>
     <string name="calendar_lookahead_2wks">2 ವಾರಗಳು</string>
