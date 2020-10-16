@@ -101,6 +101,7 @@
     <string name="clock_font_title">Uairean ann an clò trom</string>
     <string name="clock_font_minutes_title">Mionaidean ann an clò trom</string>
     <string name="clock_font_date_title">Ceann-là ’s caismeachd ann an clò trom</string>
+    <string name="show_date_title">Seall an ceann-là</string>
     <string name="show_alarm_title">Seall an ath-chaismeachd</string>
     <string name="clock_am_pm_title">Seall an taisbeanair m/f</string>
     <string name="weather_enabled">An comas</string>
