@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2014 The CyanogenMod Project (DvTonder)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unknown">უცნობი</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="loading_indicator">ვიჯეტი იტვირთება\u2026</string>
+    <string name="menu_done">მზადაა</string>
+    <string name="weather_0">ქარბორბალა</string>
+    <string name="weather_1">ტროპიკული ქარიშხალი</string>
+    <string name="weather_2">გრიგალი</string>
+    <string name="weather_3">ძლიერი ჭექა-ქუხილი</string>
+    <string name="weather_4">ჭექა-ქუხილი</string>
+    <string name="weather_5">თოვლიანი წვიმა</string>
+    <string name="weather_6">წვიმა და ჭყაპი</string>
+    <string name="weather_7">თოვლჭყაპი</string>
+    <string name="weather_8">ყინულიანი ჟინჟღვლა</string>
+    <string name="weather_9">ჟინჟღვლა</string>
+    <string name="weather_10">ყინულიანი წვიმა</string>
+    <string name="weather_11">კოკისპირული</string>
+    <string name="weather_12">კოკისპირული</string>
+    <string name="weather_16">თოვლი</string>
+    <string name="weather_20">ნისლი</string>
+    <string name="weather_26">მოღრუბლული</string>
+    <string name="weather_27">უმეტესად მოღრუბლული</string>
+    <string name="weather_28">უმეტესად მოღრუბლული</string>
+    <string name="weather_29">ცვალებადი მოღრუბლულობა</string>
+    <string name="weather_30">ცვალებადი მოღრუბლულობა</string>
+    <string name="weather_31">მოწმენდილი</string>
+    <string name="weather_32">მზიანი</string>
+    <string name="weather_41">ძლიერი თოვა</string>
+    <string name="weather_43">ძლიერი თოვა</string>
+    <string name="weather_44">ცვალებადი მოღრუბლულობა</string>
+    <string name="weather_45">თავსხმა წვიმა ჭექა-ქუხილით</string>
+    <string name="weather_46">თოვლიანი თავსხმა წვიმა</string>
+    <string name="weather_47">იზოლირებული თავსხმა წვიმა ჭექა-ქუხილით</string>
+    <string name="weather_kph">კმ/სთ</string>
+    <string name="weather_mph">მილ/სთ</string>
+    <string name="weather_refresh_2hrs">2 საათი</string>
+    <string name="weather_refresh_4hrs">4 საათი</string>
+    <string name="weather_refresh_6hrs">6 საათი</string>
+    <string name="weather_refresh_8hrs">8 საათი</string>
+    <string name="use_digital_clock_summary">მიუთითეთ ციფრულ ან ისრებიან საათზე გადასართავად</string>
+    <string name="show_date_title">თარიღის ჩვენება</string>
+    <string name="weather_geolocated">ქსელით დადგენილი მდებარეობა</string>
+    <string name="weather_show_when_minimized_summary">ამინდის შემაჯამებელი მონაცემების ჩვენება, როცა ვიჯეტი ჩაკეცილია</string>
+    <string name="weather_select_location">მდებარეობის არჩევა</string>
+    <string name="calendar_show_location_title">ღონისძიების მდებარეობა</string>
+</resources>
