@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2014 The CyanogenMod Project (DvTonder)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unknown">Ezezaguna</string>
+    <string name="cancel">Ezeztatu</string>
+    <string name="loading_indicator">Trepeta kargatzen\u2026</string>
+    <string name="menu_done">Eginda</string>
+    <string name="weather_0">Tornadoa</string>
+    <string name="weather_1">Ekaitz tropikala</string>
+    <string name="weather_2">Urakana</string>
+    <string name="weather_3">Trumoi-ekaitz larriak</string>
+    <string name="weather_4">Trumoi-ekaitzak</string>
+    <string name="weather_5">Ura eta elurra</string>
+    <string name="weather_6">Ura eta elur bustia</string>
+    <string name="weather_7">Elurra eta elur bustia</string>
+    <string name="weather_8">Zirimiri hotza</string>
+    <string name="weather_9">Zirimiria</string>
+    <string name="weather_10">Euri hotza</string>
+    <string name="weather_11">Zaparradak</string>
+    <string name="weather_12">Zaparradak</string>
+    <string name="weather_13">Elur malutak</string>
+    <string name="weather_14">Elurte arinak</string>
+    <string name="weather_15">Elurteak</string>
+    <string name="weather_16">Elurra</string>
+    <string name="weather_17">Kazkabarra</string>
+    <string name="weather_18">Elur bustia</string>
+    <string name="weather_19">Hautsa</string>
+    <string name="weather_20">Lainotsua</string>
+    <string name="weather_21">Behe-lainoa</string>
+    <string name="weather_22">Kea</string>
+    <string name="weather_23">Enbata</string>
+    <string name="weather_24">Haizetsua</string>
+    <string name="weather_25">Hotza</string>
+    <string name="weather_26">Hodeitsua</string>
+    <string name="weather_27">Hodeitsua gehienbat</string>
+    <string name="weather_28">Hodeitsua gehienbat</string>
+    <string name="weather_29">Partzialki hodeitsua</string>
+    <string name="weather_30">Partzialki hodeitsua</string>
+    <string name="weather_31">Garbia</string>
+    <string name="weather_32">Eguzkitsua</string>
+    <string name="weather_33">Ona</string>
+    <string name="weather_34">Ona</string>
+    <string name="weather_35">Euria eta kazkabarra</string>
+    <string name="weather_36">Beroa</string>
+    <string name="weather_37">Trumoi-ekaitza isolatuak</string>
+    <string name="weather_38">Trumoi-ekaitza tartekatuak</string>
+    <string name="weather_39">Trumoi-ekaitza tartekatuak</string>
+    <string name="weather_40">Zaparradak tarteka</string>
+    <string name="weather_41">Elurte gogorrak</string>
+    <string name="weather_42">Elurteak tarteka</string>
+    <string name="weather_43">Elurte gogorrak</string>
+    <string name="weather_44">Partzialki hodeitsua</string>
+    <string name="weather_45">Ekaitzak</string>
+    <string name="weather_46">Elurteak</string>
+    <string name="weather_47">Ekaitza isolatuak</string>
+    <string name="weather_kph">Km/h</string>
+    <string name="weather_mph">mph</string>
+    <string name="weather_N">I</string>
+    <string name="weather_NE">IE</string>
+    <string name="weather_E">E</string>
+    <string name="weather_SE">HE</string>
+    <string name="weather_S">H</string>
+    <string name="weather_SW">HM</string>
+    <string name="weather_W">M</string>
+    <string name="weather_NW">NM</string>
+    <string name="weather_no_data">Daturik gabe</string>
+    <string name="weather_tap_to_refresh">Sakatu berritzeko</string>
+    <string name="weather_refreshing">Berritzen\u2026</string>
+    <string name="weather_last_sync_just_now">Orain</string>
+    <string name="weather_cannot_reach_provider">Momentu honetan ezinezkoa da %s -ra sartzea</string>
+    <string name="weather_source_not_selected">Ez da eguraldi iturririk aukeratu</string>
+    <string name="weather_tap_to_select_source">Sakatu bat hautatzeko</string>
+    <string name="weather_refresh_manual">Eskuz</string>
+    <string name="weather_refresh_30min">30 minutu</string>
+    <string name="weather_refresh_60min">60 minutu</string>
+    <string name="weather_refresh_2hrs">2 ordu</string>
+    <string name="weather_refresh_4hrs">4 ordu</string>
+    <string name="weather_refresh_6hrs">6 ordu</string>
+    <string name="weather_refresh_8hrs">8 ordu</string>
+    <string name="clock_category">Erlojua eta alarma</string>
+    <string name="weather_category">Eguraldiaren panela</string>
+    <string name="calendar_category">Egutegia</string>
+    <string name="general_category">Orokorra</string>
+    <string name="display_category">Itxura</string>
+    <string name="use_digital_clock_title">Erabili erloju digitala</string>
+    <string name="use_digital_clock_summary">Hautatu erloju digitalaren eta analogikoaren artean</string>
+    <string name="clock_font_title">Nabarmendu orduak</string>
+    <string name="clock_font_minutes_title">Nabarmendu minutuak</string>
+    <string name="clock_font_date_title">Nabarmendu data eta alarma</string>
+    <string name="show_alarm_title">Erakutsi hurrengo alarma</string>
+    <string name="clock_am_pm_title">Erakutsi AM/PM adierazlea</string>
+    <string name="weather_enabled">Gaituta</string>
+    <string name="weather_enable">Erakutsi eguraldia</string>
+    <string name="weather_source_title">Eguraldiaren jatorria</string>
+    <string name="weather_use_custom_location">Erabili kokaleku pertsonalizatua</string>
+    <string name="weather_geolocated">Sare bidezko geo-kokapena</string>
+    <string name="weather_custom_location_dialog_title">Sartu kokalekua</string>
+    <string name="weather_custom_location_hint">Hiria, estatua/herialdea</string>
+    <string name="weather_custom_location_title">Kokalekua</string>
+    <string name="weather_show_location_title">Erakutsi kokalekua</string>
+    <string name="weather_show_timestamp_title">Erakutsi ordua eta data</string>
+    <string name="weather_refresh_interval">Eguneratze-maiztasuna</string>
+    <string name="weather_use_metric">Sistema metrikoa erabili</string>
+    <string name="weather_retrieve_location_dialog_title">Ezin da kokalekua eskuratu!</string>
+    <string name="weather_retrieve_location_dialog_message">Sare bidezko geo-kokapena ezgaituta.\n\nEzarri kokaleku pertsonalizatua edo gaitu sare bidezko geo-kokapena</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Gaitu</string>
+    <string name="weather_invert_lowhigh">Tenperaturak elkarraldatu</string>
+    <string name="weather_progress_title">Kokalekua berresten</string>
+    <string name="weather_alternate_icons_title">Erabili kolorezko ikonoak</string>
+    <string name="weather_alternate_icons_summary">Hautatu lehenetsitako (kolorezko) ikonoen eta ordezko ikono (zurien) artean txandakatzeko</string>
+    <string name="weather_show_when_minimized_title">Erakutsi minimizatzean</string>
+    <string name="weather_show_when_minimized_summary">Erakutsi eguraldiaren informazioa trepeta minimizatuta dagoenean</string>
+    <string name="weather_select_location">Hautatu kokalekua</string>
+    <string name="calendar_title">Bistaratu hurrengo gertaera</string>
+    <string name="calendars_title">Gertaera egutegiak</string>
+    <string name="calendars_summary">Bilatu egutegi hauetako gertaerak</string>
+    <string name="calendars_none_found_summary">Ez da egutegirik aurkitu</string>
+    <string name="calendar_reminders_only_title">Oroigarriak besterik ez</string>
+    <string name="calendar_reminders_only_summary">Erakutsi soilik oroigarria duten gertaerak</string>
+    <string name="calendar_hide_allday_title">Ezkutatu egun osoko gertaerak</string>
+    <string name="calendar_icon_title">Egutegi ikonoa erakutsi</string>
+    <string name="calendar_lookahead_title">Etorkizuneko gertaerak</string>
+    <string name="calendar_show_location_title">Gertaeraren kokalekua</string>
+    <string name="calendar_show_description_title">Gertaeraren deskripzioa</string>
+    <string name="calendar_upcoming_events_category">Hurrengo gertaerak</string>
+    <string name="calendar_highlight_upcoming_events_title">Nabarmendu gertaerak</string>
+    <string name="calendar_highlight_upcoming_events_summary">Nabarmendu gaurko gertaerak eta, 20:00ak eta gero biharkoak ere nabarmendu</string>
+    <string name="calendar_highlight_upcoming_events_bold">Letra-tipo lodia</string>
+    <string name="font_color">Letra-kolorea</string>
+    <string name="font_color_alarm">Alarmaren letra-kolorea</string>
+    <string name="font_color_timestamp">Dataren letra-kolorea</string>
+    <string name="font_color_calendar_details">Xehetasunen letra-kolorea</string>
+    <string name="background_color">Atzeko planoaren kolorea</string>
+    <string name="background_transparency">Atzealdearen gardentasuna</string>
+    <string name="calendar_lookahead_3hrs">3 ordu</string>
+    <string name="calendar_lookahead_6hrs">6 ordu</string>
+    <string name="calendar_lookahead_12hrs">12 ordu</string>
+    <string name="calendar_lookahead_today">Gaur</string>
+    <string name="calendar_lookahead_1day">Egun 1</string>
+    <string name="calendar_lookahead_3days">3 egun</string>
+    <string name="calendar_lookahead_1wk">Aste 1</string>
+    <string name="calendar_lookahead_2wks">2 aste</string>
+    <string name="calendar_lookahead_4wks">4 aste</string>
+    <string name="calendar_metadata_none">Ez erakutsi</string>
+    <string name="calendar_metadata_first_line">Erakutsi lehen lerroa</string>
+    <string name="calendar_metadata_all">Erakutsi guztiak</string>
+    <string name="white">Zuria</string>
+    <string name="grey">Grisa</string>
+    <string name="black">Beltza</string>
+    <string name="holo_blue_light">Urdin argia</string>
+    <string name="holo_green_light">Berde argia</string>
+    <string name="holo_red_light">Gorri argia</string>
+    <string name="holo_blue_dark">Urdin iluna</string>
+    <string name="holo_green_dark">Berde iluna</string>
+    <string name="holo_red_dark">Gorri iluna</string>
+    <string name="holo_purple">Morea</string>
+    <string name="holo_orange_light">Laranja argia</string>
+    <string name="holo_orange_dark">Laranja iluna</string>
+    <string name="holo_blue_bright">Urdin argia</string>
+    <string name="weather_icon_set_title">Ikono multzoa</string>
+    <string name="weather_icons_standard">Koloreduna</string>
+    <string name="weather_icons_monochrome">Monokromoa</string>
+    <string name="icon_set_selection_get_more">Lortu gehiago\u2026</string>
+</resources>
