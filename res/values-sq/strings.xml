@@ -122,6 +122,7 @@
     <string name="weather_invert_lowhigh">Ndërro vendet e temperaturave minimale dhe maksimale</string>
     <string name="weather_progress_title">Duke verifikuar vendndodhjen</string>
     <string name="weather_alternate_icons_title">Përdor ikona me ngjyra</string>
+    <string name="weather_alternate_icons_summary">Zgjidhni për të kaluar midis ikonave të paracaktuar (Ngjyra) dhe alternative (Bardhë).</string>
     <string name="weather_show_when_minimized_title">Shfaq kur minimizohet</string>
     <string name="weather_show_when_minimized_summary">Trego një përmbledhje të motit kur widget është i minimizuar</string>
     <string name="weather_select_location">Zgjidh vendndodhjen</string>
@@ -133,8 +134,17 @@
     <string name="calendar_reminders_only_summary">Trego vetëm evenimente me kujtesa</string>
     <string name="calendar_hide_allday_title">Fshihi evenimentet që zgjasin gjatë gjithë ditës</string>
     <string name="calendar_icon_title">Ikona e kalendarit</string>
+    <string name="calendar_lookahead_title">Ngjarja përpara</string>
     <string name="calendar_show_location_title">Vendndodhja e evenimentit</string>
     <string name="calendar_show_description_title">Përshkrimi i evenimentit</string>
+    <string name="calendar_upcoming_events_category">Evenimentet e ardhshme</string>
+    <string name="calendar_highlight_upcoming_events_title">Theksoni ngjarjet</string>
+    <string name="calendar_highlight_upcoming_events_summary">Theksoni ngjarjet e ditës aktuale dhe, pas orës 20:00, gjithashtu ngjarjet e ditës së ardhshme</string>
+    <string name="calendar_highlight_upcoming_events_bold">Shkronja të theksuara</string>
+    <string name="font_color">Ngjyra e fontit</string>
+    <string name="font_color_alarm">Ngjyra e fontit të alarmit</string>
+    <string name="font_color_timestamp">Ngjyra e fontit të vulës kohore</string>
+    <string name="font_color_calendar_details">Ngjyra e fontit të detajeve</string>
     <string name="background_color">Ngjyra e sfondit</string>
     <string name="background_transparency">Tejdukshmëria e sfondit</string>
     <string name="calendar_lookahead_3hrs">3 orë</string>

@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unknown">Neo-aithnichte</string>
     <string name="cancel">Sguir dheth</string>
-    <string name="loading_indicator">A’ luchdadh a’ widget…</string>
+    <string name="loading_indicator">A’ luchdadh a’ widget\u2026</string>
     <string name="menu_done">Deiseil</string>
     <string name="weather_0">Tornàdo</string>
     <string name="weather_1">Stoirm thropaigeach</string>
@@ -175,5 +175,5 @@
     <string name="weather_icon_set_title">Seata ìomhaigheagan</string>
     <string name="weather_icons_standard">Dathte</string>
     <string name="weather_icons_monochrome">Aon-dathach</string>
-    <string name="icon_set_selection_get_more">Faigh barrachd…</string>
+    <string name="icon_set_selection_get_more">Faigh barrachd\u2026</string>
 </resources>
